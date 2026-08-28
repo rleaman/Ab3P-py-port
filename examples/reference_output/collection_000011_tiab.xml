@@ -1,0 +1,3874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>BioC-API</source>
+  <date>20260827</date>
+  <key>abbreviation.key</key>
+  <document>
+    <id>42288845</id>
+    <passage>
+      <infon key="article-id_pmid">42288845</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>95</offset>
+      <annotation id="LF0">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="339" length="48"/>
+        <text>Triggering receptor expressed on myeloid cells 2</text>
+      </annotation>
+      <annotation id="SF0">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="389" length="5"/>
+        <text>TREM2</text>
+      </annotation>
+      <annotation id="LF1">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="574" length="23"/>
+        <text>retinal degeneration 10</text>
+      </annotation>
+      <annotation id="SF1">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="599" length="4"/>
+        <text>rd10</text>
+      </annotation>
+      <relation id="R0">
+        <infon key="type">ABBR</infon>
+        <node refid="LF0" role="LongForm"/>
+        <node refid="SF0" role="ShortForm"/>
+      </relation>
+      <relation id="R1">
+        <infon key="type">ABBR</infon>
+        <node refid="LF1" role="LongForm"/>
+        <node refid="SF1" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42322641</id>
+    <passage>
+      <infon key="article-id_pmid">42322641</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>146</offset>
+    </passage>
+  </document>
+  <document>
+    <id>42323125</id>
+    <passage>
+      <infon key="article-id_pmid">42323125</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>119</offset>
+      <annotation id="LF2">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="165" length="15"/>
+        <text>ischemic stroke</text>
+      </annotation>
+      <annotation id="SF2">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="182" length="2"/>
+        <text>IS</text>
+      </annotation>
+      <annotation id="LF3">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1404" length="17"/>
+        <text>interleukin-1beta</text>
+      </annotation>
+      <annotation id="SF3">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1423" length="8"/>
+        <text>IL-1beta</text>
+      </annotation>
+      <relation id="R2">
+        <infon key="type">ABBR</infon>
+        <node refid="LF2" role="LongForm"/>
+        <node refid="SF2" role="ShortForm"/>
+      </relation>
+      <relation id="R3">
+        <infon key="type">ABBR</infon>
+        <node refid="LF3" role="LongForm"/>
+        <node refid="SF3" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42323387</id>
+    <passage>
+      <infon key="article-id_pmid">42323387</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>108</offset>
+    </passage>
+  </document>
+  <document>
+    <id>42324467</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13317314</infon>
+      <infon key="article-id_pmid">42324467</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>122</offset>
+      <annotation id="LF4">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="192" length="22"/>
+        <text>tumor microenvironment</text>
+      </annotation>
+      <annotation id="SF4">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="216" length="3"/>
+        <text>TME</text>
+      </annotation>
+      <annotation id="LF5">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="279" length="31"/>
+        <text>Glioma-associated myeloid cells</text>
+      </annotation>
+      <annotation id="SF5">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="312" length="4"/>
+        <text>GAMs</text>
+      </annotation>
+      <relation id="R4">
+        <infon key="type">ABBR</infon>
+        <node refid="LF4" role="LongForm"/>
+        <node refid="SF4" role="ShortForm"/>
+      </relation>
+      <relation id="R5">
+        <infon key="type">ABBR</infon>
+        <node refid="LF5" role="LongForm"/>
+        <node refid="SF5" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42331275</id>
+    <passage>
+      <infon key="article-id_pmid">42331275</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>171</offset>
+      <annotation id="LF6">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="171" length="25"/>
+        <text>High-mobility group box 1</text>
+      </annotation>
+      <annotation id="SF6">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="198" length="5"/>
+        <text>HMGB1</text>
+      </annotation>
+      <annotation id="LF7">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="301" length="20"/>
+        <text>ischemia-reperfusion</text>
+      </annotation>
+      <annotation id="SF7">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="323" length="3"/>
+        <text>I/R</text>
+      </annotation>
+      <annotation id="LF8">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="601" length="44"/>
+        <text>middle cerebral artery occlusion/reperfusion</text>
+      </annotation>
+      <annotation id="SF8">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="647" length="6"/>
+        <text>MCAO/R</text>
+      </annotation>
+      <relation id="R6">
+        <infon key="type">ABBR</infon>
+        <node refid="LF6" role="LongForm"/>
+        <node refid="SF6" role="ShortForm"/>
+      </relation>
+      <relation id="R7">
+        <infon key="type">ABBR</infon>
+        <node refid="LF7" role="LongForm"/>
+        <node refid="SF7" role="ShortForm"/>
+      </relation>
+      <relation id="R8">
+        <infon key="type">ABBR</infon>
+        <node refid="LF8" role="LongForm"/>
+        <node refid="SF8" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42334745</id>
+    <passage>
+      <infon key="article-id_pmid">42334745</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>93</offset>
+      <annotation id="LF9">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="93" length="19"/>
+        <text>Parkinson's disease</text>
+      </annotation>
+      <annotation id="SF9">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="114" length="2"/>
+        <text>PD</text>
+      </annotation>
+      <annotation id="LF10">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="216" length="23"/>
+        <text>Transcription Factor E3</text>
+      </annotation>
+      <annotation id="SF10">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="241" length="4"/>
+        <text>TFE3</text>
+      </annotation>
+      <annotation id="LF11">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1046" length="28"/>
+        <text>Mer receptor tyrosine kinase</text>
+      </annotation>
+      <annotation id="SF11">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1076" length="5"/>
+        <text>Mertk</text>
+      </annotation>
+      <annotation id="LF12">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1087" length="39"/>
+        <text>lysosomal-associated membrane protein 1</text>
+      </annotation>
+      <annotation id="SF12">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1128" length="5"/>
+        <text>Lamp1</text>
+      </annotation>
+      <relation id="R9">
+        <infon key="type">ABBR</infon>
+        <node refid="LF9" role="LongForm"/>
+        <node refid="SF9" role="ShortForm"/>
+      </relation>
+      <relation id="R10">
+        <infon key="type">ABBR</infon>
+        <node refid="LF10" role="LongForm"/>
+        <node refid="SF10" role="ShortForm"/>
+      </relation>
+      <relation id="R11">
+        <infon key="type">ABBR</infon>
+        <node refid="LF11" role="LongForm"/>
+        <node refid="SF11" role="ShortForm"/>
+      </relation>
+      <relation id="R12">
+        <infon key="type">ABBR</infon>
+        <node refid="LF12" role="LongForm"/>
+        <node refid="SF12" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42368192</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13306109</infon>
+      <infon key="article-id_pmid">42368192</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>127</offset>
+      <annotation id="LF13">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="215" length="12"/>
+        <text>amyloid beta</text>
+      </annotation>
+      <annotation id="SF13">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="229" length="5"/>
+        <text>Abeta</text>
+      </annotation>
+      <annotation id="LF14">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1323" length="48"/>
+        <text>triggering receptor expressed on myeloid cells 2</text>
+      </annotation>
+      <annotation id="SF14">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1373" length="5"/>
+        <text>TREM2</text>
+      </annotation>
+      <annotation id="LF15">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1379" length="17"/>
+        <text>-apolipoprotein E</text>
+      </annotation>
+      <annotation id="SF15">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1398" length="4"/>
+        <text>APOE</text>
+      </annotation>
+      <relation id="R13">
+        <infon key="type">ABBR</infon>
+        <node refid="LF13" role="LongForm"/>
+        <node refid="SF13" role="ShortForm"/>
+      </relation>
+      <relation id="R14">
+        <infon key="type">ABBR</infon>
+        <node refid="LF14" role="LongForm"/>
+        <node refid="SF14" role="ShortForm"/>
+      </relation>
+      <relation id="R15">
+        <infon key="type">ABBR</infon>
+        <node refid="LF15" role="LongForm"/>
+        <node refid="SF15" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42377966</id>
+    <passage>
+      <infon key="article-id_pmid">42377966</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>118</offset>
+      <annotation id="LF16">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="153" length="18"/>
+        <text>multiple sclerosis</text>
+      </annotation>
+      <annotation id="SF16">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="173" length="2"/>
+        <text>MS</text>
+      </annotation>
+      <relation id="R16">
+        <infon key="type">ABBR</infon>
+        <node refid="LF16" role="LongForm"/>
+        <node refid="SF16" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42379398</id>
+    <passage>
+      <infon key="article-id_pmid">42379398</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>131</offset>
+      <annotation id="LF17">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="131" length="13"/>
+        <text>Fabry disease</text>
+      </annotation>
+      <annotation id="SF17">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="146" length="2"/>
+        <text>FD</text>
+      </annotation>
+      <relation id="R17">
+        <infon key="type">ABBR</infon>
+        <node refid="LF17" role="LongForm"/>
+        <node refid="SF17" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42382038</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13314553</infon>
+      <infon key="article-id_pmid">42382038</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>103</offset>
+      <annotation id="LF18">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="196" length="19"/>
+        <text>Alzheimer's disease</text>
+      </annotation>
+      <annotation id="SF18">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="217" length="2"/>
+        <text>AD</text>
+      </annotation>
+      <relation id="R18">
+        <infon key="type">ABBR</infon>
+        <node refid="LF18" role="LongForm"/>
+        <node refid="SF18" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42393685</id>
+    <passage>
+      <infon key="article-id_pmid">42393685</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>141</offset>
+      <annotation id="LF19">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="153" length="29"/>
+        <text>Amyotrophic lateral sclerosis</text>
+      </annotation>
+      <annotation id="SF19">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="184" length="3"/>
+        <text>ALS</text>
+      </annotation>
+      <annotation id="LF20">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="412" length="6"/>
+        <text>ALS-ES</text>
+      </annotation>
+      <annotation id="SF20">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="407" length="3"/>
+        <text>ALS</text>
+      </annotation>
+      <annotation id="LF21">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="593" length="21"/>
+        <text>Structural-functional</text>
+      </annotation>
+      <annotation id="SF21">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="616" length="5"/>
+        <text>SC-FC</text>
+      </annotation>
+      <annotation id="LF22">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1186" length="19"/>
+        <text>somatomotor network</text>
+      </annotation>
+      <annotation id="SF22">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1207" length="3"/>
+        <text>SMN</text>
+      </annotation>
+      <relation id="R19">
+        <infon key="type">ABBR</infon>
+        <node refid="LF19" role="LongForm"/>
+        <node refid="SF19" role="ShortForm"/>
+      </relation>
+      <relation id="R20">
+        <infon key="type">ABBR</infon>
+        <node refid="LF20" role="LongForm"/>
+        <node refid="SF20" role="ShortForm"/>
+      </relation>
+      <relation id="R21">
+        <infon key="type">ABBR</infon>
+        <node refid="LF21" role="LongForm"/>
+        <node refid="SF21" role="ShortForm"/>
+      </relation>
+      <relation id="R22">
+        <infon key="type">ABBR</infon>
+        <node refid="LF22" role="LongForm"/>
+        <node refid="SF22" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42401827</id>
+    <passage>
+      <infon key="article-id_pmid">42401827</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>123</offset>
+      <annotation id="LF23">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="135" length="19"/>
+        <text>Parkinson's disease</text>
+      </annotation>
+      <annotation id="SF23">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="156" length="2"/>
+        <text>PD</text>
+      </annotation>
+      <annotation id="LF24">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="251" length="30"/>
+        <text>substantia nigra pars compacta</text>
+      </annotation>
+      <annotation id="SF24">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="283" length="4"/>
+        <text>SNpc</text>
+      </annotation>
+      <relation id="R23">
+        <infon key="type">ABBR</infon>
+        <node refid="LF23" role="LongForm"/>
+        <node refid="SF23" role="ShortForm"/>
+      </relation>
+      <relation id="R24">
+        <infon key="type">ABBR</infon>
+        <node refid="LF24" role="LongForm"/>
+        <node refid="SF24" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42403013</id>
+    <passage>
+      <infon key="article-id_pmid">42403013</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>113</offset>
+      <annotation id="LF25">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="113" length="19"/>
+        <text>Alzheimer's Disease</text>
+      </annotation>
+      <annotation id="SF25">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="134" length="2"/>
+        <text>AD</text>
+      </annotation>
+      <annotation id="LF26">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="475" length="15"/>
+        <text>oligodendrocyte</text>
+      </annotation>
+      <annotation id="SF26">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="492" length="2"/>
+        <text>OL</text>
+      </annotation>
+      <annotation id="LF27">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1237" length="16"/>
+        <text>Fused in Sarcoma</text>
+      </annotation>
+      <annotation id="SF27">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1232" length="3"/>
+        <text>Fus</text>
+      </annotation>
+      <relation id="R25">
+        <infon key="type">ABBR</infon>
+        <node refid="LF25" role="LongForm"/>
+        <node refid="SF25" role="ShortForm"/>
+      </relation>
+      <relation id="R26">
+        <infon key="type">ABBR</infon>
+        <node refid="LF26" role="LongForm"/>
+        <node refid="SF26" role="ShortForm"/>
+      </relation>
+      <relation id="R27">
+        <infon key="type">ABBR</infon>
+        <node refid="LF27" role="LongForm"/>
+        <node refid="SF27" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42413776</id>
+    <passage>
+      <infon key="article-id_pmid">42413776</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>88</offset>
+      <annotation id="LF28">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="354" length="20"/>
+        <text>extracellular matrix</text>
+      </annotation>
+      <annotation id="SF28">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="376" length="3"/>
+        <text>ECM</text>
+      </annotation>
+      <annotation id="LF29">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="780" length="28"/>
+        <text>Myeloid Education Signatures</text>
+      </annotation>
+      <annotation id="SF29">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="810" length="3"/>
+        <text>MES</text>
+      </annotation>
+      <annotation id="LF30">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1201" length="23"/>
+        <text>Glucocorticoid receptor</text>
+      </annotation>
+      <annotation id="SF30">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1226" length="2"/>
+        <text>GR</text>
+      </annotation>
+      <relation id="R28">
+        <infon key="type">ABBR</infon>
+        <node refid="LF28" role="LongForm"/>
+        <node refid="SF28" role="ShortForm"/>
+      </relation>
+      <relation id="R29">
+        <infon key="type">ABBR</infon>
+        <node refid="LF29" role="LongForm"/>
+        <node refid="SF29" role="ShortForm"/>
+      </relation>
+      <relation id="R30">
+        <infon key="type">ABBR</infon>
+        <node refid="LF30" role="LongForm"/>
+        <node refid="SF30" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42425257</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13445965</infon>
+      <infon key="article-id_pmid">42425257</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>121</offset>
+      <annotation id="LF31">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="121" length="25"/>
+        <text>Amyloid precursor protein</text>
+      </annotation>
+      <annotation id="SF31">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="148" length="3"/>
+        <text>APP</text>
+      </annotation>
+      <annotation id="LF32">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="310" length="19"/>
+        <text>Alzheimer's disease</text>
+      </annotation>
+      <annotation id="SF32">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="331" length="2"/>
+        <text>AD</text>
+      </annotation>
+      <annotation id="LF33">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="378" length="17"/>
+        <text>soluble APP alpha</text>
+      </annotation>
+      <annotation id="SF33">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="397" length="9"/>
+        <text>sAPPalpha</text>
+      </annotation>
+      <annotation id="LF34">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="480" length="39"/>
+        <text>gamma-aminobutyric acid type B receptor</text>
+      </annotation>
+      <annotation id="SF34">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="521" length="6"/>
+        <text>GABABR</text>
+      </annotation>
+      <relation id="R31">
+        <infon key="type">ABBR</infon>
+        <node refid="LF31" role="LongForm"/>
+        <node refid="SF31" role="ShortForm"/>
+      </relation>
+      <relation id="R32">
+        <infon key="type">ABBR</infon>
+        <node refid="LF32" role="LongForm"/>
+        <node refid="SF32" role="ShortForm"/>
+      </relation>
+      <relation id="R33">
+        <infon key="type">ABBR</infon>
+        <node refid="LF33" role="LongForm"/>
+        <node refid="SF33" role="ShortForm"/>
+      </relation>
+      <relation id="R34">
+        <infon key="type">ABBR</infon>
+        <node refid="LF34" role="LongForm"/>
+        <node refid="SF34" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42427771</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13344995</infon>
+      <infon key="article-id_pmid">42427771</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>103</offset>
+      <annotation id="LF35">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="103" length="20"/>
+        <text>Long non-coding RNAs</text>
+      </annotation>
+      <annotation id="SF35">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="125" length="7"/>
+        <text>lncRNAs</text>
+      </annotation>
+      <relation id="R35">
+        <infon key="type">ABBR</infon>
+        <node refid="LF35" role="LongForm"/>
+        <node refid="SF35" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42430983</id>
+    <passage>
+      <infon key="article-id_pmid">42430983</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>121</offset>
+      <annotation id="LF36">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="133" length="19"/>
+        <text>Parkinson's disease</text>
+      </annotation>
+      <annotation id="SF36">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="154" length="2"/>
+        <text>PD</text>
+      </annotation>
+      <annotation id="LF37">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="692" length="29"/>
+        <text>single-nucleus RNA sequencing</text>
+      </annotation>
+      <annotation id="SF37">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="723" length="9"/>
+        <text>snRNA-seq</text>
+      </annotation>
+      <annotation id="LF38">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="993" length="44"/>
+        <text>weighted gene co-expression network analysis</text>
+      </annotation>
+      <annotation id="SF38">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1039" length="5"/>
+        <text>WGCNA</text>
+      </annotation>
+      <annotation id="LF39">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1184" length="33"/>
+        <text>receiver operating characteristic</text>
+      </annotation>
+      <annotation id="SF39">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1219" length="3"/>
+        <text>ROC</text>
+      </annotation>
+      <annotation id="LF40">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1327" length="18"/>
+        <text>molecular dynamics</text>
+      </annotation>
+      <annotation id="SF40">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1347" length="2"/>
+        <text>MD</text>
+      </annotation>
+      <relation id="R36">
+        <infon key="type">ABBR</infon>
+        <node refid="LF36" role="LongForm"/>
+        <node refid="SF36" role="ShortForm"/>
+      </relation>
+      <relation id="R37">
+        <infon key="type">ABBR</infon>
+        <node refid="LF37" role="LongForm"/>
+        <node refid="SF37" role="ShortForm"/>
+      </relation>
+      <relation id="R38">
+        <infon key="type">ABBR</infon>
+        <node refid="LF38" role="LongForm"/>
+        <node refid="SF38" role="ShortForm"/>
+      </relation>
+      <relation id="R39">
+        <infon key="type">ABBR</infon>
+        <node refid="LF39" role="LongForm"/>
+        <node refid="SF39" role="ShortForm"/>
+      </relation>
+      <relation id="R40">
+        <infon key="type">ABBR</infon>
+        <node refid="LF40" role="LongForm"/>
+        <node refid="SF40" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42436517</id>
+    <passage>
+      <infon key="article-id_pmid">42436517</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>162</offset>
+      <annotation id="LF41">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="282" length="22"/>
+        <text>traumatic brain injury</text>
+      </annotation>
+      <annotation id="SF41">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="306" length="3"/>
+        <text>TBI</text>
+      </annotation>
+      <annotation id="LF42">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="532" length="26"/>
+        <text>single-cell RNA sequencing</text>
+      </annotation>
+      <annotation id="SF42">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="560" length="9"/>
+        <text>scRNA-seq</text>
+      </annotation>
+      <annotation id="LF43">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1466" length="42"/>
+        <text>glutamate-cysteine ligase modifier subunit</text>
+      </annotation>
+      <annotation id="SF43">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1510" length="4"/>
+        <text>GCLM</text>
+      </annotation>
+      <relation id="R41">
+        <infon key="type">ABBR</infon>
+        <node refid="LF41" role="LongForm"/>
+        <node refid="SF41" role="ShortForm"/>
+      </relation>
+      <relation id="R42">
+        <infon key="type">ABBR</infon>
+        <node refid="LF42" role="LongForm"/>
+        <node refid="SF42" role="ShortForm"/>
+      </relation>
+      <relation id="R43">
+        <infon key="type">ABBR</infon>
+        <node refid="LF43" role="LongForm"/>
+        <node refid="SF43" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42443609</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13375653</infon>
+      <infon key="article-id_pmid">42443609</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>120</offset>
+      <annotation id="LF44">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="388" length="28"/>
+        <text>disease-associated microglia</text>
+      </annotation>
+      <annotation id="SF44">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="418" length="3"/>
+        <text>DAM</text>
+      </annotation>
+      <relation id="R44">
+        <infon key="type">ABBR</infon>
+        <node refid="LF44" role="LongForm"/>
+        <node refid="SF44" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42447147</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13394255</infon>
+      <infon key="article-id_pmid">42447147</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>87</offset>
+      <annotation id="LF45">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="99" length="19"/>
+        <text>Parkinson's disease</text>
+      </annotation>
+      <annotation id="SF45">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="120" length="2"/>
+        <text>PD</text>
+      </annotation>
+      <relation id="R45">
+        <infon key="type">ABBR</infon>
+        <node refid="LF45" role="LongForm"/>
+        <node refid="SF45" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42452963</id>
+    <passage>
+      <infon key="article-id_pmid">42452963</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+      <annotation id="LF46">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="80" length="26"/>
+        <text>plexin domain containing 2</text>
+      </annotation>
+      <annotation id="SF46">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="108" length="6"/>
+        <text>Plxdc2</text>
+      </annotation>
+      <relation id="R46">
+        <infon key="type">ABBR</infon>
+        <node refid="LF46" role="LongForm"/>
+        <node refid="SF46" role="ShortForm"/>
+      </relation>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>197</offset>
+      <annotation id="LF47">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="710" length="18"/>
+        <text>lipopolysaccharide</text>
+      </annotation>
+      <annotation id="SF47">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="730" length="3"/>
+        <text>LPS</text>
+      </annotation>
+      <annotation id="LF48">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="876" length="24"/>
+        <text>medial prefrontal cortex</text>
+      </annotation>
+      <annotation id="SF48">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="902" length="4"/>
+        <text>mPFC</text>
+      </annotation>
+      <annotation id="LF49">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1261" length="22"/>
+        <text>N-linked glycosylation</text>
+      </annotation>
+      <annotation id="SF49">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1285" length="3"/>
+        <text>NLG</text>
+      </annotation>
+      <relation id="R47">
+        <infon key="type">ABBR</infon>
+        <node refid="LF47" role="LongForm"/>
+        <node refid="SF47" role="ShortForm"/>
+      </relation>
+      <relation id="R48">
+        <infon key="type">ABBR</infon>
+        <node refid="LF48" role="LongForm"/>
+        <node refid="SF48" role="ShortForm"/>
+      </relation>
+      <relation id="R49">
+        <infon key="type">ABBR</infon>
+        <node refid="LF49" role="LongForm"/>
+        <node refid="SF49" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42457084</id>
+    <passage>
+      <infon key="article-id_pmid">42457084</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>115</offset>
+      <annotation id="LF50">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="126" length="16"/>
+        <text>heme oxygenase-1</text>
+      </annotation>
+      <annotation id="SF50">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="144" length="4"/>
+        <text>HO-1</text>
+      </annotation>
+      <annotation id="LF51">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="320" length="15"/>
+        <text>carbon monoxide</text>
+      </annotation>
+      <annotation id="SF51">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="337" length="2"/>
+        <text>CO</text>
+      </annotation>
+      <annotation id="LF52">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="373" length="22"/>
+        <text>traumatic brain injury</text>
+      </annotation>
+      <annotation id="SF52">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="397" length="3"/>
+        <text>TBI</text>
+      </annotation>
+      <relation id="R50">
+        <infon key="type">ABBR</infon>
+        <node refid="LF50" role="LongForm"/>
+        <node refid="SF50" role="ShortForm"/>
+      </relation>
+      <relation id="R51">
+        <infon key="type">ABBR</infon>
+        <node refid="LF51" role="LongForm"/>
+        <node refid="SF51" role="ShortForm"/>
+      </relation>
+      <relation id="R52">
+        <infon key="type">ABBR</infon>
+        <node refid="LF52" role="LongForm"/>
+        <node refid="SF52" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42458112</id>
+    <passage>
+      <infon key="article-id_pmid">42458112</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>182</offset>
+      <annotation id="LF53">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="182" length="49"/>
+        <text>Temporal lobe epilepsy with hippocampal sclerosis</text>
+      </annotation>
+      <annotation id="SF53">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="233" length="6"/>
+        <text>TLE-HS</text>
+      </annotation>
+      <annotation id="LF54">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1450" length="21"/>
+        <text>hippocampal sclerosis</text>
+      </annotation>
+      <annotation id="SF54">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1473" length="2"/>
+        <text>HS</text>
+      </annotation>
+      <annotation id="LF55">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1693" length="22"/>
+        <text>high seizure frequency</text>
+      </annotation>
+      <annotation id="SF55">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1717" length="3"/>
+        <text>HSF</text>
+      </annotation>
+      <annotation id="LF56">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1747" length="21"/>
+        <text>low seizure frequency</text>
+      </annotation>
+      <annotation id="SF56">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1770" length="3"/>
+        <text>LSF</text>
+      </annotation>
+      <annotation id="LF57">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2192" length="11"/>
+        <text>kainic acid</text>
+      </annotation>
+      <annotation id="SF57">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2205" length="2"/>
+        <text>KA</text>
+      </annotation>
+      <relation id="R53">
+        <infon key="type">ABBR</infon>
+        <node refid="LF53" role="LongForm"/>
+        <node refid="SF53" role="ShortForm"/>
+      </relation>
+      <relation id="R54">
+        <infon key="type">ABBR</infon>
+        <node refid="LF54" role="LongForm"/>
+        <node refid="SF54" role="ShortForm"/>
+      </relation>
+      <relation id="R55">
+        <infon key="type">ABBR</infon>
+        <node refid="LF55" role="LongForm"/>
+        <node refid="SF55" role="ShortForm"/>
+      </relation>
+      <relation id="R56">
+        <infon key="type">ABBR</infon>
+        <node refid="LF56" role="LongForm"/>
+        <node refid="SF56" role="ShortForm"/>
+      </relation>
+      <relation id="R57">
+        <infon key="type">ABBR</infon>
+        <node refid="LF57" role="LongForm"/>
+        <node refid="SF57" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42463036</id>
+    <passage>
+      <infon key="article-id_pmid">42463036</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>220</offset>
+      <annotation id="LF58">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="220" length="19"/>
+        <text>Alzheimer's disease</text>
+      </annotation>
+      <annotation id="SF58">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="241" length="2"/>
+        <text>AD</text>
+      </annotation>
+      <annotation id="LF59">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="249" length="24"/>
+        <text>type 2 diabetes mellitus</text>
+      </annotation>
+      <annotation id="SF59">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="275" length="4"/>
+        <text>T2DM</text>
+      </annotation>
+      <annotation id="LF60">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="554" length="26"/>
+        <text>Single-cell RNA sequencing</text>
+      </annotation>
+      <annotation id="SF60">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="582" length="9"/>
+        <text>scRNA-seq</text>
+      </annotation>
+      <relation id="R58">
+        <infon key="type">ABBR</infon>
+        <node refid="LF58" role="LongForm"/>
+        <node refid="SF58" role="ShortForm"/>
+      </relation>
+      <relation id="R59">
+        <infon key="type">ABBR</infon>
+        <node refid="LF59" role="LongForm"/>
+        <node refid="SF59" role="ShortForm"/>
+      </relation>
+      <relation id="R60">
+        <infon key="type">ABBR</infon>
+        <node refid="LF60" role="LongForm"/>
+        <node refid="SF60" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42463903</id>
+    <passage>
+      <infon key="article-id_pmid">42463903</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>97</offset>
+      <annotation id="LF61">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="97" length="24"/>
+        <text>Autism spectrum disorder</text>
+      </annotation>
+      <annotation id="SF61">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="123" length="3"/>
+        <text>ASD</text>
+      </annotation>
+      <relation id="R61">
+        <infon key="type">ABBR</infon>
+        <node refid="LF61" role="LongForm"/>
+        <node refid="SF61" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42464356</id>
+    <passage>
+      <infon key="article-id_pmid">42464356</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>130</offset>
+      <annotation id="LF62">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="130" length="23"/>
+        <text>Frontotemporal dementia</text>
+      </annotation>
+      <annotation id="SF62">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="155" length="3"/>
+        <text>FTD</text>
+      </annotation>
+      <relation id="R62">
+        <infon key="type">ABBR</infon>
+        <node refid="LF62" role="LongForm"/>
+        <node refid="SF62" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42468771</id>
+    <passage>
+      <infon key="article-id_pmid">42468771</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>96</offset>
+      <annotation id="LF63">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="199" length="19"/>
+        <text>Parkinson's disease</text>
+      </annotation>
+      <annotation id="SF63">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="220" length="2"/>
+        <text>PD</text>
+      </annotation>
+      <annotation id="LF64">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="367" length="20"/>
+        <text>air-liquid interface</text>
+      </annotation>
+      <annotation id="SF64">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="389" length="3"/>
+        <text>ALI</text>
+      </annotation>
+      <annotation id="LF65">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="443" length="18"/>
+        <text>midbrain organoids</text>
+      </annotation>
+      <annotation id="SF65">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="463" length="5"/>
+        <text>mORGs</text>
+      </annotation>
+      <annotation id="LF66">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="918" length="20"/>
+        <text>N-methyl-D-aspartate</text>
+      </annotation>
+      <annotation id="SF66">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="940" length="4"/>
+        <text>NMDA</text>
+      </annotation>
+      <annotation id="LF67">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1074" length="15"/>
+        <text>alpha-synuclein</text>
+      </annotation>
+      <annotation id="SF67">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1091" length="8"/>
+        <text>alphaSyn</text>
+      </annotation>
+      <relation id="R63">
+        <infon key="type">ABBR</infon>
+        <node refid="LF63" role="LongForm"/>
+        <node refid="SF63" role="ShortForm"/>
+      </relation>
+      <relation id="R64">
+        <infon key="type">ABBR</infon>
+        <node refid="LF64" role="LongForm"/>
+        <node refid="SF64" role="ShortForm"/>
+      </relation>
+      <relation id="R65">
+        <infon key="type">ABBR</infon>
+        <node refid="LF65" role="LongForm"/>
+        <node refid="SF65" role="ShortForm"/>
+      </relation>
+      <relation id="R66">
+        <infon key="type">ABBR</infon>
+        <node refid="LF66" role="LongForm"/>
+        <node refid="SF66" role="ShortForm"/>
+      </relation>
+      <relation id="R67">
+        <infon key="type">ABBR</infon>
+        <node refid="LF67" role="LongForm"/>
+        <node refid="SF67" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42490474</id>
+    <passage>
+      <infon key="article-id_pmid">42490474</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>82</offset>
+    </passage>
+  </document>
+  <document>
+    <id>42491669</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13378380</infon>
+      <infon key="article-id_pmid">42491669</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>107</offset>
+      <annotation id="LF68">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="354" length="22"/>
+        <text>iPSC-derived microglia</text>
+      </annotation>
+      <annotation id="SF68">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="378" length="3"/>
+        <text>iMG</text>
+      </annotation>
+      <annotation id="LF69">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="460" length="18"/>
+        <text>immunofluorescence</text>
+      </annotation>
+      <annotation id="SF69">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="480" length="2"/>
+        <text>IF</text>
+      </annotation>
+      <annotation id="LF70">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="551" length="13"/>
+        <text>cell painting</text>
+      </annotation>
+      <annotation id="SF70">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="566" length="2"/>
+        <text>CP</text>
+      </annotation>
+      <annotation id="LF71">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="690" length="23"/>
+        <text>Gaussian mixture models</text>
+      </annotation>
+      <annotation id="SF71">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="715" length="4"/>
+        <text>GMMs</text>
+      </annotation>
+      <relation id="R68">
+        <infon key="type">ABBR</infon>
+        <node refid="LF68" role="LongForm"/>
+        <node refid="SF68" role="ShortForm"/>
+      </relation>
+      <relation id="R69">
+        <infon key="type">ABBR</infon>
+        <node refid="LF69" role="LongForm"/>
+        <node refid="SF69" role="ShortForm"/>
+      </relation>
+      <relation id="R70">
+        <infon key="type">ABBR</infon>
+        <node refid="LF70" role="LongForm"/>
+        <node refid="SF70" role="ShortForm"/>
+      </relation>
+      <relation id="R71">
+        <infon key="type">ABBR</infon>
+        <node refid="LF71" role="LongForm"/>
+        <node refid="SF71" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42492522</id>
+    <passage>
+      <infon key="article-id_pmid">42492522</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>79</offset>
+      <annotation id="LF72">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="647" length="68"/>
+        <text>enhanced electric single-molecule fluorescence in situ hybridization</text>
+      </annotation>
+      <annotation id="SF72">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="717" length="8"/>
+        <text>EEL-FISH</text>
+      </annotation>
+      <relation id="R72">
+        <infon key="type">ABBR</infon>
+        <node refid="LF72" role="LongForm"/>
+        <node refid="SF72" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42498004</id>
+    <passage>
+      <infon key="article-id_pmid">42498004</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>123</offset>
+      <annotation id="LF73">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="149" length="23"/>
+        <text>peripheral inflammation</text>
+      </annotation>
+      <annotation id="SF73">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="174" length="2"/>
+        <text>PI</text>
+      </annotation>
+      <annotation id="LF74">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="432" length="7"/>
+        <text>hypoxia</text>
+      </annotation>
+      <annotation id="SF74">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="441" length="3"/>
+        <text>Hyp</text>
+      </annotation>
+      <annotation id="LF75">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1250" length="28"/>
+        <text>disease-associated microglia</text>
+      </annotation>
+      <annotation id="SF75">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1280" length="3"/>
+        <text>DAM</text>
+      </annotation>
+      <relation id="R73">
+        <infon key="type">ABBR</infon>
+        <node refid="LF73" role="LongForm"/>
+        <node refid="SF73" role="ShortForm"/>
+      </relation>
+      <relation id="R74">
+        <infon key="type">ABBR</infon>
+        <node refid="LF74" role="LongForm"/>
+        <node refid="SF74" role="ShortForm"/>
+      </relation>
+      <relation id="R75">
+        <infon key="type">ABBR</infon>
+        <node refid="LF75" role="LongForm"/>
+        <node refid="SF75" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42501950</id>
+    <passage>
+      <infon key="article-id_pmid">42501950</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>104</offset>
+      <annotation id="LF76">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="104" length="19"/>
+        <text>Alzheimer's disease</text>
+      </annotation>
+      <annotation id="SF76">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="125" length="2"/>
+        <text>AD</text>
+      </annotation>
+      <annotation id="LF77">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="716" length="12"/>
+        <text>amyloid-beta</text>
+      </annotation>
+      <annotation id="SF77">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="730" length="5"/>
+        <text>Abeta</text>
+      </annotation>
+      <relation id="R76">
+        <infon key="type">ABBR</infon>
+        <node refid="LF76" role="LongForm"/>
+        <node refid="SF76" role="ShortForm"/>
+      </relation>
+      <relation id="R77">
+        <infon key="type">ABBR</infon>
+        <node refid="LF77" role="LongForm"/>
+        <node refid="SF77" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42501956</id>
+    <passage>
+      <infon key="article-id_pmid">42501956</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>94</offset>
+      <annotation id="LF78">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="94" length="32"/>
+        <text>Age-related macular degeneration</text>
+      </annotation>
+      <annotation id="SF78">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="128" length="3"/>
+        <text>AMD</text>
+      </annotation>
+      <annotation id="LF79">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="403" length="18"/>
+        <text>Geographic atrophy</text>
+      </annotation>
+      <annotation id="SF79">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="423" length="2"/>
+        <text>GA</text>
+      </annotation>
+      <annotation id="LF80">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1811" length="19"/>
+        <text>complement factor H</text>
+      </annotation>
+      <annotation id="SF80">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1832" length="3"/>
+        <text>CFH</text>
+      </annotation>
+      <annotation id="LF81">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1954" length="41"/>
+        <text>major histocompatibility complex class II</text>
+      </annotation>
+      <annotation id="SF81">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1997" length="6"/>
+        <text>MHC-II</text>
+      </annotation>
+      <annotation id="LF82">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2196" length="36"/>
+        <text>colony-stimulating factor 1 receptor</text>
+      </annotation>
+      <annotation id="SF82">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2234" length="5"/>
+        <text>CSF1R</text>
+      </annotation>
+      <relation id="R78">
+        <infon key="type">ABBR</infon>
+        <node refid="LF78" role="LongForm"/>
+        <node refid="SF78" role="ShortForm"/>
+      </relation>
+      <relation id="R79">
+        <infon key="type">ABBR</infon>
+        <node refid="LF79" role="LongForm"/>
+        <node refid="SF79" role="ShortForm"/>
+      </relation>
+      <relation id="R80">
+        <infon key="type">ABBR</infon>
+        <node refid="LF80" role="LongForm"/>
+        <node refid="SF80" role="ShortForm"/>
+      </relation>
+      <relation id="R81">
+        <infon key="type">ABBR</infon>
+        <node refid="LF81" role="LongForm"/>
+        <node refid="SF81" role="ShortForm"/>
+      </relation>
+      <relation id="R82">
+        <infon key="type">ABBR</infon>
+        <node refid="LF82" role="LongForm"/>
+        <node refid="SF82" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42508390</id>
+    <passage>
+      <infon key="article-id_pmid">42508390</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>111</offset>
+      <annotation id="LF83">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="526" length="15"/>
+        <text>ischemic stroke</text>
+      </annotation>
+      <annotation id="SF83">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="543" length="2"/>
+        <text>IS</text>
+      </annotation>
+      <annotation id="LF84">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="548" length="18"/>
+        <text>hemorrhagic stroke</text>
+      </annotation>
+      <annotation id="SF84">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="568" length="2"/>
+        <text>HS</text>
+      </annotation>
+      <annotation id="LF85">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="577" length="30"/>
+        <text>chronic cerebral hypoperfusion</text>
+      </annotation>
+      <annotation id="SF85">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="609" length="3"/>
+        <text>CCH</text>
+      </annotation>
+      <relation id="R83">
+        <infon key="type">ABBR</infon>
+        <node refid="LF83" role="LongForm"/>
+        <node refid="SF83" role="ShortForm"/>
+      </relation>
+      <relation id="R84">
+        <infon key="type">ABBR</infon>
+        <node refid="LF84" role="LongForm"/>
+        <node refid="SF84" role="ShortForm"/>
+      </relation>
+      <relation id="R85">
+        <infon key="type">ABBR</infon>
+        <node refid="LF85" role="LongForm"/>
+        <node refid="SF85" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42520792</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13426080</infon>
+      <infon key="article-id_pmid">42520792</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>100</offset>
+      <annotation id="LF86">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="590" length="35"/>
+        <text>human induced pluripotent stem cell</text>
+      </annotation>
+      <annotation id="SF86">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="627" length="5"/>
+        <text>hiPSC</text>
+      </annotation>
+      <relation id="R86">
+        <infon key="type">ABBR</infon>
+        <node refid="LF86" role="LongForm"/>
+        <node refid="SF86" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42525534</id>
+    <passage>
+      <infon key="article-id_pmid">42525534</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>63</offset>
+      <annotation id="LF87">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="163" length="50"/>
+        <text>endosomal sorting complexes required for transport</text>
+      </annotation>
+      <annotation id="SF87">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="215" length="5"/>
+        <text>ESCRT</text>
+      </annotation>
+      <annotation id="LF88">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="786" length="34"/>
+        <text>peripheral blood mononuclear cells</text>
+      </annotation>
+      <annotation id="SF88">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="822" length="5"/>
+        <text>PBMCs</text>
+      </annotation>
+      <relation id="R87">
+        <infon key="type">ABBR</infon>
+        <node refid="LF87" role="LongForm"/>
+        <node refid="SF87" role="ShortForm"/>
+      </relation>
+      <relation id="R88">
+        <infon key="type">ABBR</infon>
+        <node refid="LF88" role="LongForm"/>
+        <node refid="SF88" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42526428</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13505846</infon>
+      <infon key="article-id_pmid">42526428</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>79</offset>
+      <annotation id="LF89">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="440" length="29"/>
+        <text>induced pluripotent stem cell</text>
+      </annotation>
+      <annotation id="SF89">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="471" length="4"/>
+        <text>iPSC</text>
+      </annotation>
+      <relation id="R89">
+        <infon key="type">ABBR</infon>
+        <node refid="LF89" role="LongForm"/>
+        <node refid="SF89" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42531126</id>
+    <passage>
+      <infon key="article-id_pmid">42531126</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>139</offset>
+    </passage>
+  </document>
+  <document>
+    <id>42535877</id>
+    <passage>
+      <infon key="article-id_pmid">42535877</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>113</offset>
+      <annotation id="LF90">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="336" length="13"/>
+        <text>benzothiazole</text>
+      </annotation>
+      <annotation id="SF90">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="351" length="3"/>
+        <text>BTH</text>
+      </annotation>
+      <annotation id="LF91">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="422" length="21"/>
+        <text>2-methylbenzothiazole</text>
+      </annotation>
+      <annotation id="SF91">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="445" length="6"/>
+        <text>Me-BTH</text>
+      </annotation>
+      <relation id="R90">
+        <infon key="type">ABBR</infon>
+        <node refid="LF90" role="LongForm"/>
+        <node refid="SF90" role="ShortForm"/>
+      </relation>
+      <relation id="R91">
+        <infon key="type">ABBR</infon>
+        <node refid="LF91" role="LongForm"/>
+        <node refid="SF91" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42536203</id>
+    <passage>
+      <infon key="article-id_pmid">42536203</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>104</offset>
+    </passage>
+  </document>
+  <document>
+    <id>42539046</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13419555</infon>
+      <infon key="article-id_pmid">42539046</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>155</offset>
+      <annotation id="LF92">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="196" length="19"/>
+        <text>Alzheimer's disease</text>
+      </annotation>
+      <annotation id="SF92">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="217" length="2"/>
+        <text>AD</text>
+      </annotation>
+      <relation id="R92">
+        <infon key="type">ABBR</infon>
+        <node refid="LF92" role="LongForm"/>
+        <node refid="SF92" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42546694</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13510288</infon>
+      <infon key="article-id_pmid">42546694</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>141</offset>
+    </passage>
+  </document>
+  <document>
+    <id>42546695</id>
+    <passage>
+      <infon key="article-id_pmid">42546695</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>136</offset>
+    </passage>
+  </document>
+  <document>
+    <id>42550898</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13461961</infon>
+      <infon key="article-id_pmid">42550898</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>64</offset>
+      <annotation id="LF93">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="202" length="26"/>
+        <text>single-cell RNA sequencing</text>
+      </annotation>
+      <annotation id="SF93">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="230" length="9"/>
+        <text>scRNA-seq</text>
+      </annotation>
+      <annotation id="LF94">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="354" length="13"/>
+        <text>messenger RNA</text>
+      </annotation>
+      <annotation id="SF94">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="369" length="4"/>
+        <text>mRNA</text>
+      </annotation>
+      <relation id="R93">
+        <infon key="type">ABBR</infon>
+        <node refid="LF93" role="LongForm"/>
+        <node refid="SF93" role="ShortForm"/>
+      </relation>
+      <relation id="R94">
+        <infon key="type">ABBR</infon>
+        <node refid="LF94" role="LongForm"/>
+        <node refid="SF94" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42551805</id>
+    <passage>
+      <infon key="article-id_pmid">42551805</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>140</offset>
+      <annotation id="LF95">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="140" length="20"/>
+        <text>Diabetic retinopathy</text>
+      </annotation>
+      <annotation id="SF95">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="162" length="2"/>
+        <text>DR</text>
+      </annotation>
+      <relation id="R95">
+        <infon key="type">ABBR</infon>
+        <node refid="LF95" role="LongForm"/>
+        <node refid="SF95" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42552384</id>
+    <passage>
+      <infon key="article-id_pmid">42552384</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>135</offset>
+    </passage>
+  </document>
+  <document>
+    <id>42555755</id>
+    <passage>
+      <infon key="article-id_pmid">42555755</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>117</offset>
+      <annotation id="LF96">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="821" length="10"/>
+        <text>galectin-3</text>
+      </annotation>
+      <annotation id="SF96">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="833" length="4"/>
+        <text>GAL3</text>
+      </annotation>
+      <annotation id="LF97">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="971" length="26"/>
+        <text>oxygen-induced retinopathy</text>
+      </annotation>
+      <annotation id="SF97">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="999" length="3"/>
+        <text>OIR</text>
+      </annotation>
+      <annotation id="LF98">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1133" length="34"/>
+        <text>vascular endothelial growth factor</text>
+      </annotation>
+      <annotation id="SF98">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1169" length="4"/>
+        <text>VEGF</text>
+      </annotation>
+      <relation id="R96">
+        <infon key="type">ABBR</infon>
+        <node refid="LF96" role="LongForm"/>
+        <node refid="SF96" role="ShortForm"/>
+      </relation>
+      <relation id="R97">
+        <infon key="type">ABBR</infon>
+        <node refid="LF97" role="LongForm"/>
+        <node refid="SF97" role="ShortForm"/>
+      </relation>
+      <relation id="R98">
+        <infon key="type">ABBR</infon>
+        <node refid="LF98" role="LongForm"/>
+        <node refid="SF98" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42557393</id>
+    <passage>
+      <infon key="article-id_pmid">42557393</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>120</offset>
+      <annotation id="LF99">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="120" length="23"/>
+        <text>Post-operative delirium</text>
+      </annotation>
+      <annotation id="SF99">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="145" length="3"/>
+        <text>POD</text>
+      </annotation>
+      <relation id="R99">
+        <infon key="type">ABBR</infon>
+        <node refid="LF99" role="LongForm"/>
+        <node refid="SF99" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42557490</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13442482</infon>
+      <infon key="article-id_pmid">42557490</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>181</offset>
+      <annotation id="LF100">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="232" length="16"/>
+        <text>stem cell factor</text>
+      </annotation>
+      <annotation id="SF100">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="250" length="3"/>
+        <text>SCF</text>
+      </annotation>
+      <annotation id="LF101">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="259" length="37"/>
+        <text>granulocyte colony-stimulating factor</text>
+      </annotation>
+      <annotation id="SF101">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="298" length="5"/>
+        <text>G-CSF</text>
+      </annotation>
+      <annotation id="LF102">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="386" length="22"/>
+        <text>traumatic brain injury</text>
+      </annotation>
+      <annotation id="SF102">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="410" length="3"/>
+        <text>TBI</text>
+      </annotation>
+      <annotation id="LF103">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="754" length="21"/>
+        <text>monocytes/macrophages</text>
+      </annotation>
+      <annotation id="SF103">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="777" length="6"/>
+        <text>Mo/Mac</text>
+      </annotation>
+      <relation id="R100">
+        <infon key="type">ABBR</infon>
+        <node refid="LF100" role="LongForm"/>
+        <node refid="SF100" role="ShortForm"/>
+      </relation>
+      <relation id="R101">
+        <infon key="type">ABBR</infon>
+        <node refid="LF101" role="LongForm"/>
+        <node refid="SF101" role="ShortForm"/>
+      </relation>
+      <relation id="R102">
+        <infon key="type">ABBR</infon>
+        <node refid="LF102" role="LongForm"/>
+        <node refid="SF102" role="ShortForm"/>
+      </relation>
+      <relation id="R103">
+        <infon key="type">ABBR</infon>
+        <node refid="LF103" role="LongForm"/>
+        <node refid="SF103" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42560504</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13445976</infon>
+      <infon key="article-id_pmid">42560504</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>152</offset>
+      <annotation id="LF104">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="164" length="36"/>
+        <text>Human induced pluripotent stem cells</text>
+      </annotation>
+      <annotation id="SF104">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="202" length="6"/>
+        <text>hiPSCs</text>
+      </annotation>
+      <relation id="R104">
+        <infon key="type">ABBR</infon>
+        <node refid="LF104" role="LongForm"/>
+        <node refid="SF104" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42565395</id>
+    <passage>
+      <infon key="article-id_pmid">42565395</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>82</offset>
+      <annotation id="LF105">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="260" length="45"/>
+        <text>single-cell and single-nucleus RNA sequencing</text>
+      </annotation>
+      <annotation id="SF105">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="307" length="12"/>
+        <text>sc/snRNA-seq</text>
+      </annotation>
+      <annotation id="LF106">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="816" length="31"/>
+        <text>genome-wide association studies</text>
+      </annotation>
+      <annotation id="SF106">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="849" length="4"/>
+        <text>GWAS</text>
+      </annotation>
+      <relation id="R105">
+        <infon key="type">ABBR</infon>
+        <node refid="LF105" role="LongForm"/>
+        <node refid="SF105" role="ShortForm"/>
+      </relation>
+      <relation id="R106">
+        <infon key="type">ABBR</infon>
+        <node refid="LF106" role="LongForm"/>
+        <node refid="SF106" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42569314</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13449345</infon>
+      <infon key="article-id_pmid">42569314</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>105</offset>
+      <annotation id="LF107">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="119" length="15"/>
+        <text>DNA methylation</text>
+      </annotation>
+      <annotation id="SF107">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="136" length="4"/>
+        <text>DNAm</text>
+      </annotation>
+      <annotation id="LF108">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="908" length="27"/>
+        <text>epigenetic age acceleration</text>
+      </annotation>
+      <annotation id="SF108">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="937" length="3"/>
+        <text>EAA</text>
+      </annotation>
+      <relation id="R107">
+        <infon key="type">ABBR</infon>
+        <node refid="LF107" role="LongForm"/>
+        <node refid="SF107" role="ShortForm"/>
+      </relation>
+      <relation id="R108">
+        <infon key="type">ABBR</infon>
+        <node refid="LF108" role="LongForm"/>
+        <node refid="SF108" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42570992</id>
+    <passage>
+      <infon key="article-id_pmid">42570992</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>119</offset>
+      <annotation id="LF109">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="133" length="19"/>
+        <text>Alzheimer's disease</text>
+      </annotation>
+      <annotation id="SF109">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="154" length="2"/>
+        <text>AD</text>
+      </annotation>
+      <annotation id="LF110">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="531" length="18"/>
+        <text>lipopolysaccharide</text>
+      </annotation>
+      <annotation id="SF110">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="551" length="3"/>
+        <text>LPS</text>
+      </annotation>
+      <relation id="R109">
+        <infon key="type">ABBR</infon>
+        <node refid="LF109" role="LongForm"/>
+        <node refid="SF109" role="ShortForm"/>
+      </relation>
+      <relation id="R110">
+        <infon key="type">ABBR</infon>
+        <node refid="LF110" role="LongForm"/>
+        <node refid="SF110" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42572586</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13453016</infon>
+      <infon key="article-id_pmid">42572586</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>105</offset>
+      <annotation id="LF111">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="278" length="19"/>
+        <text>single-cell RNA-seq</text>
+      </annotation>
+      <annotation id="SF111">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="299" length="9"/>
+        <text>scRNA-seq</text>
+      </annotation>
+      <relation id="R111">
+        <infon key="type">ABBR</infon>
+        <node refid="LF111" role="LongForm"/>
+        <node refid="SF111" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42574303</id>
+    <passage>
+      <infon key="article-id_pmid">42574303</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>108</offset>
+      <annotation id="LF112">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="814" length="29"/>
+        <text>induced pluripotent stem cell</text>
+      </annotation>
+      <annotation id="SF112">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="845" length="4"/>
+        <text>iPSC</text>
+      </annotation>
+      <relation id="R112">
+        <infon key="type">ABBR</infon>
+        <node refid="LF112" role="LongForm"/>
+        <node refid="SF112" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42576543</id>
+    <passage>
+      <infon key="article-id_pmid">42576543</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>108</offset>
+      <annotation id="LF113">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1472" length="10"/>
+        <text>cyclic AMP</text>
+      </annotation>
+      <annotation id="SF113">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1484" length="4"/>
+        <text>cAMP</text>
+      </annotation>
+      <relation id="R113">
+        <infon key="type">ABBR</infon>
+        <node refid="LF113" role="LongForm"/>
+        <node refid="SF113" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42585801</id>
+    <passage>
+      <infon key="article-id_pmid">42585801</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>128</offset>
+      <annotation id="LF114">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="319" length="20"/>
+        <text>microglia-like cells</text>
+      </annotation>
+      <annotation id="SF114">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="341" length="4"/>
+        <text>MLCs</text>
+      </annotation>
+      <annotation id="LF115">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="377" length="24"/>
+        <text>age-related hearing loss</text>
+      </annotation>
+      <annotation id="SF115">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="403" length="4"/>
+        <text>ARHL</text>
+      </annotation>
+      <relation id="R114">
+        <infon key="type">ABBR</infon>
+        <node refid="LF114" role="LongForm"/>
+        <node refid="SF114" role="ShortForm"/>
+      </relation>
+      <relation id="R115">
+        <infon key="type">ABBR</infon>
+        <node refid="LF115" role="LongForm"/>
+        <node refid="SF115" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42587296</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13463953</infon>
+      <infon key="article-id_pmid">42587296</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>154</offset>
+      <annotation id="LF116">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="319" length="27"/>
+        <text>Japanese encephalitis virus</text>
+      </annotation>
+      <annotation id="SF116">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="348" length="3"/>
+        <text>JEV</text>
+      </annotation>
+      <annotation id="LF117">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="623" length="22"/>
+        <text>central nervous system</text>
+      </annotation>
+      <annotation id="SF117">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="647" length="3"/>
+        <text>CNS</text>
+      </annotation>
+      <annotation id="LF118">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1172" length="20"/>
+        <text>leucine-rich repeats</text>
+      </annotation>
+      <annotation id="SF118">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1194" length="4"/>
+        <text>LRRs</text>
+      </annotation>
+      <relation id="R116">
+        <infon key="type">ABBR</infon>
+        <node refid="LF116" role="LongForm"/>
+        <node refid="SF116" role="ShortForm"/>
+      </relation>
+      <relation id="R117">
+        <infon key="type">ABBR</infon>
+        <node refid="LF117" role="LongForm"/>
+        <node refid="SF117" role="ShortForm"/>
+      </relation>
+      <relation id="R118">
+        <infon key="type">ABBR</infon>
+        <node refid="LF118" role="LongForm"/>
+        <node refid="SF118" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42600613</id>
+    <passage>
+      <infon key="article-id_pmid">42600613</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>131</offset>
+      <annotation id="LF119">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="348" length="49"/>
+        <text>cellular musculoaponeurotic fibrosarcoma oncogene</text>
+      </annotation>
+      <annotation id="SF119">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="399" length="4"/>
+        <text>cMAF</text>
+      </annotation>
+      <annotation id="LF120">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="564" length="28"/>
+        <text>insulin-like growth factor-1</text>
+      </annotation>
+      <annotation id="SF120">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="594" length="4"/>
+        <text>IGF1</text>
+      </annotation>
+      <annotation id="LF121">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="984" length="19"/>
+        <text>Alzheimer's disease</text>
+      </annotation>
+      <annotation id="SF121">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1005" length="2"/>
+        <text>AD</text>
+      </annotation>
+      <relation id="R119">
+        <infon key="type">ABBR</infon>
+        <node refid="LF119" role="LongForm"/>
+        <node refid="SF119" role="ShortForm"/>
+      </relation>
+      <relation id="R120">
+        <infon key="type">ABBR</infon>
+        <node refid="LF120" role="LongForm"/>
+        <node refid="SF120" role="ShortForm"/>
+      </relation>
+      <relation id="R121">
+        <infon key="type">ABBR</infon>
+        <node refid="LF121" role="LongForm"/>
+        <node refid="SF121" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42603208</id>
+    <passage>
+      <infon key="article-id_pmid">42603208</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>160</offset>
+      <annotation id="LF122">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="192" length="15"/>
+        <text>ischemic stroke</text>
+      </annotation>
+      <annotation id="SF122">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="209" length="2"/>
+        <text>IS</text>
+      </annotation>
+      <annotation id="LF123">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="224" length="19"/>
+        <text>starvation response</text>
+      </annotation>
+      <annotation id="SF123">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="245" length="2"/>
+        <text>SR</text>
+      </annotation>
+      <annotation id="LF124">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="353" length="15"/>
+        <text>SR-related gene</text>
+      </annotation>
+      <annotation id="SF124">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="370" length="4"/>
+        <text>SRRG</text>
+      </annotation>
+      <annotation id="LF125">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="696" length="28"/>
+        <text>gene set enrichment analysis</text>
+      </annotation>
+      <annotation id="SF125">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="726" length="4"/>
+        <text>GSEA</text>
+      </annotation>
+      <annotation id="LF126">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="754" length="26"/>
+        <text>single-cell RNA sequencing</text>
+      </annotation>
+      <annotation id="SF126">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="782" length="9"/>
+        <text>scRNA-seq</text>
+      </annotation>
+      <annotation id="LF127">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="847" length="40"/>
+        <text>oxygen-glucose deprivation/reoxygenation</text>
+      </annotation>
+      <annotation id="SF127">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="889" length="5"/>
+        <text>OGD/R</text>
+      </annotation>
+      <annotation id="LF128">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1158" length="38"/>
+        <text>lysosome-associated membrane protein 2</text>
+      </annotation>
+      <annotation id="SF128">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1198" length="5"/>
+        <text>LAMP2</text>
+      </annotation>
+      <relation id="R122">
+        <infon key="type">ABBR</infon>
+        <node refid="LF122" role="LongForm"/>
+        <node refid="SF122" role="ShortForm"/>
+      </relation>
+      <relation id="R123">
+        <infon key="type">ABBR</infon>
+        <node refid="LF123" role="LongForm"/>
+        <node refid="SF123" role="ShortForm"/>
+      </relation>
+      <relation id="R124">
+        <infon key="type">ABBR</infon>
+        <node refid="LF124" role="LongForm"/>
+        <node refid="SF124" role="ShortForm"/>
+      </relation>
+      <relation id="R125">
+        <infon key="type">ABBR</infon>
+        <node refid="LF125" role="LongForm"/>
+        <node refid="SF125" role="ShortForm"/>
+      </relation>
+      <relation id="R126">
+        <infon key="type">ABBR</infon>
+        <node refid="LF126" role="LongForm"/>
+        <node refid="SF126" role="ShortForm"/>
+      </relation>
+      <relation id="R127">
+        <infon key="type">ABBR</infon>
+        <node refid="LF127" role="LongForm"/>
+        <node refid="SF127" role="ShortForm"/>
+      </relation>
+      <relation id="R128">
+        <infon key="type">ABBR</infon>
+        <node refid="LF128" role="LongForm"/>
+        <node refid="SF128" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42608571</id>
+    <passage>
+      <infon key="article-id_pmid">42608571</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>109</offset>
+      <annotation id="LF129">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="184" length="26"/>
+        <text>retrotransposable elements</text>
+      </annotation>
+      <annotation id="SF129">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="212" length="4"/>
+        <text>RTEs</text>
+      </annotation>
+      <relation id="R129">
+        <infon key="type">ABBR</infon>
+        <node refid="LF129" role="LongForm"/>
+        <node refid="SF129" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42609060</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13482318</infon>
+      <infon key="article-id_pmid">42609060</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>116</offset>
+      <annotation id="LF130">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="116" length="26"/>
+        <text>Ten-Eleven Translocation 2</text>
+      </annotation>
+      <annotation id="SF130">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="144" length="4"/>
+        <text>TET2</text>
+      </annotation>
+      <annotation id="LF131">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="263" length="16"/>
+        <text>5-methylcytosine</text>
+      </annotation>
+      <annotation id="SF131">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="281" length="3"/>
+        <text>5mC</text>
+      </annotation>
+      <annotation id="LF132">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="568" length="47"/>
+        <text>clonal hematopoiesis of indeterminate potential</text>
+      </annotation>
+      <annotation id="SF132">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="617" length="4"/>
+        <text>CHIP</text>
+      </annotation>
+      <relation id="R130">
+        <infon key="type">ABBR</infon>
+        <node refid="LF130" role="LongForm"/>
+        <node refid="SF130" role="ShortForm"/>
+      </relation>
+      <relation id="R131">
+        <infon key="type">ABBR</infon>
+        <node refid="LF131" role="LongForm"/>
+        <node refid="SF131" role="ShortForm"/>
+      </relation>
+      <relation id="R132">
+        <infon key="type">ABBR</infon>
+        <node refid="LF132" role="LongForm"/>
+        <node refid="SF132" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42609152</id>
+    <passage>
+      <infon key="article-id_pmid">42609152</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>80</offset>
+      <annotation id="LF133">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="193" length="19"/>
+        <text>Alzheimer's disease</text>
+      </annotation>
+      <annotation id="SF133">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="214" length="2"/>
+        <text>AD</text>
+      </annotation>
+      <annotation id="LF134">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="297" length="12"/>
+        <text>amyloid-beta</text>
+      </annotation>
+      <annotation id="SF134">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="311" length="5"/>
+        <text>Abeta</text>
+      </annotation>
+      <annotation id="LF135">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="515" length="31"/>
+        <text>transforming growth factor-beta</text>
+      </annotation>
+      <annotation id="SF135">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="548" length="8"/>
+        <text>TGF-beta</text>
+      </annotation>
+      <relation id="R133">
+        <infon key="type">ABBR</infon>
+        <node refid="LF133" role="LongForm"/>
+        <node refid="SF133" role="ShortForm"/>
+      </relation>
+      <relation id="R134">
+        <infon key="type">ABBR</infon>
+        <node refid="LF134" role="LongForm"/>
+        <node refid="SF134" role="ShortForm"/>
+      </relation>
+      <relation id="R135">
+        <infon key="type">ABBR</infon>
+        <node refid="LF135" role="LongForm"/>
+        <node refid="SF135" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42616788</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13506028</infon>
+      <infon key="article-id_pmid">42616788</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>133</offset>
+      <annotation id="LF136">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="226" length="22"/>
+        <text>retinal ganglion cells</text>
+      </annotation>
+      <annotation id="SF136">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="250" length="4"/>
+        <text>RGCs</text>
+      </annotation>
+      <relation id="R136">
+        <infon key="type">ABBR</infon>
+        <node refid="LF136" role="LongForm"/>
+        <node refid="SF136" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42619794</id>
+    <passage>
+      <infon key="article-id_pmc">PMC13483936</infon>
+      <infon key="article-id_pmid">42619794</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>75</offset>
+      <annotation id="LF137">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="82" length="43"/>
+        <text>serine protease inhibitor clade A member 3N</text>
+      </annotation>
+      <annotation id="SF137">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="127" length="9"/>
+        <text>SERPINA3N</text>
+      </annotation>
+      <relation id="R137">
+        <infon key="type">ABBR</infon>
+        <node refid="LF137" role="LongForm"/>
+        <node refid="SF137" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42623758</id>
+    <passage>
+      <infon key="article-id_pmid">42623758</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>161</offset>
+      <annotation id="LF138">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="161" length="13"/>
+        <text>Schizophrenia</text>
+      </annotation>
+      <annotation id="SF138">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="176" length="3"/>
+        <text>SCZ</text>
+      </annotation>
+      <relation id="R138">
+        <infon key="type">ABBR</infon>
+        <node refid="LF138" role="LongForm"/>
+        <node refid="SF138" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42624101</id>
+    <passage>
+      <infon key="article-id_pmid">42624101</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>126</offset>
+      <annotation id="LF139">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="241" length="36"/>
+        <text>human induced pluripotent stem cells</text>
+      </annotation>
+      <annotation id="SF139">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="279" length="6"/>
+        <text>hiPSCs</text>
+      </annotation>
+      <relation id="R139">
+        <infon key="type">ABBR</infon>
+        <node refid="LF139" role="LongForm"/>
+        <node refid="SF139" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42629379</id>
+    <passage>
+      <infon key="article-id_pmid">42629379</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>170</offset>
+      <annotation id="LF140">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="388" length="48"/>
+        <text>triggering receptor expressed on myeloid cells 2</text>
+      </annotation>
+      <annotation id="SF140">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="438" length="5"/>
+        <text>Trem2</text>
+      </annotation>
+      <annotation id="LF141">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="905" length="41"/>
+        <text>late-pregnancy maternal sleep deprivation</text>
+      </annotation>
+      <annotation id="SF141">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="948" length="3"/>
+        <text>LSD</text>
+      </annotation>
+      <annotation id="LF142">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1557" length="22"/>
+        <text>long-term potentiation</text>
+      </annotation>
+      <annotation id="SF142">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1581" length="3"/>
+        <text>LTP</text>
+      </annotation>
+      <relation id="R140">
+        <infon key="type">ABBR</infon>
+        <node refid="LF140" role="LongForm"/>
+        <node refid="SF140" role="ShortForm"/>
+      </relation>
+      <relation id="R141">
+        <infon key="type">ABBR</infon>
+        <node refid="LF141" role="LongForm"/>
+        <node refid="SF141" role="ShortForm"/>
+      </relation>
+      <relation id="R142">
+        <infon key="type">ABBR</infon>
+        <node refid="LF142" role="LongForm"/>
+        <node refid="SF142" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42637929</id>
+    <passage>
+      <infon key="article-id_pmid">42637929</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>89</offset>
+      <annotation id="LF143">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="189" length="22"/>
+        <text>traumatic brain injury</text>
+      </annotation>
+      <annotation id="SF143">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="213" length="3"/>
+        <text>TBI</text>
+      </annotation>
+      <annotation id="LF144">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="336" length="20"/>
+        <text>Toll-like receptor 7</text>
+      </annotation>
+      <annotation id="SF144">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="358" length="4"/>
+        <text>TLR7</text>
+      </annotation>
+      <annotation id="LF145">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="632" length="26"/>
+        <text>controlled cortical impact</text>
+      </annotation>
+      <annotation id="SF145">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="660" length="3"/>
+        <text>CCI</text>
+      </annotation>
+      <annotation id="LF146">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="817" length="25"/>
+        <text>asparaginyl endopeptidase</text>
+      </annotation>
+      <annotation id="SF146">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="844" length="3"/>
+        <text>AEP</text>
+      </annotation>
+      <relation id="R143">
+        <infon key="type">ABBR</infon>
+        <node refid="LF143" role="LongForm"/>
+        <node refid="SF143" role="ShortForm"/>
+      </relation>
+      <relation id="R144">
+        <infon key="type">ABBR</infon>
+        <node refid="LF144" role="LongForm"/>
+        <node refid="SF144" role="ShortForm"/>
+      </relation>
+      <relation id="R145">
+        <infon key="type">ABBR</infon>
+        <node refid="LF145" role="LongForm"/>
+        <node refid="SF145" role="ShortForm"/>
+      </relation>
+      <relation id="R146">
+        <infon key="type">ABBR</infon>
+        <node refid="LF146" role="LongForm"/>
+        <node refid="SF146" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42648441</id>
+    <passage>
+      <infon key="article-id_pmid">42648441</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>91</offset>
+      <annotation id="LF147">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="91" length="16"/>
+        <text>Neuropathic pain</text>
+      </annotation>
+      <annotation id="SF147">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="109" length="2"/>
+        <text>NP</text>
+      </annotation>
+      <relation id="R147">
+        <infon key="type">ABBR</infon>
+        <node refid="LF147" role="LongForm"/>
+        <node refid="SF147" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42651124</id>
+    <passage>
+      <infon key="article-id_pmid">42651124</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>99</offset>
+      <annotation id="LF148">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="122" length="33"/>
+        <text>Brain arteriovenous malformations</text>
+      </annotation>
+      <annotation id="SF148">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="157" length="5"/>
+        <text>bAVMs</text>
+      </annotation>
+      <annotation id="LF149">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1183" length="29"/>
+        <text>Molecular Signatures Database</text>
+      </annotation>
+      <annotation id="SF149">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1214" length="6"/>
+        <text>MSigDB</text>
+      </annotation>
+      <relation id="R148">
+        <infon key="type">ABBR</infon>
+        <node refid="LF148" role="LongForm"/>
+        <node refid="SF148" role="ShortForm"/>
+      </relation>
+      <relation id="R149">
+        <infon key="type">ABBR</infon>
+        <node refid="LF149" role="LongForm"/>
+        <node refid="SF149" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42653340</id>
+    <passage>
+      <infon key="article-id_pmid">42653340</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>102</offset>
+      <annotation id="LF150">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="299" length="20"/>
+        <text>translocator protein</text>
+      </annotation>
+      <annotation id="SF150">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="321" length="4"/>
+        <text>TSPO</text>
+      </annotation>
+      <annotation id="LF151">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="476" length="20"/>
+        <text>Toll-like receptor 4</text>
+      </annotation>
+      <annotation id="SF151">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="498" length="4"/>
+        <text>TLR4</text>
+      </annotation>
+      <annotation id="LF152">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="946" length="16"/>
+        <text>healthy controls</text>
+      </annotation>
+      <annotation id="SF152">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="964" length="3"/>
+        <text>HCs</text>
+      </annotation>
+      <annotation id="LF153">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1046" length="18"/>
+        <text>Toll-like receptor</text>
+      </annotation>
+      <annotation id="SF153">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1066" length="3"/>
+        <text>TLR</text>
+      </annotation>
+      <annotation id="LF154">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1267" length="18"/>
+        <text>lipopolysaccharide</text>
+      </annotation>
+      <annotation id="SF154">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1287" length="3"/>
+        <text>LPS</text>
+      </annotation>
+      <annotation id="LF155">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1300" length="27"/>
+        <text>tumor necrosis factor-alpha</text>
+      </annotation>
+      <annotation id="SF155">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1329" length="9"/>
+        <text>TNF-alpha</text>
+      </annotation>
+      <annotation id="LF156">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1344" length="13"/>
+        <text>interleukin-6</text>
+      </annotation>
+      <annotation id="SF156">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1359" length="4"/>
+        <text>IL-6</text>
+      </annotation>
+      <annotation id="LF157">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1537" length="22"/>
+        <text>Adenosine triphosphate</text>
+      </annotation>
+      <annotation id="SF157">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1561" length="3"/>
+        <text>ATP</text>
+      </annotation>
+      <relation id="R150">
+        <infon key="type">ABBR</infon>
+        <node refid="LF150" role="LongForm"/>
+        <node refid="SF150" role="ShortForm"/>
+      </relation>
+      <relation id="R151">
+        <infon key="type">ABBR</infon>
+        <node refid="LF151" role="LongForm"/>
+        <node refid="SF151" role="ShortForm"/>
+      </relation>
+      <relation id="R152">
+        <infon key="type">ABBR</infon>
+        <node refid="LF152" role="LongForm"/>
+        <node refid="SF152" role="ShortForm"/>
+      </relation>
+      <relation id="R153">
+        <infon key="type">ABBR</infon>
+        <node refid="LF153" role="LongForm"/>
+        <node refid="SF153" role="ShortForm"/>
+      </relation>
+      <relation id="R154">
+        <infon key="type">ABBR</infon>
+        <node refid="LF154" role="LongForm"/>
+        <node refid="SF154" role="ShortForm"/>
+      </relation>
+      <relation id="R155">
+        <infon key="type">ABBR</infon>
+        <node refid="LF155" role="LongForm"/>
+        <node refid="SF155" role="ShortForm"/>
+      </relation>
+      <relation id="R156">
+        <infon key="type">ABBR</infon>
+        <node refid="LF156" role="LongForm"/>
+        <node refid="SF156" role="ShortForm"/>
+      </relation>
+      <relation id="R157">
+        <infon key="type">ABBR</infon>
+        <node refid="LF157" role="LongForm"/>
+        <node refid="SF157" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+  <document>
+    <id>42653476</id>
+    <passage>
+      <infon key="article-id_pmid">42653476</infon>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>116</offset>
+      <annotation id="LF158">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="360" length="16"/>
+        <text>ribonucleic acid</text>
+      </annotation>
+      <annotation id="SF158">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="378" length="3"/>
+        <text>RNA</text>
+      </annotation>
+      <annotation id="LF159">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="490" length="21"/>
+        <text>deoxyribonucleic acid</text>
+      </annotation>
+      <annotation id="SF159">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="513" length="3"/>
+        <text>DNA</text>
+      </annotation>
+      <annotation id="LF160">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="604" length="23"/>
+        <text>Z-DNA-binding protein 1</text>
+      </annotation>
+      <annotation id="SF160">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="629" length="4"/>
+        <text>ZBP1</text>
+      </annotation>
+      <annotation id="LF161">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="745" length="5"/>
+        <text>Z-DNA</text>
+      </annotation>
+      <annotation id="SF161">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="740" length="3"/>
+        <text>DNA</text>
+      </annotation>
+      <annotation id="LF162">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="773" length="5"/>
+        <text>Z-RNA</text>
+      </annotation>
+      <annotation id="SF162">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="768" length="3"/>
+        <text>RNA</text>
+      </annotation>
+      <annotation id="LF163">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="797" length="7"/>
+        <text>Z-alpha</text>
+      </annotation>
+      <annotation id="SF163">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="806" length="6"/>
+        <text>Zalpha</text>
+      </annotation>
+      <annotation id="LF164">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="880" length="54"/>
+        <text>receptor-interacting serine/threonine-protein kinase 1</text>
+      </annotation>
+      <annotation id="SF164">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="936" length="5"/>
+        <text>RIPK1</text>
+      </annotation>
+      <annotation id="LF165">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="945" length="54"/>
+        <text>receptor-interacting serine/threonine-protein kinase 3</text>
+      </annotation>
+      <annotation id="SF165">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1001" length="5"/>
+        <text>RIPK3</text>
+      </annotation>
+      <annotation id="LF166">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1014" length="45"/>
+        <text>mixed-lineage kinase domain-like pseudokinase</text>
+      </annotation>
+      <annotation id="SF166">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1061" length="4"/>
+        <text>MLKL</text>
+      </annotation>
+      <annotation id="LF167">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1245" length="19"/>
+        <text>Alzheimer's disease</text>
+      </annotation>
+      <annotation id="SF167">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1266" length="2"/>
+        <text>AD</text>
+      </annotation>
+      <annotation id="LF168">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1271" length="22"/>
+        <text>traumatic brain injury</text>
+      </annotation>
+      <annotation id="SF168">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1295" length="3"/>
+        <text>TBI</text>
+      </annotation>
+      <annotation id="LF169">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1526" length="17"/>
+        <text>mitochondrial DNA</text>
+      </annotation>
+      <annotation id="SF169">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="1545" length="5"/>
+        <text>mtDNA</text>
+      </annotation>
+      <annotation id="LF170">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2005" length="56"/>
+        <text>receptor-interacting protein homotypic interaction motif</text>
+      </annotation>
+      <annotation id="SF170">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2063" length="4"/>
+        <text>RHIM</text>
+      </annotation>
+      <annotation id="LF171">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2376" length="35"/>
+        <text>adenosine deaminase acting on RNA 1</text>
+      </annotation>
+      <annotation id="SF171">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2413" length="5"/>
+        <text>ADAR1</text>
+      </annotation>
+      <annotation id="LF172">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2421" length="45"/>
+        <text>melanoma differentiation-associated protein 5</text>
+      </annotation>
+      <annotation id="SF172">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2468" length="4"/>
+        <text>MDA5</text>
+      </annotation>
+      <annotation id="LF173">
+        <infon key="ABBR">LongForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2531" length="94"/>
+        <text>cyclic guanosine monophosphate-adenosine monophosphate synthase-stimulator of interferon genes</text>
+      </annotation>
+      <annotation id="SF173">
+        <infon key="ABBR">ShortForm</infon>
+        <infon key="type">ABBR</infon>
+        <location offset="2627" length="10"/>
+        <text>cGAS-STING</text>
+      </annotation>
+      <relation id="R158">
+        <infon key="type">ABBR</infon>
+        <node refid="LF158" role="LongForm"/>
+        <node refid="SF158" role="ShortForm"/>
+      </relation>
+      <relation id="R159">
+        <infon key="type">ABBR</infon>
+        <node refid="LF159" role="LongForm"/>
+        <node refid="SF159" role="ShortForm"/>
+      </relation>
+      <relation id="R160">
+        <infon key="type">ABBR</infon>
+        <node refid="LF160" role="LongForm"/>
+        <node refid="SF160" role="ShortForm"/>
+      </relation>
+      <relation id="R161">
+        <infon key="type">ABBR</infon>
+        <node refid="LF161" role="LongForm"/>
+        <node refid="SF161" role="ShortForm"/>
+      </relation>
+      <relation id="R162">
+        <infon key="type">ABBR</infon>
+        <node refid="LF162" role="LongForm"/>
+        <node refid="SF162" role="ShortForm"/>
+      </relation>
+      <relation id="R163">
+        <infon key="type">ABBR</infon>
+        <node refid="LF163" role="LongForm"/>
+        <node refid="SF163" role="ShortForm"/>
+      </relation>
+      <relation id="R164">
+        <infon key="type">ABBR</infon>
+        <node refid="LF164" role="LongForm"/>
+        <node refid="SF164" role="ShortForm"/>
+      </relation>
+      <relation id="R165">
+        <infon key="type">ABBR</infon>
+        <node refid="LF165" role="LongForm"/>
+        <node refid="SF165" role="ShortForm"/>
+      </relation>
+      <relation id="R166">
+        <infon key="type">ABBR</infon>
+        <node refid="LF166" role="LongForm"/>
+        <node refid="SF166" role="ShortForm"/>
+      </relation>
+      <relation id="R167">
+        <infon key="type">ABBR</infon>
+        <node refid="LF167" role="LongForm"/>
+        <node refid="SF167" role="ShortForm"/>
+      </relation>
+      <relation id="R168">
+        <infon key="type">ABBR</infon>
+        <node refid="LF168" role="LongForm"/>
+        <node refid="SF168" role="ShortForm"/>
+      </relation>
+      <relation id="R169">
+        <infon key="type">ABBR</infon>
+        <node refid="LF169" role="LongForm"/>
+        <node refid="SF169" role="ShortForm"/>
+      </relation>
+      <relation id="R170">
+        <infon key="type">ABBR</infon>
+        <node refid="LF170" role="LongForm"/>
+        <node refid="SF170" role="ShortForm"/>
+      </relation>
+      <relation id="R171">
+        <infon key="type">ABBR</infon>
+        <node refid="LF171" role="LongForm"/>
+        <node refid="SF171" role="ShortForm"/>
+      </relation>
+      <relation id="R172">
+        <infon key="type">ABBR</infon>
+        <node refid="LF172" role="LongForm"/>
+        <node refid="SF172" role="ShortForm"/>
+      </relation>
+      <relation id="R173">
+        <infon key="type">ABBR</infon>
+        <node refid="LF173" role="LongForm"/>
+        <node refid="SF173" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+</collection>

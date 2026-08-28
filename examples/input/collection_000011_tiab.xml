@@ -1,0 +1,1063 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<collection>
+  <source>BioC-API</source>
+  <date>20260827</date>
+  <key>collection.key</key>
+  <document>
+    <id>42288845</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42288845</infon>
+      <offset>0</offset>
+      <text>TREM2 restrains myeloid inflammasome activation to protect against photoreceptor degeneration.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>95</offset>
+      <text>Myeloid cells, including infiltrating macrophages and resident microglia, are critical regulators of retinal homeostasis and respond rapidly to photoreceptor stress. Dysregulated myeloid responses, however, can exacerbate retinal degeneration. Triggering receptor expressed on myeloid cells 2 (TREM2) modulates phagocytosis, metabolism, and inflammatory signaling, yet its role in retinal degeneration remains incompletely understood. Here, we investigated TREM2 function in the retinal degeneration 10 (rd10) mouse model of inherited retinal degeneration, characterized by progressive photoreceptor loss and robust myeloid cell activation. TREM2 expression was upregulated in degenerating retinas, and global TREM2-deficiency in rd10 mice exhibited accelerated photoreceptor cell death, reduced outer nuclear layer thickness, disrupted retinal pigment epithelium integrity, and altered microglial spatial dynamics. Single-cell transcriptomics revealed that TREM2-positive microglia express APOE-associated and interferon-primed programs. Global TREM2 deficiency was associated with increased inflammasome-related signaling in retinal myeloid cells, including elevated cleaved caspase-1, cleaved gasdermin D, and mature interleukin-1beta, linking amplified immune priming to pyroptotic signaling. Genetic or pharmacological inhibition of gasdermin D significantly mitigated photoreceptor loss in global TREM2-deficient rd10 retinas, demonstrating a functional contribution of inflammasome-associated responses to disease exacerbation. Together, these findings support a protective role for TREM2-associated immune regulation in the degenerating retina and identify downstream inflammasome pathways as potential therapeutic targets in retinal degenerative diseases.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42322641</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42322641</infon>
+      <offset>0</offset>
+      <text>Time-resolved single-nucleus profiling of inter- and intracellular signaling in optic nerve injury: From the hyperacute phase to the acute phase.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>146</offset>
+      <text>Optic nerve injury induces rapid retinal neurodegeneration; however, how distinct retinal cell type responses are coordinated from the hyperacute injury phase to the early repair phase remains incompletely understood. In this study, to explore the dynamic changes in intercellular and intracellular signaling events between different cell types and elucidate their potential roles in retinal ganglion cell survival and early repair, we generated a time-resolved single-nucleus RNA sequencing atlas of adult male mouse retinas across five hyperacute-to-acute timepoints (2 hours, 8 hours, 1 day, 3 days, and 7 days) following optic nerve injury. Using computational network analysis, we reconstructed dynamic cell-to-cell communication and subsequent internal genetic responses among retinal ganglion cells, Muller glia, microglia, and endothelial cells. Distinct stage-specific intercellular communication networks were identified, including transient Itgb1-associated signaling between Muller glia and retinal ganglion cells that peaked at early timepoints, enhanced Nrxn1-Nlgn1-mediated signaling in endothelial cells during the acute phase, and sustained Sema6a-Plxna4 interactions in microglia through day 7. Functional pathway analysis linked these signaling events to focal adhesion, energy metabolism, immune regulation, and cell adhesion pathways. Multiplex immunofluorescence further validated the temporal dynamics and spatial localization of key signaling molecules, including Itgb1, Nlgn1, and Plxna4, consistent with the transcriptomic findings. Collectively, these results delineate a coordinated hyperacute-to-acute neuro-glial-vascular signaling network that supports retinal ganglion cell survival and identify potential molecular targets for therapeutic intervention following optic nerve injury.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42323125</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42323125</infon>
+      <offset>0</offset>
+      <text>Circulating acidic alpha-glucosidase as a potential biomarker for lactate-related immunometabolism in ischemic stroke.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>119</offset>
+      <text>BACKGROUND: The role of lactate metabolism in ischemic stroke (IS) remains incompletely understood. This study aimed to characterize lactate-related transcriptomic profiles in IS to identify novel diagnostic biomarkers. METHODS: Gene co-expression network analysis and machine learning were used to identify core lactate metabolism-related genes from public transcriptomic datasets and validate them in an independent clinical cohort. Single-cell mouse brain transcriptomic data further characterized GAA expression across brain cell types. An in vitro OGD/R model was established in GAA-high-expressing cells to assess its expression under ischemic/hypoxic conditions. GAA expression in immune cells and its association with macrophage polarization were also evaluated. RESULTS: GAA emerged as a core gene, exhibiting significant upregulation in the whole blood of IS patients with robust diagnostic performance (area under the curve = 0.873). This upregulation was confirmed in validation models. After stroke, GAA exhibited a cell-type-specific expression pattern: it was elevated in macrophages and microglia. Notably, GAA expression positively correlated with the anti-inflammatory M2 macrophage marker MRC1 (r = 0.43) and negatively correlated with the pro-inflammatory cytokine interleukin-1beta (IL-1beta) (r = -0.48), indicating that high GAA levels favor M2-biased polarization. CONCLUSION: GAA acts as a potential upstream regulator of lactate metabolism in IS. By linking lysosomal glycogen metabolism to lactate production, GAA may modulate macrophage polarization via a "lactate timer" mechanism. These findings highlight GAA as a promising blood-based biomarker for the auxiliary diagnosis of IS.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42323387</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42323387</infon>
+      <offset>0</offset>
+      <text>Coordinated transcriptional shifts in microglia and oligodendrocytes from neurodevelopment to inflammaging.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>108</offset>
+      <text>Glial cells shape brain development and aging, yet whether distinct glial lineages undergo coordinated lifespan transitions remains unclear. Although microglial aging states and oligodendrocyte vulnerability in neurodegeneration are well described, it remains unclear whether these programs evolve independently or in a temporally related manner. Here, we analyzed Mouse Cell Atlas single-cell RNA-seq data spanning embryogenesis to 24 months. Microglia and oligodendrocytes were the most transcriptionally dynamic glial populations, whereas astrocyte module activity was primarily observed during development. Microglia and oligodendrocytes exhibited similar late-life increases in inflammatory and senescence-associated modules, supported by cross-correlation (Pearson r   0.98; Max_CCF   0.98), dynamic time warping (DTW   6.16), and a large effect size (Cohen's d   11.08). These patterns were also supported by mixed glial contexts (p = 1.85 x 10-3). Together, these results identify a parallel transcriptional shift in microglia and oligodendrocytes from neurodevelopment to inflammaging and suggest that shared temporal programs across glial lineages may contribute to neurodegenerative vulnerability. This quantitative framework for assessing temporal similarity may be broadly applicable to other biological systems involving dynamic cellular state transitions.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42324467</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42324467</infon>
+      <infon key="article-id_pmc">PMC13317314</infon>
+      <offset>0</offset>
+      <text>PD-1 H (VISTA) drives immunosuppressive reprogramming of glioma-associated myeloid cells to promote glioma progression.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>122</offset>
+      <text>BACKGROUND: Glioma is characterized by a profoundly immunosuppressive tumor microenvironment (TME) that severely limits immune checkpoint blockade efficacy. Glioma-associated myeloid cells (GAMs), including resident microglia and infiltrating macrophages, constitute the dominant immune population within gliomas and shape antitumor immune responses. While immune checkpoint pathways have been extensively studied in T lymphocytes, the contribution of myeloid-restricted immune checkpoints to glioma progression remains poorly defined. Programmed death-1 homolog (PD-1 H/VISTA) is an inhibitory immune checkpoint predominantly expressed by myeloid cells, yet its functional role in GAMs has not been systematically investigated. METHODS: PD-1 H expression in human glioma was analyzed using immunohistochemistry, bulk transcriptomic datasets, and single-cell RNA sequencing. Associations between PD-1 H expression, immune cell composition, and patient survival were evaluated in clinical cohorts. The functional role of PD-1 H in GAMs was examined using genetically manipulated myeloid cells in vitro and orthotopic glioma mouse models in vivo. Transcriptomic profiling was performed to identify PD-1 H-associated biological pathways. The therapeutic potential of PD-1 H blockade was assessed using monoclonal antibody treatment in glioma-bearing mice. RESULTS: PD-1 H was highly expressed in human glioma tissues and was predominantly enriched in GAMs. Elevated PD-1 H expression was associated with an immunosuppressive tumor microenvironment characterized by increased infiltration of immunosuppressive myeloid populations, reduced cytotoxic T-cell presence, elevated expression of multiple immune checkpoint molecules, and unfavorable clinical outcomes. Functionally, PD-1 H promoted immunosuppressive myeloid polarization, enhanced malignant behaviors of glioma cells, and suppressed CD8+ T-cell proliferation in vitro. In orthotopic glioma models, PD-1 H expression in GAMs accelerated tumor progression, promoted T-cell exhaustion, and shortened survival, whereas PD-1 H deficiency restrained tumor growth and prolonged survival. Mechanistic studies revealed that the AKT/NF-kappaB pathway mediates PD-1 H-dependent myeloid reprogramming. Importantly, therapeutic blockade of PD-1 H significantly suppressed glioma growth and improved survival in vivo. CONCLUSIONS: PD-1 H functions as a myeloid-restricted immune checkpoint that drives immunosuppressive reprogramming of glioma-associated myeloid cells, promotes glioma progression, and impairs antitumor T-cell immunity. Targeting PD-1 H represents a promising myeloid-focused immunotherapeutic strategy to overcome immune suppression in glioma.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42331275</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42331275</infon>
+      <offset>0</offset>
+      <text>Microglial HMGB1 drives hyperacute neuroinflammation and acute neuronal injury following cerebral ischemia-reperfusion by shaping early microglial inflammatory responses.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>171</offset>
+      <text>High-mobility group box 1 (HMGB1) is a nuclear protein that can act as a major damage-associated molecular pattern after cerebral ischemia-reperfusion (I/R). However, the cell-type-specific contribution of microglial HMGB1 to early neuroinflammatory responses during the hyperacute phase of stroke is not fully understood. Here, we investigated the role of microglial HMGB1 in early inflammatory activation using a mouse model of middle cerebral artery occlusion/reperfusion (MCAO/R) and microglia-specific HMGB1 conditional knockout mice (HMGB1DeltaMG). Acute neurological deficits, early ischemic lesion volume, microglial activation, inflammatory cytokine production, and neuronal integrity were evaluated at 6 h after reperfusion. In wild-type mice, hyperacute I/R induced rapid HMGB1 nuclear export, pronounced microglial activation with amoeboid-like morphology, increased TNF-alpha and IL-6 expression, and reduced TGF-beta1 expression in vulnerable brain regions, including the medial prefrontal cortex and hippocampal CA1. Conditional deletion of microglial HMGB1 reduced early ischemic lesion volume, attenuated acute neurological deficits, dampened pro-inflammatory activation, decreased Iba1+iNOS+ cell accumulation, partially preserved or increased anti-inflammatory marker expression, and alleviated neuronal injury. These findings suggest that microglial HMGB1 acts as an important microglia-derived early trigger that contributes to hyperacute neuroinflammatory amplification and acute neuronal damage after I/R. Targeting HMGB1 mobilization in microglia may represent a promising strategy for attenuating early inflammatory amplification after ischemia-reperfusion.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42334745</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42334745</infon>
+      <offset>0</offset>
+      <text>TFE3 Regulates Microglial Phagocytosis and Inflammation in MPTP-induced Parkinson's Disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>93</offset>
+      <text>Parkinson's disease (PD) is a common neurodegenerative disease. Our previous single-cell sequencing results suggested that Transcription Factor E3 (TFE3) was only differentially expressed in microglia in the MPTP mouse model. However, the functional role of microglial TFE3 in PD pathogenesis remains unclear. First, motor function was assessed in MPTP mice following TFE3 overexpression in substantia nigra microglia. Second, RNA-seq was used to identify the function of TFE3 in microglia, and the molecular mechanism was verified both in vivo and in vitro. Finally, we investigated whether TFE3 nuclear translocation affects its transcriptional activity and subsequently influences microglia in vitro. Overexpression of TFE3 in substantia nigra microglia could alleviate PD-related phenotypes. RNA-seq revealed that TFE3 regulates microglial phagocytosis and inflammation. Mechanistically, TFE3 affects these functions by regulating the expression of Mer receptor tyrosine kinase (Mertk) and lysosomal-associated membrane protein 1 (Lamp1). Finally, Rapamycin could activate the nuclear translocation of TFE3 and enhance phagocytosis and alleviate inflammation of microglia. Our findings demonstrate that Rapamycin activates TFE3, which in turn upregulates the expression of Mertk and Lamp1 in the substantia nigra. This TFE3-mediated pathway plays a critical role in regulating microglial phagocytosis and inflammation in the PD model.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42368192</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42368192</infon>
+      <infon key="article-id_pmc">PMC13306109</infon>
+      <offset>0</offset>
+      <text>Depletion of microglial compensation in glial network: Disease-associated response dynamics in the revised amyloid hypothesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>127</offset>
+      <text>Microglia mount coordinated, stage-dependent compensatory programs in response to early amyloid beta (Abeta) accumulation that preserve proteostasis and neuronal integrity during preclinical Alzheimer's disease. We propose the "microglial compensation-depletion" framework that describes a distributed compensatory network whose failure constitutes a mechanistic tipping point. Once compensatory capacity falls below a critical threshold, positive-feedback loops amplify irreversible pathology, eventually leading to cognitive decline. Integrating single-cell transcriptomics, chromatin accessibility, and genetic evidence from human cohorts and animal models, we synthesize evidence for stage-dependent microglial transitions and for glial interactions that shape resilience or vulnerability. The microglial compensation-depletion framework in the revised amyloid hypothesis is a multiscale, dynamical perspective and highlights potential strategies for modeling and clinical intervention. Intercellular ligand-receptor networks may provide quantitative substrates for defining glial-state patterns and even identifying key communication axes that delineate transitions. For example, microglial triggering receptor expressed on myeloid cells 2 (TREM2)-apolipoprotein E (APOE) signaling exemplifies an intercellular axis that modulates microglial phenotype and Abeta handling. Clinically, in vivo imaging and biofluid biomarkers may offer potential means to track glial functional reserve and to detect approaching tipping points.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42377966</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42377966</infon>
+      <offset>0</offset>
+      <text>Blood cytotoxic natural killer-like CD8 + CD94+ T cells migrate to the brain and predict multiple sclerosis severity.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>118</offset>
+      <text>Memory CD8+ T cells are central to multiple sclerosis (MS) and undergo clonal expansion, but disease-associated states remain incompletely defined. By single-cell profiling of circulating memory CD8+ T cells from patients with relapsing-remitting MS, healthy volunteers, and neuroinflammatory controls, we identified an MS-associated cytotoxic subset with NK-like features. These cells increase around relapse activity and belong to an oligoclonal reservoir. In an independent cohort sampled at the first clinical event, an elevated frequency of NK-like CD8+ T cells predicted an aggressive MS course two years later and was associated with a migratory/inflammatory program. Bulk and single-cell RNA-seq confirmed the NK-like transcriptional signature, and functional assays demonstrated TCR-independent cytotoxicity. Immunostaining and spatial transcriptomics revealed enrichment of these cells in MS lesions and a spatial association with macrophages/microglia. Together, our results identify a cytotoxic NK-like CD8+ T-cell subset that links peripheral inflammation to CNS lesions and may serve as an early biomarker of MS severity.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42379398</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42379398</infon>
+      <offset>0</offset>
+      <text>Evidence for hippocampal globotriaosylceramide (Gb3) accumulation and spatial memory impairment in a mouse model of Fabry disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>131</offset>
+      <text>Fabry disease (FD) is an X-linked lysosomal storage disorder caused by pathogenic variants in the GLA gene that reduce alpha-galactosidase A activity and lead to progressive accumulation of globotriaosylceramide (Gb3) and related glycosphingolipids. In the human brain, Gb3 deposition is reported predominantly within the endothelium of small cerebral vessels and is associated with cerebrovascular dysfunction, seizures, cognitive impairment, and neuropsychiatric symptoms. In experimental animal models, its regional distribution, cellular localization, and relationship to cognitive dysfunction remain incompletely defined and appear to vary according to species, model, age, disease severity, and detection method. Here, using the alpha-galactosidase A hemizygous knockout mouse (alpha-Gal A -/0) and immunofluorescence, we performed a regional and cell-type-specific characterization of Gb3 immunoreactivity in the hippocampus and assessed hippocampal-dependent spatial learning and memory. Compared with wild-type controls (alpha-Gal A +/0), alpha-Gal A -/0 mice showed a marked increase in hippocampal Gb3 immunoreactivity, with deposits localized mainly to vascular endothelial cells and frequent signal within the capillary lumen. Neuronal Gb3 signal was detected in dentate gyrus hilar neurons with mossy cell-like morphology. Gb3 did not overlap with astrocytic (GFAP) or microglial (Iba1) markers, although astrocytic endfeet and activated microglia were often apposed to Gb3-positive vessels. In parallel, alpha-Gal A (-/0) mice displayed impaired Morris water maze acquisition and reduced spatial memory during the probe trial, without changes in swimming speed or distance. These data suggest that alpha-Gal A deficiency is associated with increased hippocampal Gb3 immunoreactivity, mainly in neurovascular compartments, and with measurable impairment in spatial memory.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42382038</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42382038</infon>
+      <infon key="article-id_pmc">PMC13314553</infon>
+      <offset>0</offset>
+      <text>Deep contrastive learning framework identifies cell-type-specific drug targets in Alzheimer's disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>103</offset>
+      <text>INTRODUCTION: Identifying disease-modifying drug targets is crucial for developing effective Alzheimer's disease (AD) treatments. METHODS: We present a deep contrastive learning framework for cell type-specific AD-associated genes identification (alzCL). alzCL creates cell-type-specific representations of genes by integrating human brain single-nucleus RNA-sequencing data with the human protein-protein interactome, thereby capturing both genetic signatures and functional features. RESULTS: By integrating human brain snRNA-seq data, alzCL outperforms the state-of-the-art models by 18% to 24% in area under the receiver operating characteristic curve. Via alzCL, we computationally identified 16, 164, and 221 AD-associated genes across astrocytes, microglia, and inhibitory neurons, respectively. Top prioritized genes (e.g., MAP3K5, P2RX4, and PRKD1) are significantly enriched in multiple AD-associated inflammatory and other pathobiological pathways. By integrating drug-target interaction data with alzCL-predicted AD-associated genes, we identified potential repurposable drugs for AD, including selonsertib and paroxetine. DISCUSSION: AlzCL offers a deep contrastive learning framework for discovery of disease-associated genes and drug targets in AD.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42393685</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42393685</infon>
+      <offset>0</offset>
+      <text>Structural-functional network decoupling in early stage amyotrophic lateral sclerosis reveals cell-type specific transcriptional signatures.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>141</offset>
+      <text>BACKGROUND: Amyotrophic lateral sclerosis (ALS) involves widespread brain network dysfunction, yet the molecular mechanisms linked to these alterations remain poorly understood. We investigated macroscopic structural-functional coupling abnormalities in early-stage ALS (ALS-ES) and their underlying transcriptomic signatures. METHODS: We analyzed multimodal MRI data from 73 patients with sporadic ALS-ES and 74 age- and sex-matched healthy controls. Structural-functional (SC-FC) coupling was quantified using diffusion tensor imaging and resting-state functional MRI. Machine learning models were constructed to distinguish patients from controls based on network features. Coupling alterations were spatially correlated with neurotransmitter receptor maps and gene expression profiles from the Allen Human Brain Atlas. Key transcriptomic findings were validated using independent single-cell RNA sequencing datasets. RESULTS: While structural connectivity remained largely preserved, functional connectivity was significantly reduced in the somatomotor network (SMN). This mismatch manifested as significant SC-FC network decoupling, particularly within the SMN (pFDR = 0.001). A gradient boosting machine model accurately classified patients, identifying SC-FC coupling in the left precentral gyrus as a primary statistical contributor to the classification model. Decoupling spatially correlated with 5-HT2A and mGluR5 receptor distributions. Imaging-transcriptomics linked network failure to a gene signature enriched for synaptic pathways and microglial markers. Single-cell analysis identified FMN1 as a candidate gene whose glial expression spatially associates with network decoupling. CONCLUSIONS: Early-stage ALS is characterized by significant structural-functional network decoupling, primarily in motor systems. This macroscopic failure is linked to specific microglial dysregulation, particularly FMN1 downregulation, providing a multiscale framework bridges statistical neuroimaging signatures with potential cellular pathology.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42401827</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42401827</infon>
+      <offset>0</offset>
+      <text>Single nuclear RNA sequencing shows altered microglial and astrocytic functions in post-mortem Parkinson's disease tissue.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>123</offset>
+      <text>BACKGROUND: Parkinson's disease (PD) is a neurodegenerative disease marked by a progressive loss of dopaminergic neurons in the substantia nigra pars compacta (SNpc) and formation of misfolded protein aggregates. A growing body of research has implicated glial cell dysfunction in PD etiology, including the concentration of activated glial cells around protein aggregates in post-mortem tissue. A disruption in the balance of pro- and anti-inflammatory immune response functions of microglia and astrocytes is believed to contribute towards neuronal degeneration as the disease progresses. However, the molecular mechanisms remain unclear. To shed light on the role of microglia and astrocytes in PD, this study analyzes three public single nuclear RNA sequencing datasets of the SNpc from patient and control post-mortem brains to identify altered molecular pathways in PD. RESULTS: Both astrocytes and microglia show significant upregulation of heat shock binding and misfolded protein response pathways, likely reflecting a response to accumulating protein aggregates. Additionally, both cell types show decreased expression of genes associated with receptor functions; for microglia this included cytokine receptor genes such as IL21R, IL4R, and IFI44L. Genes associated with resting state microglia and non-inflammatory reactive state microglia were downregulated in PD microglia, including P2RY13, RSAD2, CSF2RA, CSF3R, and CX3CR1. Concurrently, astrocytes and microglia both show decreased expression of genes associated with neurotransmitter receptor functions that include glutamate and other ion channel receptors, suggesting a loss of neuron-glia communication in later disease stages. CONCLUSIONS: Taken together, our findings imply that astrocytes and microglia respond to protein misfolding pathology in PD by upregulating chaperone protein folding functions. Additionally, the profile of upregulated functions implies that both cell types are under increased energetic demand. The downregulation of neurotransmitter and channel receptor functions in both cell types indicates that neuron-glia communication and other supportive functions may be lost in favour of autophagic, protein-clearance mechanisms in PD microglia and astrocytes.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42403013</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42403013</infon>
+      <offset>0</offset>
+      <text>Fus-depleted oligodendrocytes reduce neuronal damage and Alzheimer's disease progression in the AppNL-G-F mouse.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>113</offset>
+      <text>Alzheimer's Disease (AD) is an age-dependent neurodegenerative disorder and represents the most common type of dementia, increasing in incidence at an alarming rate in the aging population. The hallmarks of the disease are amyloid plaque accumulation, microglia and astrocyte activation, and loss of presynaptic structure leading to cognitive decline. Recently, oligodendrocyte (OL) and myelin abnormalities have emerged as important contributors to the pathogenesis of AD. In normal brain homeostatic conditions, OL maintain neuronal health through myelin axon interactions and by supplying neurotrophic and metabolic support. How strengthening OL function may support neuronal health in AD neurodegeneration remains to be fully characterized and represents a gap in knowledge and a missed therapeutic opportunity. This study sought to examine how myelin and OL may improve neuronal deficits associated with AD. We have generated a novel mouse model (AD/cKO) by crossing the AppNL-G-F mouse, an established AD model, which carries three human AD mutations in the mouse App gene, with the FusOLcKO whose OL depleted of Fus (Fused in Sarcoma) produce thicker myelin associated with greater cholesterol biosynthesis. We evaluated spatial memory function with standardized cognitive testing. We evaluated microglia density and state, astrocytic activation and toxic phenotype, myelin density, cholesterol content, amyloid plaque burden, presynaptic structures, and neuronal hypoxic and oxidative damage in the hippocampus and cortex. We characterized the transcriptome of AD/cKO hippocampal OL compared to AD by using single-cell transcriptomic studies. Spatial working memory was fully preserved in the aged AD/cKO mouse relative to the AD mouse. This outcome was associated with reduced neuronal oxidative damage, preserved presynaptic structures at the amyloid plaque niches, and a shift in microglia state at the niches in both hippocampus and cortex. In contrast, amyloid plaque burden and microglia density were decreased in the hippocampus but not in cortex, uncoupling the neuronal and microglia effects from the amyloid burden. Fus dependent myelin increase was present in both hippocampus and cortex. Single-cell transcriptomics of AD/cKO hippocampal OL revealed upregulation of energy metabolism and antioxidant genes, suggesting a role of OL enhanced energy metabolism in mediating protection of neurons and affecting microglia state in AD pathology. This work provides new insight into how oligodendrocytes may protect neurons in AD, communicate with other glial cellular players, and point to potential targets for disease intervention aimed at slowing AD progression.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42413776</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42413776</infon>
+      <offset>0</offset>
+      <text>Thymus-derived myeloid programs track microglial tolerance states across human cohorts.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>88</offset>
+      <text>INTRODUCTION: Microglial functional positioning varies across individuals and disease contexts, yet conserved biological axes supporting reproducible cross-cohort inference remain poorly defined. Intrathymic T cell development offers a paradigm in which chemokines, extracellular matrix (ECM)/adhesion factors, and axon guidance cues jointly govern immune cell migration and selection. We asked whether thymus-derived transcriptional programs provide a transferable basis for quantifying microglial tolerance-like positioning across independent human cohorts. METHODS: We applied consensus non-negative matrix factorization to Tabula Sapiens thymus single-cell transcriptomes to derive eight Myeloid Education Signatures (MES); under formal enrichment testing, two were significantly enriched for ECM/adhesion biology and the rest were treated as data-driven programs without a dominant axis. MES scores were projected into four independent microglia cohorts (SEA-AD, Olah, Tuddenham, multiple sclerosis; &gt;100 donors) and related to a donor-level tolerance score (homeostatic minus activation gene-set activity). Glucocorticoid receptor (GR) activity, calibrated from an external perturbation dataset, was evaluated as a moderator. Cross-cohort synthesis used random-effects meta-analysis with sensitivity analyses and multiple testing control. RESULTS: Seven of eight MES modules were inversely associated with tolerance positioning; the eighth (MES08, defined by CCL2/CXCL2 chemokine genes) showed the most heterogeneous coupling across cohorts. The association strengthened monotonically with microglial purity in three of four cohorts, was recapitulated in Visium spatial transcriptomics, and was robust to covariate adjustment, housekeeping-gene removal, and leave-one-dataset-out sensitivity. This coupling was preferential to thymus-derived modules: modules built identically from six other tissues (blood, spleen, liver, lung, bone marrow, lymph node) coupled 1.2 to 2.9 fold less strongly, across module-number and feature-selection choices. Under a formal per-module interaction model, GR activity did not moderate the association, a well-powered null reproduced with a canonical GR panel and an external cohort. Irisin pathway (five-gene FNDC5/PPARGC1A module) associations were modest and largely non-significant after correction. CONCLUSIONS: Thymus-derived myeloid programs constitute a transferable, tissue-preferential axis inversely coupled to microglial tolerance-like positioning, without detectable glucocorticoid moderation.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42425257</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42425257</infon>
+      <infon key="article-id_pmc">PMC13445965</infon>
+      <offset>0</offset>
+      <text>Cell-specific expression of APP and GABABR1 isoforms in wild-type and the APP NL-G-F mouse model of Alzheimer's disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>121</offset>
+      <text>Amyloid precursor protein (APP) is a type I transmembrane protein that undergoes proteolytic processing to generate amyloid-beta, the main component of amyloid plaques found in brains with Alzheimer's disease (AD). APP proteolytic processing also generates soluble APP alpha (sAPPalpha) which modulates synaptic transmission and neurite outgrowth through the gamma-aminobutyric acid type B receptor (GABABR). sAPPalpha specifically binds the 1a isoform of GABABR subunit 1 (R1a) which contains two sushi domains absent in R1b. Here, we define the cell type-specific expression patterns of APP and GABABR1a in the brain and assess their alterations in the APP NL-G-F model of AD. We determined relative RNA levels of R1a and R1b isoforms in oligodendrocytes, microglia, endothelial cells, astrocytes, and neurons in adult mice using two approaches. We developed an isoform-specific RNAseq analysis workflow to probe publicly available datasets. We also isolated these cell types from a single mouse brain and performed RT-qPCR with isoform-specific primers. APP and GABABR1 isoforms were differentially expressed among cell types. APP and GABABR1a expression were highest in oligodendrocytes. In contrast, GABABR1b expression was highest in astrocytes. While microglia expressed relatively low levels of GABABR, they showed the greatest change in GABABR expression in the APP NL-G-F mouse model, with alterations that were both sex- and age-specific. Together, our findings identify candidate cell types in which future studies may investigate the potential role of APP-GABABR signaling in health and AD.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42427771</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42427771</infon>
+      <infon key="article-id_pmc">PMC13344995</infon>
+      <offset>0</offset>
+      <text>The NORAD-pumilio regulatory axis links lncRNA dysregulation to tau propagation-associated phenotypes.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>103</offset>
+      <text>Long non-coding RNAs (lncRNAs) are increasingly implicated in neurodegenerative disease, yet their roles in tauopathy remain poorly understood. Here, we defined the lncRNA landscape across iPSC-derived neurons, astrocytes, and microglia harboring the frontotemporal dementia-associated MAPT IVS10+16 mutation and investigated how lncRNA dysregulation interfaces with tau pathology. Transcriptomic analyses revealed extensive cell-type specific lncRNA expression changes, with neurons exhibiting the greatest degree of mutation-associated remodeling. Comparative analyses with MAPT IVS10+16 patient brain tissue identified NORAD and MIR22HG as lncRNAs significantly dysregulated across all three cell types and human brains. NORAD was also altered in Alzheimer's disease and Parkinson's disease brains, suggesting a broader role in neurodegenerative disease. Mechanistically, NORAD-associated protein networks converged on pathways related to RNA regulation, cytoskeletal organization, proteostasis, and tau interaction networks. Given the established role of NORAD in regulating PUM1 and PUM2 RNA-binding (pumilio) proteins, we examined the NORAD-pumilio axis and identified enrichment of pumilio-associated pathways linked to autophagy, endocytosis, proteostasis, and cytoskeletal regulation. NORAD depletion reduced tau seeding and uptake, whereas functional depletion of PUM1 or PUM2 increased both processes, supporting an antagonistic relationship between NORAD and pumilio signaling in modulation of tau aggregation. Together, these findings identify widespread lncRNA dysregulation across neural cell types in the setting of a MAPT mutation and nominate the NORAD-pumilio axis as a regulatory pathway linking RNA homeostasis and tau propagation biology.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42430983</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42430983</infon>
+      <offset>0</offset>
+      <text>Integrated multi-omics analysis identifies key microglial subpopulations and therapeutic targets in Parkinson's disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>121</offset>
+      <text>BACKGROUND: Parkinson's disease (PD) is a rapidly growing global health concern, with aging populations driving increasing prevalence. While neuronal degeneration is a hallmark, emerging evidence implicates chronic neuroinflammation as a key contributor to disease progression. Despite its recognized importance, the cellular sources, functional heterogeneity, and actionable mechanisms of inflammation in the human substantia nigra remain poorly understood, limiting the development of precise diagnostic biomarkers and therapeutic interventions. METHODS: We integrated single-nucleus RNA sequencing (snRNA-seq) from postmortem substantia nigra with bulk transcriptomic datasets (GSE133101, GSE7621) across multiple cohorts. Using Harmony-based batch correction, cell-type annotation, microglia-specific re-clustering (resolution = 0.1), pseudotime trajectory inference, weighted gene co-expression network analysis (WGCNA), and machine learning, we mapped the neuroinflammatory landscape of PD at single-cell resolution. Diagnostic performance was assessed via receiver operating characteristic (ROC) curve analysis (AUC &gt;0.7), and druggable targets were prioritized through molecular docking and 100-ns molecular dynamics (MD) simulations. RESULTS: Microglia emerged as the principal immune driver of PD-associated inflammation. Six transcriptionally distinct microglial subpopulations were identified, with Micro1 enriched for antigen presentation, complement activation, and early pseudotime states. An 8-gene microglia-preferential signature (HSPA6, SERPINH1, CHORDC1, P4HA1, HSPH1, IER5, SLC38A2, and FKBP4), associated with ER stress, protein folding, and immune activation, achieved robust diagnostic performance (AUC &gt;0.9) across cohorts. Gene set enrichment analysis revealed convergence on proteostasis and innate immune pathways, and pan-cellular activation patterns indicated a systemic, non-cell-autonomous inflammatory environment. MD simulations confirmed the structural stability of the FKBP4-SAR260301 complex, highlighting its therapeutic potential. CONCLUSIONS: By indicating microglial functional heterogeneity and defining a validated, biologically grounded diagnostic signature, this study advances the mechanistic understanding of PD neuroinflammation. This study transforms neuroinflammation from a correlative hallmark to a mechanistically actionable axis, providing an urgently needed roadmap for inflammation-informed precision medicine in PD.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42436517</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42436517</infon>
+      <offset>0</offset>
+      <text>Neddylation-dependent CUL3-KLHL12 E3 ligase drives microglial oxidative stress and neuroinflammation in traumatic brain injury by targeting GCLM for degradation.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>162</offset>
+      <text>BACKGROUND: Microglia-mediated neuroinflammation and oxidative stress are pivotal drivers of secondary injury following traumatic brain injury (TBI). While neddylation governs essential cellular functions, its specific contribution to microglial activation and TBI pathology remains poorly understood. METHODS: We integrated bulk microglial RNA sequencing profiles with single-cell RNA sequencing (scRNA-seq) datasets from TBI mouse brains. To assess therapeutic potential, we employed a controlled cortical impact mouse model and treated animals with the neddylation inhibitor MLN4924. The role of microglia was validated using microglia-depleted mice. Mechanistically, a combinatorial approach utilizing AlphaFold 3 molecular docking predictions, quantitative proteomics, and immunoprecipitation-mass spectrometry was performed to identify molecular targets. RESULTS: We revealed a specific and robust up-regulation of neddylation exclusively within microglial clusters. Pharmacological inhibition of neddylation using MLN4924 significantly ameliorated neurological deficits, attenuated brain edema, and preserved blood-brain barrier integrity. Crucially, these neuroprotective benefits were abrogated in microglia-depleted mice, pinpointing microglia as the primary cellular target. We identified the glutamate-cysteine ligase modifier subunit (GCLM) as a novel substrate of the CUL3-KLHL12 E3 ligase complex. MLN4924 inhibits CUL3 neddylation, thereby impeding the CUL3-KLHL12-mediated ubiquitination and degradation of GCLM. Consequently, GCLM stabilization restores intracellular glutathione synthesis, effectively scavenging reactive oxygen species and mitigating neuroinflammation. CONCLUSIONS: Our findings characterize the Neddylation-CUL3-KLHL12-GCLM axis as a critical regulator of microglial redox homeostasis and highlight this pathway as a promising therapeutic target for TBI intervention.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42443609</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42443609</infon>
+      <infon key="article-id_pmc">PMC13375653</infon>
+      <offset>0</offset>
+      <text>Spatial mapping and senolytic targeting of senescent and disease-associated microglia in aged mouse brain white matter.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>120</offset>
+      <text>Brain white matter undergoes structural and functional alterations linked to late-life cognitive decline, but the cellular and molecular basis of its selective vulnerability remains incompletely defined. Here, in naturally aged mice, we demonstrate that senescent and disease-associated microglia (DAM) phenotypes converge in hippocampal-adjacent white matter, particularly in the fimbria. Using regional gene expression profiling, immunolabeling, GeoMx digital spatial profiling and CosMx spatial molecular imaging, we identify an aged brain-exclusive microglial population concentrated in white matter that expresses DAM genes together with a 'SenBrain' senescence gene signature, including galectin-3 (GAL3/Lgals3). Single-cell spatial trajectory analyses suggest that multiple cell fate transitions may give rise to this aged, proinflammatory, senescent- and DAM-linked state. Pharmacogenetic or pharmacological senotherapeutic interventions reduced white matter GAL3+ DAM abundance and restored a more youthful microglial organization in aged fimbria. These findings identify a senescence- and DAM-enriched microglial state as a prominent and partially reversible feature of aged brain white matter.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42447147</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42447147</infon>
+      <infon key="article-id_pmc">PMC13394255</infon>
+      <offset>0</offset>
+      <text>Single-cell atlas of neuroglial dynamics in SNCA-A53T Parkinson's disease mouse model.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>87</offset>
+      <text>BACKGROUND: Parkinson's disease (PD) is a neurodegenerative disorder characterized by progressive degeneration of midbrain substantia nigra dopaminergic neurons, resulting in striatal dopamine depletion and motor dysfunction. While this pathological cascade is well-established, its underlying mechanisms remain elusive. METHODS: To further investigate the pathological mechanisms of PD, we performed single-cell RNA sequencing of the midbrain and striatum from Hua-Syn (SNCA*A53T) transgenic (A53T) mice as a PD model. RESULTS: Analysis of 22 865 midbrain and 32 117 striatal cells revealed cell-type-specific risk association. Glial populations (astrocytes, microglia, oligodendrocytes) showed significant enrichment for PD-risk genes. Variance-based clustering identified PD-enriched subclusters exhibiting upregulated inflammatory pathways, apoptotic pathways, proteostasis disruption, glutamatergic signaling dysregulation, and mitochondrial respiratory chain defects. Transcriptional regulation analysis identified genes associated with PD specific activity, including Rorb and Foxc1 in the midbrain and Dbx2 and Klf13 in the striatum. Cell-cell interactions showed that cell-to-cell signaling was enhanced, and the SEMA and CCL neuroinflammatory axes were specifically activated in the PD group. CONCLUSIONS: Our integrative analysis delineates the cellular and molecular architecture of the pathological process triggered by the expression of A53T mutant alpha-synuclein, and provides a framework for targeted therapeutic development.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42452963</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42452963</infon>
+      <offset>0</offset>
+      <text>Activation of sigma non-opioid intracellular receptor 1 (S1R) receptor inhibits plexin domain containing 2 (Plxdc2) driven microglial inflammation to ameliorate depressive-like behaviours in mice.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>197</offset>
+      <text>BACKGROUND AND PURPOSE: Microglia are central regulators of neuroinflammation in depression. Drivers involved remain incompletely understood. Sigma non-opioid intracellular receptor 1 (S1R) is involved in brain inflammation. This study investigates how S1R regulates neuroinflammation associated with depression. EXPERIMENTAL APPROACH: Using integrated machine learning and single-cell transcriptomics, a key gene implicated in microglial dysfunction in depression was identified. Its relevance was examined in a lipopolysaccharide (LPS)-induced mouse model of depression and LPS-stimulated BV-2 cells. Further, targeted knockdown or overexpression of this gene was performed on medial prefrontal cortex (mPFC) microglia, followed by integrated behavioural, cellular and molecular analyses. KEY RESULTS: Plxdc2 was the key gene up-regulated at both transcriptional and protein levels in blood and depression-susceptible brain regions. Single-cell RNA sequencing confirmed its specific enrichment in microglia, particularly within inflammatory gene sets related to N-linked glycosylation (NLG). LPS-treated mice, depressive-like behaviours were accompanied by elevated expression of Plxdc2 and the glycosylation-related enzyme beta-1,4-galactosyltransferase 1 in mPFC microglia. The S1R agonist Hypidone hydrochloride (YL-0919) or conditional knockdown of Plxdc2, reversed these molecular changes, reduced neuroinflammation and alleviated depressive-like behaviours. Analysis demonstrated that overexpressing Plxdc2 in mPFC microglia activated the JAK2-STAT1 pathway, enhanced NLG, shifting microglia towards a pro-inflammatory phenotype, worsening deficits in synaptic plasticity and induced depressive-like behaviour. These were reversible by the NLG inhibitor tunicamycin. CONCLUSIONS AND IMPLICATIONS: Plxdc2 promotes depressive-like behaviours by dysregulating NLG-mediated inflammatory in microglia. S1R activation has a therapeutic effect by inhibiting this pathway, positioning the S1R-Plxdc2 axis as a potential target for modulating microglial function in inflammation-related depression.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42457084</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42457084</infon>
+      <offset>0</offset>
+      <text>Glial heme oxygenase-1 regulates neuroinflammation and cerebrovascular function after mild traumatic brain injury.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>115</offset>
+      <text>The enzyme heme oxygenase-1 (HO-1) exerts neuroprotective functions through its antioxidative and anti-inflammatory properties; however, the cellular and molecular mechanisms by which HO-1 and its product carbon monoxide (CO) influence neuronal damage after traumatic brain injury (TBI) remain largely unclear. Using a murine model of single-hit mild TBI, we examined the role of glial HO-1 by comparing wild-type mice (Hmox1fl/fl) with microglia- or astrocyte-specific HO-1 knockout mice (LyzM-Cre-Hmox1fl/fl and GFAP-Cre-Hmox1fl/fl, respectively). Following injury, mice were exposed daily to either ambient air or CO. Seven days post-injury, wild-type mice exhibited significant activation of microglia and astrocytes, whereas both knockout models showed impaired glial activation, accompanied by increased cerebral vascular tone. CO administration equalized glial activation and vascular tone across wild-type and HO-1 knockout mice. Direct genotypic comparison revealed a more pronounced pro-inflammatory phenotype in GFAP-Cre-Hmox1fl/fl mice, characterized by elevated vascular tone and increased expression of inflammatory markers GFAP and NF-kappaB, indicating cell type-specific functions of HO-1. Collectively, our findings demonstrate that microglial and astrocytic HO-1 mediate cerebral inflammation and regulate vasospasm following TBI. Importantly, this study identifies a previously unrecognized role of astrocytic HO-1 in TBI and highlights the importance of HO-1-dependent glial interactions. The ability of CO to partially rescue the effects of HO-1 loss, further underscores the therapeutic potential of targeting the HO-1/CO pathway in TBI.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42458112</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42458112</infon>
+      <offset>0</offset>
+      <text>Integrative single-cell and spatial transcriptomics combined with machine learning to discover complement-associated biomarkers in temporal lobe epilepsy with hippocampal sclerosis.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>182</offset>
+      <text>Temporal lobe epilepsy with hippocampal sclerosis (TLE-HS) poses significant challenges in therapeutic management. While studies have demonstrated seizure-induced alterations in peripheral immune molecules, the complement system, a central component of immune function, remains insufficiently characterized at single-cell resolution and spatial distribution in TLE-HS. This study aimed to comprehensively investigate the spatiotemporal dynamics of complement system components and their clinical implications in patients with TLE-HS. We first identified patterns of complement activity changes in epilepsy using bulk RNA sequencing. Then, we employed a TLE-HS mouse model for single-cell RNA sequencing and S1000 high-resolution spatial transcriptomics. We performed integrative bioinformatic analyses on single-cell data to quantify complement-system activity and define microglial heterogeneity, leading to the identification of complement-associated microglial subpopulations. Spatial transcriptomic data then validated the anatomical localization of these identified subpopulations. Finally, we developed and evaluated two machine-learning models based on complement-related gene signatures. Complement activity was elevated in epilepsy. The levels were higher in hippocampal sclerosis (HS) tissue than in normal hippocampus. They were also increased in mesial temporal lobe epilepsy with hippocampal sclerosis compared with mesial temporal lobe epilepsy without hippocampal sclerosis, and in patients with high seizure frequency (HSF) compared with those with low seizure frequency (LSF). Complement-related signatures were further associated with antiseizure medication response. Candidate biomarkers including IRF2, GNB2, EHD1, CTSB, and CFH were identified using statistical modeling and machine learning. Among multiple classifiers, the support vector machine model showed the best predictive performance, and SHAP analyses indicated distinct contribution directions for these candidate genes. In the kainic acid (KA) mouse model, single-cell analyses showed that complement activity was upregulated across cell types in HS. Microglia exhibited the highest complement activity. Re-clustering and trajectory inference defined HS-associated microglial subpopulations that were enriched in terminal differentiation states. hdWGCNA together with differential expression highlighted Ctsb, C1qa, and Fcer1g as core complement-linked genes. Using Ctsb-defined microglial states, eight diagnostic biomarkers were selected, and a multi-layer perceptron model achieved superior classification accuracy in epilepsy diagnosis. Finally, cell-cell communication and spatial transcriptomics consistently implicated an Spp1-related signaling axis associated with Ctsbhigh microglia in hippocampal sclerosis regions. The resulting diagnostic and response-prediction models were deployed as exploratory web-based research tools pending independent validation. Our study systematically characterized the complement system in TLE-HS by integrating multi-level omics data, including bulk RNA sequencing, single-cell sequencing, and spatial transcriptomics. We revealed the potential value of complement system gene signatures in clinical diagnosis and personalized treatment of epilepsy.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42463036</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42463036</infon>
+      <offset>0</offset>
+      <text>Role of Abca7-related microglial responses in linking type 2 diabetes mellitus to Alzheimer's disease progression: Evidence from single-cell transcriptomic analysis and experimental validation in animal and cell models.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>220</offset>
+      <text>Alzheimer's disease (AD) and type 2 diabetes mellitus (T2DM) share overlapping pathological mechanisms characterized by neuroinflammation and metabolic dysfunction, yet the underlying mechanisms remain elusive. In this study, we aimed to investigate the potential involvement of Abca7 in the microglial responses linking AD and T2DM. Single-cell RNA sequencing (scRNA-seq) data from the hippocampi of db/db and db/m mice were analyzed to characterize cellular heterogeneity. To validate the bioinformatic findings, an AD mouse model was established by a single intracerebroventricular injection of Abeta1-42. Behavioral performances were observed, and the protein expression of Abca7 and typical neuropathological features of AD were detected. In parallel, in vitro studies were conducted using BV2 microglial cells exposed to Abeta1-42 following Abca7 knockdown. The scRNA-seq analysis revealed significant alterations in endothelial cells, microglia, and oligodendrocytes in db/db mice. Microglia emerged as central regulators of neuroinflammatory responses, with Abca7 identified as a hub gene linked to both T2DM and AD pathology. Consistently, the expression of Abca7 in the hippocampus of AD mice was markedly elevated and positively correlated with the cognitive impairments and Abeta/Tau pathology. Moreover, the knockdown of Abca7 could protect BV2 cells against Abeta-induced injuries and hyperactivation which could be partly ascribed to the suppression of NF-kappaB signaling and oxidative stress. Overall, these results suggest Abca7 may play a linking role in the microglial response between T2DM and AD, which is partly supported by in vivo and in vitro results of its effect on the hyperactivation of microglia in AD-like pathologies.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42463903</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42463903</infon>
+      <offset>0</offset>
+      <text>Genomic landscape of rare variants in a Chinese autism cohort and discovery of novel risk genes.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>97</offset>
+      <text>Autism spectrum disorder (ASD) is a genetically complex neurodevelopmental condition with a high heritability. However, genomic studies of ASD have been underrepresented in East Asian populations, and the molecular yield in ASD cohorts remains modest. Here, we present a whole-genome sequencing analysis of 3109 samples across 1033 Chinese ASD families. By examining a wide spectrum of genetic variation, we identified rare ASD-associated variants in 19.2% of affected individuals, providing a population-specific view of the genetic architecture of ASD. We identify significant enrichment of de novo variants in probands, nominate or strengthen candidate risk genes (e.g., NCL, SPPL3, ADGRB1, SLC9A3, KIF1B) through mutational burden, evolutionary constraint, recurrent missense site, and functional assays, and implicate convergent pathways including protein palmitoylation. By integrating over 40,000 ASD cases across unpublished and published global cohorts, we identify 245 ASD risk genes, including 45 with limited prior evidence and 32 with no prior association. Single-cell transcriptomic profiling of the developing human cortex reveals that ASD risk genes exhibit widespread yet heterogeneous expression across all major cell types, with peak expression in excitatory neurons, particularly intratelencephalic neurons, and enriched expression in microglia (e.g., C1QC, CARD11, SNX13, MEF2C, FOXP2, TCF12, MED13L), suggesting convergent involvement of both synaptic and neuroimmune mechanisms. Together, our findings expand the ASD genetic landscape and suggest convergent pathogenic axes involving transcriptional regulation, synaptic signaling and plasticity, and neuroimmune interactions. This work supports the development of inclusive diagnostic strategies and provides a foundation for mechanistic and intervention exploration in ASD.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42464356</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42464356</infon>
+      <offset>0</offset>
+      <text>Transplantation of human iPSC-derived microglia ameliorates neuropathology and circuit dysfunction in progranulin-deficient mice.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>130</offset>
+      <text>Frontotemporal dementia (FTD) is a major cause of early-onset neurodegeneration characterized by progressive behavioral, emotional, and cognitive decline. Progranulin haploinsufficiency, a leading genetic cause of familial FTD, disrupts lysosomal function, lipid metabolism, autophagy, and neuroimmune signaling across multiple cell types. Increasing evidence indicates that microglia are particularly sensitive to progranulin loss, exhibiting elevated complement activation that contributes to TDP-43 proteinopathy and neuronal dysfunction. Here, we investigate the biological role of restoring progranulin exclusively within microglia by transplanting human induced pluripotent stem cell-derived microglial progenitors into progranulin (Grn)-deficient mice. We find that engraftment of wild-type, but not Grn-deficient, human microglia restore brain-wide progranulin levels, normalize microglial transcriptional states, and ameliorate pathological, functional, and behavioral phenotypes associated with progranulin loss. Because human microglia are the only source of progranulin in this system, these findings demonstrate that microglial progranulin is sufficient to restore key aspects of cellular, circuit, and behavioral homeostasis in a progranulin-deficient FTD model. More broadly, this work highlights a central, microglia-intrinsic role for progranulin in maintaining brain function and provides a framework for dissecting microglia-specific mechanisms across FTD and related neurodegenerative disorders.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42468771</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42468771</infon>
+      <offset>0</offset>
+      <text>Air-Liquid interface midbrain organoids model the pathological features of Parkinson's disease.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>96</offset>
+      <text>Human-induced pluripotent stem cell-derived midbrain organoids offer a promising platform for modeling Parkinson's disease (PD). Yet, their utility has been limited by the absence of microglia and the development of a necrotic core during maturation. Here, we present an air-liquid interface (ALI) slice culture system for extended cultivation of midbrain organoids (mORGs), enabling efficient microglial integration, improved neuronal viability, and enhanced functional maturation. Compared with conventional mORGs grown in suspension cultures, the ALI method supports more consistent engraftment of microglial progenitors and the development of astrocytes and oligodendrocyte progenitors, as revealed by single-cell RNA sequencing. Functionally, ALI-mORGs exhibited robust and reproducible neural network activity, with N-methyl-D-aspartate (NMDA) stimulation reliably inducing synchronous bursting, as measured by 3D microelectrode array recordings. Importantly, exposure to alpha-synuclein (alphaSyn) preformed fibrils triggered the progressive accumulation of phosphorylated alphaSyn inclusions, closely recapitulating key features of PD pathology. The ALI-mORG model addresses major limitations of existing systems and provides a more physiologically relevant platform for investigating cellular mechanisms of PD and for supporting future therapeutic strategies.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42490474</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42490474</infon>
+      <offset>0</offset>
+      <text>Epigenetic and 3D genome reprogramming during the aging of the human hippocampus.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>82</offset>
+      <text>Changes in gene expression have been observed in the aging human brain, but our understanding of the underlying regulatory mechanisms remains limited. To unravel these complexities, we analyzed single-nucleus gene expression, chromatin accessibility, DNA methylation, and three-dimensional (3D) chromatin architecture from human hippocampal tissues spanning the adult lifespan. We identified both linear and nonlinear dynamic gene regulatory programs during aging. Between the ages of 50 to 75, embryonic yolk sac-derived microglia were depleted and replaced by cells resembling peripheral blood monocyte-derived microglia. Hippocampal astrocytes decreased substantially with age, including those regulating synaptic transmission. Across cell types, 3D genome architecture underwent global erosion. Our analysis provides insights for how altered gene regulatory programs promote cell type-specific aging phenotypes in the human brain.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42491669</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42491669</infon>
+      <infon key="article-id_pmc">PMC13378380</infon>
+      <offset>0</offset>
+      <text>Mapping human microglial morphological diversity via handcrafted and deep learning-derived image features.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>107</offset>
+      <text>Microglia regulate brain health and disease through diverse, dynamic activation states, but capturing this continuous heterogeneity at scale remains challenging. We developed an imaging and analysis framework to map activation landscapes of human iPSC-derived microglia (iMG) at single-cell resolution. High-content imaging combined a hypothesis-driven immunofluorescence (IF) panel targeting NF-kappaB, ASC, and CD45 with a discovery-oriented cell painting (CP) assay. Phenotypes were quantified using handcrafted and representation-learning features. To classify cells, we applied Gaussian mixture models (GMMs), enabling soft probabilistic assignments that capture transitional states. Compared with graph-based methods such as Leiden, GMMs achieved similar performance while providing more interpretable descriptions of microglial heterogeneity. Deep-learning features from the targeted IF panel were most informative, yielding high classification accuracy and strong correlation with biological readouts, including NLRP3 inflammasome activation. This platform offers a scalable approach to quantify microglial states and provides a scalable platform for discovering compounds that modulate microglial phenotypes.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42492522</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42492522</infon>
+      <offset>0</offset>
+      <text>Tissue-reactive zonation of mesenchymal-like phenotypes in human glioblastoma.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>79</offset>
+      <text>BACKGROUND: Glioblastoma is the deadliest brain cancer, characterized by large cellular diversity. Both neurodevelopment-like and mesenchymal-like cell states have been described, with the latter being strongly implicated in malignancy and disease progression. However, the spatial organization of these mesenchymal-like cell states has not been systematically described outside the tumor bulk. METHODS: We performed deep single-cell RNA sequencing of rare glioblastoma cases where tissue could be sampled from tumor core to macroscopically normal cortex and 888-plex enhanced electric single-molecule fluorescence in situ hybridization (EEL-FISH) spatial transcriptomics on a large cohort of standard resections. We also established four glioblastoma organoid lines to test in vitro inducibility of mesenchymal-like cell states under hypoxia and blood plasma exposure. FINDINGS: We discovered that previously defined mesenchymal-like tumor cell states were shared across both malignant and non-malignant cell types and spatially confined to the tumor bulk. Peripheral regions were instead dominated by neurodevelopment-like tumor states and endogenous microglia. In patient-derived organoids and non-malignant astrocytes, the mesenchymal transcriptional state could be reversibly induced in vitro by hypoxia and human plasma, indicative of a wound response. Multiplex single-molecule spatial transcriptomics revealed that the activation of mesenchymal-like states was associated with hypoxia and organized by distance to perivascular niches. CONCLUSIONS: Our findings clarify the cellular landscape and biology of glioblastoma, wherein the mesenchymal state arises at least partly as a reactive tissue state shared by all cells in the tumor bulk. FUNDING: This work was supported by Region Stockholm, Erling-Persson Family Foundation (Atlas of Childhood Disease), Hjarnfonden (FO2023-0309), Swedish Research Council (2022-01248), and Torsten Soderberg Foundation.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42498004</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42498004</infon>
+      <offset>0</offset>
+      <text>Microglia functions in peripheral inflammation-exacerbated cerebral inflammation under hypoxia in a CCL5-dependent manner.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>123</offset>
+      <text>INTRODUCTION: The role of peripheral inflammation (PI) in exacerbating hypoxic neuroinflammation is being recognized, with the underlying molecular mechanism largely unknown. OBJECTIVES: This study is the first to map the single-cell atlas of cerebral immune microenvironment in mice under homeostasis, acute hypoxia (Hyp), LPS-induced PI, and PI-exacerbated hypoxic brain inflammation (Hyp/LPS). METHODS: Six- to eight-week-old male C57BL/6J mice were subjected to hypoxic conditions in a decompression chamber (simulating 6000 m altitude) and/or intraperitoneal injection of LPS. Then 10X Genomics chromium single-cell transcriptomic analysis was employed to map the cerebral immune microenvironment of different mouse models, followed by flow cytometry analysis to validate the immune cells and microglial subpopulations identified in the brain and peripheral blood. Ccl5-knockout mice and primary microglia were also used to confirm the critical role of CCL5 in Hyp/LPS. RESULTS: Nine transcriptionally distinct microglial subtypes are defined and classified into three functional groups based on the expression pattern of disease-associated microglia (DAM) and homeostatic genes. Ccl4+ microglia of DAM group, residing within hippocampus and cortex, represents the most responsive subtype to different stimuli. CCL5, with an increased serum level, is the top elevated cytokine in microglia upon Hyp/LPS. Hyp/LPS-induced cerebral inflammation is markedly reduced in Ccl5-knockout mice, and CCL5 neutralization restrains Hyp/LPS-increased expression of pro-inflammatory cytokines in primary microglia, indicating that Hyp/LPS-exacerbated neuroinflammation is mediated by CCL5. CONCLUSION: Our study uncovers the key microglial subtype and cytokine in the peripheral and cerebral inflammation interaction in response to different stimuli, providing potential biomarker and therapeutic target for severe hypoxic neuroinflammation.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42501950</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42501950</infon>
+      <offset>0</offset>
+      <text>Targeting the NLRP3 inflammasome in Alzheimer's disease: Mechanistic insights and therapeutic advances.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>104</offset>
+      <text>Alzheimer's disease (AD) is the leading cause of dementia, yet current therapies provide limited clinical benefit. Neuroinflammation, as an early and sustained driver of AD, places the NLRP3 inflammasome at the center of pathological and therapeutic focus. In this review, we synthesize recent advances in the structure, assembly, and activation of the NLRP3 inflammasome, and evaluate its contribution to AD using evidence from human brain tissues, cerebrospinal fluid, and diverse AD animal models. Available data consistently support aberrant NLRP3 activation in AD brain, where it is closely associated with amyloid-beta (Abeta) deposition, tau pathology, glial reactivity, and cognitive decline. We further discuss the cell-type-specific roles of microglia and astrocytes, highlighting microglia as the principal effector cells in inflammasome-associated pathology. Mechanistically, Abeta and tau converge on NLRP3 activation through interconnected pathways involving K+ efflux, lysosomal rupture, mitochondrial dysfunction, and impaired autophagy. Downstream IL-1beta, IL-18, and gasdermin D amplify neuroinflammation and neuronal injury. We summarize emerging therapeutic strategies directly targeting its core components or downstream effectors, as well as anti-AD agents with indirect NLRP3 modulation including endogenous molecules, repurposed drugs, and natural products. Collectively, this review regards NLRP3 inflammasome as a critical inflammatory hub and a promising target for disease-modifying therapy in AD, and provide useful perspectives on AD pathogenesis and inform the development of more rational therapeutic strategies.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42501956</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42501956</infon>
+      <offset>0</offset>
+      <text>Retinal Pigment Epithelium and Microglia Transplantation in Age-related Macular Degeneration.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>94</offset>
+      <text>Age-related macular degeneration (AMD) remains a leading cause of irreversible blindness worldwide, characterized by the progressive breakdown of the outer blood-retinal barrier, accumulation of protein and lipid deposits in the subretinal space, and the consequential degeneration of macular photoreceptors. Geographic atrophy (GA) is one of the blinding end points of AMD. While current pharmaceutical interventions can slow lesion expansion or counter choroidal neovascularization, they fail to address the most significant clinical unmet need: regeneration of damaged retinal tissue to restore vision. Regenerative medicine via stem cell transplantation offers a definitive curative approach by replacing the structural and immune framework of the outer retina. This review synthesizes current advancements in human embryonic and pluripotent stem cells platforms engineered for outer retinal reconstruction. We evaluate the differentiation, culturing, and quality validation required to generate clinical-grade, polarized RPE monolayers and homeostatic microglia-like cells. Structurally, single-cell suspensions are contrasted against bioengineered patches, scaffold-free cell sheets, and advanced cell strips, analyzing how graft configuration dictates post-transplantation integration and visual recovery while balancing procedural adverse events like cell reflux and epiretinal membrane formation. Furthermore, this review addresses the microenvironmental challenges of transplanting allogeneic constructs into an inflamed, senescent host niche. We examine CRISPR-Cas9 genome editing paradigms, including cytosine base and prime editing, designed to rectify cell-intrinsic genetic vulnerabilities such as the complement factor H (CFH) risk variant. We highlight translational applications, such as knocking out the Class II transactivator to eliminate major histocompatibility complex class II (MHC-II) expression, which successfully circumvents host T-cell immune surveillance and prevents graft rejection in non-human primates. Additionally, we analyze how engineering an inhibitor-resistant colony-stimulating factor 1 receptor (CSF1R) point mutation enables exogenously administered microglia to robustly outcompete and replace maladaptive, pro-inflammatory host microglia under selective small-molecule pressure. Finally, we discuss future directions, emphasizing multi-lineage bilayered co-transplantation models that combine genome-edited RPE patches with homeostatic microglia or retinal organoids to achieve durable synaptic repair, alongside automated artificial intelligence manufacturing pipelines. Together, these combined structural, molecular, and immune-modulating strategies represent the next clinical frontier in restoring clear central vision and achieving permanent neurovascular rescue in advanced macular degeneration.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42508390</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42508390</infon>
+      <offset>0</offset>
+      <text>Single-Cell RNA Sequencing Characterizes Microglial Phenotypic Heterogeneity Across Different Stroke Subtypes.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>111</offset>
+      <text>Microglia-mediated neuroinflammation is a key contributor to secondary brain injury across diverse cerebrovascular pathologies, yet the precise transcriptomic diversity and temporal evolution of microglial states across different stroke subtypes remain to be fully elucidated. We utilized single-cell RNA sequencing to profile the temporal transcriptomic landscape of the immune microenvironment in mouse models of ischemic stroke (IS), hemorrhagic stroke (HS), and chronic cerebral hypoperfusion (CCH) at 3, 7 and 14 days post-injury. Our data showed a "temporal mismatch" in immunological trajectories between acute and chronic insults. Specifically, IS and HS triggered an immediate, burst-like microglial activation as early as 3 days, the CCH model exhibited a significant latency window, maintaining a predominantly homeostatic profile until a profound transcriptomic transition toward active phenotypes occurred at 14 days. Notably, we identified a prominent S100A8+/CHIL3+ inflammatory cluster enriched during the hyperacute phase of HS, which may represent an early inflammatory signature associated with intraparenchymal hemorrhage. Interestingly, despite these early divergent responses, the 14-day microglial landscapes across the three models showed a putative shared chronic activation pattern characterized by SPP1+ DAM-like signatures and MHC-II-associated antigen-presentation features. Furthermore, we identified a pre-existing stress-responsive signature (Hspa1a+/ Hspa1b+) in steady-state white matter microglia. These findings provide a high-resolution roadmap of the divergent and convergent immune signatures across cerebrovascular disease spectra, offering hypothesis-generating insights for the development of stage-specific and etiology-tailored immunotherapeutic interventions. Overall, our pooled-library scRNA-seq analysis provides a descriptive and hypothesis-generating framework for stroke-associated microglial and supported by selected tissue-level validation.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42520792</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42520792</infon>
+      <infon key="article-id_pmc">PMC13426080</infon>
+      <offset>0</offset>
+      <text>Human-specific SRGAP2 paralogs synchronize neotenic microglial maturation and synaptic development.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>100</offset>
+      <text>The human brain is distinguished by unusually prolonged developmental timing, yet the genetic mechanisms coordinating this neoteny across cell types remain incompletely understood. Here, we show that human cortical microglia undergo neotenic structural and transcriptional maturation relative to mouse microglia. We identify SRGAP2B/C, human-specific paralogs of the ancestral SRGAP2A, as the only human-specific gene duplications expressed in human microglia. Using xenotransplantation of human induced pluripotent stem cell (hiPSC)-derived microglia and mouse genetic models, we demonstrate that human-specific SRGAP2B/C, previously shown to reduce SRGAP2A protein abundance, are both necessary and sufficient to induce neotenic structural microglial maturation. Our results reveal that neotenic microglial maturation modifies the timing of synaptic development, linking microglial developmental programs to the timing of circuit formation. Together with previous evidence for neuronal SRGAP2A function, our results suggest that the human-specific SRGAP2B/C paralogs coordinated the emergence of neotenic synaptic development by acting in both neurons and microglia during human brain evolution.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42525534</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42525534</infon>
+      <offset>0</offset>
+      <text>MITD1 restricts HIV-1 release by targeting ESCRT-III proteins.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>63</offset>
+      <text>HIV-1 release from infected cells requires coordinated action of the viral Gag protein and the host endosomal sorting complexes required for transport (ESCRT) machinery. How innate immunity regulates ESCRT function to limit viral egress remains unclear. Here, we show that MITD1, a cell type-specific interferon-stimulated gene, is a potent inhibitor of ESCRT-dependent HIV-1 budding. MITD1 engages ESCRT-III subunits CHMP1B and CHMP4B, driving their incorporation into aggregates and impairing ESCRT-III assembly during HIV-1 budding. This disrupts the final steps of virion release, causing an accumulation of immature particles at the plasma membrane. MITD1 overexpression reduces HIV-1 release from cell lines, primary peripheral blood mononuclear cells (PBMCs), and human microglia, while sparing the release of ESCRT-independent viruses. These findings establish MITD1 as an interferon-stimulated restriction factor that limits HIV-1 egress by perturbing ESCRT-III assembly.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42526428</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42526428</infon>
+      <infon key="article-id_pmc">PMC13505846</infon>
+      <offset>0</offset>
+      <text>Transcriptional regulation of disease-relevant microglial activation programs.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>79</offset>
+      <text>Microglia, the brain's innate immune cells, can adopt a wide variety of activation states relevant to health and disease. Dysregulation of microglial activation occurs in numerous brain disorders, and driving or inhibiting specific states could be therapeutic. To discover regulators of microglial activation states, we conducted CRISPR interference screens in induced pluripotent stem cell (iPSC)-derived microglia for inhibitors and activators of six microglial states. We characterized 31 regulators at the single-cell transcriptomic and cell-surface proteome level in two distinct iPSC-derived microglia models, uncovering protein markers of relevant states. We functionally characterized several multi-state regulators. ZNF532 and PRDM1 knockdown drive disease-associated, lipid-rich signatures and enhance phagocytosis while showing opposing effects on antigen-presentation signatures. DNMT1 knockdown results in widespread loss of DNA methylation, activating negative regulators of interferon signaling. These findings provide a framework to direct microglial activation to selectively enrich microglial activation states, define their functional outputs, and inform future therapies.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42531126</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42531126</infon>
+      <offset>0</offset>
+      <text>CCR5 drives glucose metabolic reprogramming to control microglial synaptic pruning via histone lactylation in a mouse model of depression.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>139</offset>
+      <text>Depression is linked to microglial activation, but the precise triggers and downstream pathways remain elusive. Through single-cell RNA sequencing of human blood samples, we find upregulation of the CCL5-CCR5 axis in patients with major depressive disorder. Using a chronic social defeat stress mouse model, we show that CCR5 is specifically elevated in activated hippocampal microglia. Microglia-specific deletion of CCR5 alleviates depressive-like behaviors and prevents microglial activation. Mechanistically, CCR5 binding to VHL stabilizes HIF-1alpha, redirecting microglial metabolism toward aerobic glycolysis. This metabolic shift results in lactate accumulation, which drives histone H4 lysine 12 lactylation (H4K12la). Genome-wide profiling reveals that H4K12la enrichment at complement gene promoters facilitates their transcription, ultimately leading to excessive microglial engulfment of neuronal spines and synaptic loss. Importantly, either inhibiting glycolysis or exogenous lactate supplementation can respectively rescue or mimic the pathological synaptic pruning and depressive-like behaviors. Our findings indicate a CCR5-driven immune-metabolic-transcriptional axis in microglia that underlies synaptic deficits in depressive-like behaviors, offering potential targets for therapeutic intervention.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42535877</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42535877</infon>
+      <offset>0</offset>
+      <text>Structure-Dependent Cytotoxicity of Environmentally Relevant Benzothiazole Derivatives Across Human Cell Models.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>113</offset>
+      <text>Benzothiazoles are widely used rubber additives and common contaminants in urban runoff, yet their toxicity across human tissues remains poorly characterized. We evaluated the cytotoxicity of six benzothiazole derivatives, benzothiazole (BTH), 2-hydroxybenzothiazole (OH-BTH), 2-aminobenzothiazole (NH2-BTH), 2-methylbenzothiazole (Me-BTH), 2-mercaptobenzothiazole (SH-BTH), and methyl-thiobenzothiazole (Me-S-BTH), across nine human cell lines representing intestinal, skin, lung, kidney, brain, endothelial, muscle, epithelial, and hepatic tissues. EC50 values spanned more than nine orders of magnitude (1.5 x 10-9 M to &gt;1 M), revealing strong compound- and cell-type-specific variability. SH-BTH was the most potent derivative, with EC50 values of 1.5 x 10-9 M in Caco-2 (intestinal cells), 1.1 x 10-8 M in HMC-3 (brain microglia cells), 3.9 x 10-5 M in MRC-5 (lung fibroblasts), 6.6 x 10-4 M in HMEC-1 (microvascular endothelial cells), and 1.3 x 10-3 M in HepaRG (hepatocytes). Me-S-BTH showed similarly high potency in HMC-3 (2.0 x 10-8 M) and moderate toxicity in endothelial and hepatic cells (2.3 x 10-3 M and 1.1 x 10-3 M, respectively). In contrast, BTH and Me-BTH exhibited low cytotoxicity, with EC50 values typically &gt;=10-3 M and no measurable toxicity (&gt;1 M) in several models, including HepaRG. OH-BTH and NH2-BTH showed intermediate effects, with micromolar activity in selected cell lines but minimal toxicity in hepatic cells. Caco-2 and HMC-3 cells were the most sensitive models, whereas HepaRG, RMS13 (skeletal muscle), and skin HEK001 (skin keratinocytes) were the least responsive. Overall, toxicity was strongly structure-dependent, with sulfur-containing derivatives showing the highest potency.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42536203</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42536203</infon>
+      <offset>0</offset>
+      <text>Decoding mitochondrial apoptosis in ischemic stroke via a miR-21a-3p/Plaur-centered regulatory network.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>104</offset>
+      <text>BACKGROUND: Ischemic stroke is a major cause of death and disability, and current therapies only partly limit secondary brain injury driven by apoptosis and oxidative stress. Mitochondria dependent cell death is a key contributor, but the upstream regulatory networks and cell type specific effectors remain unclear. METHODS: Single cell RNA sequencing, bulk RNA sequencing and miRNA profiling from mouse middle cerebral artery occlusion models were integrated to identify mitochondrial apoptosis related pathways and key regulators. Cell type composition and differentially expressed genes were analyzed by scRNA-seq, intersected bulk datasets were used to define shared apoptosis related genes, and miRNA target prediction nominated candidate miRNA-mRNA pairs. Hypoxia treated BV2 microglia and bEnd.3 endothelial cells were used for functional validation by qPCR, western blotting, flow cytometry, LDH release, CCK-8 and dual luciferase assays. RESULTS: scRNA-seq identified twelve brain cell populations and showed that endothelial cells, monocytes, astrocytes and microglia display the most prominent changes after ischemia, with Gene Ontology enrichment repeatedly highlighting "apoptotic mitochondrial changes" (GO:0008637). Intersecting two bulk RNA-seq cohorts recovered the same pathway and four candidates (Hk2, Pycard, Fas and Plaur), with Plaur most strongly dysregulated in endothelial and myeloid cells. miRNA profiling and multi database prediction highlighted miR-21a-3p as a putative upstream regulator of Plaur. In vitro, hypoxia increased Plaur and decreased miR-21a-3p. Plaur silencing reduced apoptosis, reactive oxygen species and LDH release and improved viability, while miR-21a-3p overexpression lowered Plaur and attenuated hypoxia induced injury; inhibition of miR-21a-3p had opposite effects. Dual luciferase assays confirmed direct binding of miR-21a-3p to the Plaur 3'UTR. CONCLUSION: The miR-21a-3p/Plaur axis links miRNA regulation to mitochondria associated apoptotic and oxidative damage pathways in ischemia related cellular models and represents a potential target for further mechanistic and translational studies in ischemic stroke.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42539046</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42539046</infon>
+      <infon key="article-id_pmc">PMC13419555</infon>
+      <offset>0</offset>
+      <text>Cell composition, transcriptomic, and functional pathway changes in the hippocampus in Alzheimer's disease and overlap with lead (Pb) exposure signatures.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>155</offset>
+      <text>Background: Lead (Pb) is associated with Alzheimer's disease (AD); however, the relationships between Pb and AD hippocampal transcription remains unclear. We evaluated overlap between Pb-response signatures and cell-type-independent AD transcriptomic signatures. Method: Three toxicology studies (two neuronal cell lines, one mouse hippocampus) provided Pb-response genes. Five human postmortem hippocampal AD case-control transcriptional datasets (n=90 AD, n=106 normal cognition) were cell type deconvoluted and tested with beta regression. Differential gene expression, adjusted for age, sex, and estimated cell-types, were meta-analyzed. Overlapping Pb and AD genes and biological pathways were identified (p adj &lt;0.05). Results: Consistent Pb response was observed at 25 genes ( INPP5F , KIF20B , KIFC1 ) and 47 pathways (ensheathment of neurons, glial cell differentiation, regulation of nervous system processes). Relative to controls, AD samples had fewer neurons (-2.46%), greater microglia (0.42%), astrocytes (0.31%), oligodendrocytes (0.46%), and endothelial cells (0.95%), and 1,455 differentially expressed genes, which were enriched for cellular energy production and metabolism pathways. Six genes ( EHD3 , LAP3 , NRXN3 , PPP1R16B , RPL29 , THRA) and four pathways (synaptic vesicle maturation, vesicle docking) overlapped between Pb and AD. Conclusion: We identified overlapping Pb and AD transcriptomic signatures and pathways, providing molecular context for epidemiologic associations.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42546694</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42546694</infon>
+      <infon key="article-id_pmc">PMC13510288</infon>
+      <offset>0</offset>
+      <text>Lysosomal dysfunction drives a transcriptional and epigenetic signature found in disease-associated microglia in neurodegenerative diseases.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>141</offset>
+      <text>Lysosomal dysfunction is causally linked to neurodegeneration in many lysosomal storage disorders and is associated with various age-related neurodegenerative diseases. Here, we investigated the question of underlying mechanisms using a mouse model of mucopolysaccharidosis type IIIA caused by deficiency of the lysosomal hydrolase SGSH. Systematic imaging and transcriptomic and epigenetic studies revealed microglia to be the most profoundly impacted cell type in brains of Sgsh-deficient mice. Further investigation identified dominant and context-dependent roles of members of the MITF/TFE family as major drivers of microglia-specific epigenetic and transcriptional changes resulting from lysosomal stress that are dependent on collaborative interactions with AP-1/ATF, C/EBP, and PU.1/ETS transcription factors. Features of the transcriptomic and epigenetic alterations observed in murine Sgsh deficiency were also observed in microglia derived from mouse models of age-related neurodegeneration and in human Alzheimer's disease patients. These findings reveal common and disease-specific transcriptional mechanisms associated with disease-associated microglia phenotypes.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42546695</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42546695</infon>
+      <offset>0</offset>
+      <text>Progranulin deficiency-induced lysosomal dysfunction drives maladaptive myeloid cell states through the MITF/TFE transcription factors.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>136</offset>
+      <text>Lysosomal dysfunction in myeloid cells is increasingly implicated in neurodegenerative diseases. To examine the interplay between lysosomal health and cellular state, we performed multi-omic profiling of myeloid cells from brains of aged mice lacking progranulin (Grn-/- mice), a lysosomal protein linked to neurodegeneration. Single-cell RNA sequencing identified a microglial subpopulation defined by GPNMB expression, which displays hallmarks of lysosomal stress, including altered lysosomal protein expression, lipofuscinosis, and metabolic and lipid dysregulation. Epigenetic profiling of Grn-/- microglia revealed an enrichment of MITF/TFE transcription factor motifs at active enhancers, and deletion of these factors reversed the Grn-/--specific myeloid cell transcriptional signature. Diverse lysosomal perturbations drove a common transcriptional and functional signature, with conditions that induce lysosomal deacidification closely phenocopying progranulin deficiency. Finally, compensatory GPNMB induction in Grn-/- myeloid cells promoted lysosomal acidification, and loss of myeloid cell GPNMB exacerbated neurotoxicity. Our findings link lysosomal health with epigenetic, transcriptional, and functional myeloid cell states associated with neurodegeneration.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42550898</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42550898</infon>
+      <infon key="article-id_pmc">PMC13461961</infon>
+      <offset>0</offset>
+      <text>A reference protein atlas of the adult mouse brain vasculature.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>64</offset>
+      <text>Current methods for assessing low-abundance proteins in individual cells are limited. As a result, cell functions are often inferred from single-cell RNA sequencing (scRNA-seq) data, which can be misleading due to the poor cross-gene correlation (different genes in the same cells) between messenger RNA (mRNA) and protein levels. To address this issue, we used isolated brain vascular fragments to study the blood-brain barrier. We applied a combination of deep bulk proteomic analysis, a proteomic ruler approach, and scRNA-seq, assuming a high within-gene correlation (same gene in different cells) between mRNA and protein. This approach allowed us to estimate protein copy numbers per cell for 9,940 proteins across eight cell types, including endothelium, smooth muscle, pericytes, fibroblasts, and microglia. We also evaluated protein abundance in astrocyte end-feet attached to the vessel fragments. Our data are available through an Online Database, providing a searchable resource and reference protein atlas for future studies of neurovascular proteomics in health and disease.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42551805</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42551805</infon>
+      <offset>0</offset>
+      <text>Single-cell analysis of the human retina reveals stage-linked microglial states and neural-immune circuit rewiring in diabetic retinopathy.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>140</offset>
+      <text>Diabetic retinopathy (DR) is a major cause of vision loss worldwide. Here, we conduct single-cell RNA sequencing of twenty human retina samples (from living and post-mortem donors) across non-diabetic, diabetic, and DR states to create a comprehensive transcriptomic atlas. We identify two stable microglial populations-homeostatic and inflammatory-that exist along a functional continuum, plus a neutrophil cluster within C1QA+ myeloid cells with dynamic transitions occurring throughout disease progression. Module-level analysis reveals divergent transcriptional trajectories: homeostatic microglia maintain energetic programs while selectively upregulating stress elements, whereas inflammatory microglia layer additional pro-inflammatory programs onto preserved biosynthetic foundations. Eleven co-expression modules organize into two major axes: an inflammatory-stress axis, and a regulatory/metabolic-motility axis, with a stable translation module persisting across disease stages. Cell communication analysis further highlights sophisticated neural-immune interactions, particularly between photoreceptors and microglia. Our findings provide insights into the complex cellular dynamics of DR progression and suggest potential therapeutic targets for early intervention.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42552384</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42552384</infon>
+      <offset>0</offset>
+      <text>A reproducible three-dimensional model of human brain tissue to investigate physiological and disease-associated microglia phenotypes.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>135</offset>
+      <text>Stem-cell-based in vitro models offer promising potential to elucidate human brain cell functions and interactions, but limitations in reproducibility, maturation and cell-type diversity persist. Especially, prolonged incorporation of mature microglia and studies of neuroinflammation have proven challenging. Here, we developed a human induced pluripotent stem cell-based three-dimensional cortical brain tissue model (3BTM) containing neurons, astrocytes and microglia with high reproducibility, maturity and viability. 3BTMs show morphological, functional and proteomic maturation of all cell types, leading to high similarity to their in vivo counterparts. Incorporated microglia survive for over 6 months and display mature morphology, functions and gene expression. Importantly, when engineered to model Alzheimer's disease pathology, 3BTMs recapitulate key disease hallmarks, including amyloid deposition, increased phospho-tau levels and neuroinflammation, with microglia shifting their transcriptional landscape to disease-relevant signatures. Treatment of Alzheimer's disease 3BTMs with anti-Abeta immunotherapy cleared deposits and largely reversed disease signatures in glia. Together, our microglia-containing model provides a platform for studying physiological and pathological states of human brain tissue.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42555755</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42555755</infon>
+      <offset>0</offset>
+      <text>Disrupting galectin-3 and NET-mediated microglia-neutrophil cross-talk suppresses pathological retinal angiogenesis.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>117</offset>
+      <text>Current research on pathological retinal neovascularization primarily focuses on growth factors, inflammation, and endothelial signaling pathways. However, increasing attention is being directed toward disruptions in the retinal immune microenvironment. Therefore, deciphering the immune-angiogenic interplay could uncover therapeutic avenues for neovascular disorders. Through integrative analyses of single-cell RNA sequencing from human fibrovascular membranes and multicohort clinical datasets, we identified neutrophil infiltration as an independent risk factor for diabetic retinopathy progression. Mechanistically, activated microglia preceded and potentiated neutrophil infiltration by secreting galectin-3 (GAL3), establishing a self-amplifying feedback loop that sustained microglial activation and drove pathological angiogenesis in mice with oxygen-induced retinopathy (OIR). To therapeutically disrupt this loop, we engineered a photocurable hydrogel for the sustained intravitreal delivery of GAL3 and vascular endothelial growth factor (VEGF)-neutralizing antibodies, which effectively suppressed aberrant angiogenesis in mice with OIR. Together, these findings reinforce the concept of retinal neovascularization as an immunovascular disorder and underscore the therapeutic potential of microenvironment-modulating strategies using biomaterials.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42557393</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42557393</infon>
+      <offset>0</offset>
+      <text>Neuroinflammation as molecular landscape of post-operative delirium revealed by live human brain multi-omics profiling.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>120</offset>
+      <text>Post-operative delirium (POD) is a serious complication of surgery particularly in older adults, characterized by acute disturbances in consciousness and cognition and associated with increased mortality and long-term cognitive impairment. Despite its clinical relevance, the underlying pathophysiology remains poorly understood. To address this, we performed multi-omics profiling of live brain tissue from patients undergoing neurosurgery. Single-nucleus RNA sequencing revealed POD-specific transcriptional alterations in glial cells, especially microglia, characterized by enhanced neuroinflammatory signatures. Astrocytes also exhibited changes in synaptic and migratory pathways. Upstream analysis implicated external cytokines as potential drivers of glial responses, while downstream analysis linked POD to encephalitis and dementia. DNA methylation profiling identified immune-related epigenetic alterations, suggesting a regulatory role in POD-associated neuroinflammation. Integration of bulk methylation and cell type-specific transcriptomic data suggested that epigenetic changes may influence gene expression during POD pathogenesis. These findings provide the convincing evidence of neuroinflammation and glial involvement as the pathophysiological mechanism of POD based on the first multi-omics analysis using patient brain tissue.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42557490</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42557490</infon>
+      <infon key="article-id_pmc">PMC13442482</infon>
+      <offset>0</offset>
+      <text>Hematopoietic Growth Factors Induce More Extensive Transcriptomic Remodeling in Cerebral Monocytes/Macrophages than in Microglia During the Chronic Phase of Traumatic Brain Injury.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>181</offset>
+      <text>Previous studies show that combined treatment with stem cell factor (SCF) and granulocyte colony-stimulating factor (G-CSF) enhances brain repair and functional recovery during the chronic phase of severe traumatic brain injury (TBI), but the underlying mechanisms remain unclear. Here, we investigated whether SCF + G-CSF modulates brain immune cell states during chronic TBI. In a controlled cortical impact mouse model, SCF + G-CSF was administered subcutaneously for 5 consecutive days beginning 8 months post-injury. CD11b+ brain immune cells, including microglia and monocytes/macrophages (Mo/Mac), were isolated one day after the final injection and analyzed by single-cell RNA sequencing. Integrated analyses revealed more extensive transcriptomic changes in Mo/Mac than in microglia following SCF + G-CSF treatment. Flow cytometry confirmed a significant increase in the CD11b+/CD45high Mo/Mac population following treatment. In microglia, SCF + G-CSF modestly upregulated genes such as S100a8, S100a9, Mir682, and Rpl37rt. In contrast, Mo/Mac showed robust upregulation of genes including Wfdc17, Ifitm1/2/3, Tspo, Lrg1, and Igfbp6, consistent with transcriptomic signatures associated with antiviral defense, anti-inflammatory regulation, and acquisition of reparative phenotypes. Volcano plot analysis demonstrated more extensive transcriptomic remodeling in infiltrating peripheral immune cells than in resident microglia. Pathway analysis identified interleukin-17 signaling as a candidate pathway associated with SCF + G-CSF treatment, along with enrichment of programs related to protein synthesis, detoxification, and glial development. Together, these findings demonstrate that the transcriptomic response to SCF + G-CSF treatment is more pronounced in cerebral monocyte/macrophage populations than in microglia, providing insight into candidate immunomodulatory mechanisms associated with brain repair in chronic TBI.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42560504</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42560504</infon>
+      <infon key="article-id_pmc">PMC13445976</infon>
+      <offset>0</offset>
+      <text>Weekend-free and robotics-compatible protocols for high-throughput human-induced pluripotent stem cell maintenance, amplification, and differentiation.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>152</offset>
+      <text>BACKGROUND: Human induced pluripotent stem cells (hiPSCs) are essential tools for disease modeling, drug testing, and regenerative medicine. These applications require differentiation of multiple cell lines in parallel, synchronized production of large numbers of hiPSCs and differentiated cells, and assessment of differentiation efficiency before proceeding to in-depth characterization through molecular and cellular assays. However, hiPSC culture protocols are often laborious manual processes, which affects reproducibility and makes high-throughput applications challenging. METHODS: We describe high-throughput hiPSC maintenance and amplification protocols that are weekend-free, scalable, and can be performed manually or automated. These optimized protocols enable scale-up of hiPSC production and differentiation to multiple cell types, including endothelial cells, microglia, and retinal pigment epithelial cells. RESULTS: We characterized the differentiated cells using molecular and cellular assays and demonstrated that cells generated with this approach represent accurate cell identities. CONCLUSION: The approaches described here enable high-throughput hiPSC applications and improve reproducibility and scalability.If you want, I can also tighten this further to better fit a strict 350-word journal limit or adapt the heading style to a specific journal.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42565395</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42565395</infon>
+      <offset>0</offset>
+      <text>[Ethical and clinical aspects of genetic analysis in neurodegenerative diseases].</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>82</offset>
+      <text>OBJECTIVE: Too conduct a comprehensive analytical review of the limitations of traditional genetic methodologies compared with contemporary high-resolution technologies, such as single-cell and single-nucleus RNA sequencing (sc/snRNA-seq). It will explore in detail the mechanisms underlying the incomplete penetrance of pivotal risk genes, namely LRRK2 and GBA1, and systematically organize data on pathological alterations in specific target cell types, including microglia, astrocytes, oligodendrocytes, and selectively vulnerable neurons. MATERIAL AND METHODS: The analysis presented in this paper is grounded in a review of contemporary transcriptomic, genomic, and clinical research. Emphasis is placed on integrating data from genome-wide association studies (GWAS) with single-cell expression atlases, as well as findings from functional studies conducted in model organisms and in cell cultures derived from mutation carriers. RESULTS: The findings indicate that conventional sequencing techniques are inadequate for detecting cell-specific dysfunctions, particularly within rare cell populations. Technologies such as scRNA-seq have demonstrated that the LRRK2 and GBA1 genes exhibit significant expression levels in glial cells, where they are involved in critical processes including immune response modulation, lysosomal function, and cytoskeletal organization. Mutations in LRRK2 reprogram pro-inflammatory microglia and alter astrocyte morphology through hyperphosphorylation of ERM proteins. In contrast, GBA1 deficiency initiates a cascade of lysosomal stress that impacts not only neurons but also astrocytes and oligodendrocytes. The phenomenon of incomplete penetrance is examined, revealing penetrance rates ranging from 10% to 85% that vary by ethnic background and polygenic factors, thereby posing significant challenges for medical and genetic counseling. CONCLUSIONS: Neurodegeneration is a systemic process characterized by disruption of glial cell homeostasis, which acts as a pathogenic driver. The advancement of single-cell analytical techniques paves the way for the identification of new therapeutic targets to correct the dysfunction of specific cell populations. The phenomenon of incomplete penetrance necessitates a reevaluation of the strategies used to predict and apply polygenic risk assessments in clinical practice.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42569314</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42569314</infon>
+      <infon key="article-id_pmc">PMC13449345</infon>
+      <offset>0</offset>
+      <text>Peripheral blood DNA methylation partially reports on immune cell type composition in the frontal brain.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>105</offset>
+      <text>Most existing DNA methylation (DNAm) studies have used peripheral surrogate tissues to research molecular mechanisms underlying brain disorders and diseases. Initial studies comparing brain to blood primarily at the individual CpG level analysis have generally pointed to a limited overlap of epigenetic patterns, consistent with DNAm being largely tissue- and even cell type-specific. Expanding on these studies, we employed a more complex analysis strategy aimed to 1) identify single DNAm sites associated with deconvolution-estimated brain cell type proportions, the principal measure in this study, in both the frontal brain and peripheral blood, 2) combine blood DNAm sites to predict brain cell type proportions through multivariate models, and 3) examine the association of blood DNAm, age, and epigenetic age acceleration (EAA) on brain cell type proportions. Epigenome-wide association studies for seven brain cell type proportions in matched frontal brain and peripheral blood samples (n = 104) revealed that ~10% of brain cell type-associated DNAm sites had correlating DNAm levels in peripheral blood (p &lt; 0.05). However, only three peripheral blood DNAm sites were significantly associated with endothelial and stromal brain cell type proportions (adjusted p &lt; 0.05). Brain cell type proportion predictions trained with machine learning approaches using peripheral blood DNAm showed the strongest, although still modest correlations with microglia proportions estimated through cell deconvolution using brain DNAm. Further, deconvolution-estimated blood immune cell type proportions showed a nominally significant association with estimated brain stromal cell proportions, driven primarily by NK cells; however, this association was dependent on chronological age and did not survive age-residualization. Lastly, brain EAA was not associated with brain and blood cell type proportions (adjusted p &lt; 0.05). Collectively, these results suggested that in the context of broad tissue-specificity of DNAm patterns, DNAm levels in peripheral blood might actually inform on some immune brain cell type proportions. The correlations between DNAm profiles specific to immune cell types in blood and brain were consistent with a potential link between peripheral immune and central nervous system immune functions.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42570992</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42570992</infon>
+      <offset>0</offset>
+      <text>An ApoE-Associated Low-Inflammatory Microglial State Emerges After Inflammatory Challenge in Alzheimer's Disease Mice.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>119</offset>
+      <text>Patients with Alzheimer's disease (AD) frequently experience inflammatory insults; however, the mechanisms by which microglia respond to these challenges remain unclear. Although AD microglia have been proposed to be primed for exaggerated inflammatory responses, single-cell evidence remains limited. To investigate microglial responses to inflammation in AD, we challenged AD mouse models with intraperitoneal lipopolysaccharide (LPS) and used single-cell RNA sequencing to characterize microglial states, along with in vivo immunostaining and in vitro models to define their features and underlying mechanisms. We found that, in response to an inflammatory challenge, microglia adopted a low-inflammatory state accompanied by elevated expression of mitochondrial respiratory chain genes. This state was associated with the phagocytosis of dystrophic neurites and was recapitulated in vitro using an efferocytosis-based model, with apolipoprotein E implicated in its underlying mechanism. In summary, we identified a distinct microglial state that provides new insights into the dynamic role of microglia in AD.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42572586</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42572586</infon>
+      <infon key="article-id_pmc">PMC13453016</infon>
+      <offset>0</offset>
+      <text>Bulk and single-cell RNA-seq analyses characterize a DBP-related circadian signature in ischemic stroke.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>105</offset>
+      <text>Circadian rhythm disruption is associated with ischemic stroke outcomes, yet the roles of circadian genes in stroke pathology remain unclear. This study integrated bulk and single-cell RNA-seq (scRNA-seq) from patients with stroke and mouse models to characterize circadian gene expression patterns. Using machine learning and consensus clustering, we identified a nine-gene circadian signature that distinguished patients with stroke and stratified them into three subtypes with distinct immune infiltration profiles. Single-cell RNA analyses highlighted microglia as key mediators, with DBP downregulation linked to microglial senescence. Experimental manipulation of DBP in microglial cells and a mouse stroke model demonstrated that DBP restoration reduced senescent phenotypes and infarct volume while improving neurological function. These findings establish circadian gene-based patient stratification and implicate microglial DBP as a modulator of post-stroke injury, offering potential avenues for risk assessment and targeted intervention.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42574303</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42574303</infon>
+      <offset>0</offset>
+      <text>A Split-Luciferase Complementation Assay for Temporally Resolved Measurement of Tau Clearance in Microglia.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>108</offset>
+      <text>As the resident immune cells of the central nervous system, microglia are central regulators of brain homeostasis and key mediators of neurodegenerative disease. These cells continuously survey the neural environment and play a critical role in the recognition, internalization, and degradation of extracellular substrates, including misfolded and aggregated proteins such as pathological tau. Despite growing evidence implicating microglia in tau clearance, existing approaches to measure tau uptake and degradation lack the temporal resolution and sensitivity needed to fully capture these dynamic processes. Here, we developed a luminescence-based assay to quantitatively monitor tau clearance in human induced pluripotent stem cell (iPSC)-derived microglia. This platform leverages a split-luciferase-based complementation system to enable highly sensitive, real-time detection of tau in live cells, allowing for precise tracking of its intracellular processing. This assay is scalable and adaptable across multiple cell types, providing a versatile tool to interrogate endolysosomal pathways and cellular mechanisms governing tau handling in neurodegenerative diseases, including Alzheimer's disease.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42576543</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42576543</infon>
+      <offset>0</offset>
+      <text>Mechanochemical endothelial-astrocyte signalling via Piezo1-Epac1 drives neurovascular injury after stroke.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>108</offset>
+      <text>Limited therapies exist to preserve tissue function in ischemia-reperfusion injury, particularly for ischemic stroke, where intravenous thrombolysis remains a primary but risky treatment option. During stroke reperfusion, mechanical forces including hemodynamic shear stress and tissue stiffness change rapidly. However, how the neurovascular endothelium senses and responds to these physical cues to drive pathological injury remains unclear. Using a transient middle cerebral artery occlusion and reperfusion mouse model, we mapped acute shear stress and stiffness remodeling via near-infrared II imaging and atomic force microscopy. In vivo fiber photometry, single-cell transcriptomics, electron microscopy, biochemical assays and cell-type-specific conditional knockout mice were utilized to decode the Piezo1-dependent mechanochemical signaling. Reperfusion-induced disturbed blood flow and aberrant tissue stiffening robustly over-activated the mechanosensitive channel Piezo1 specifically in vascular endothelial cells. Although Piezo1 was broadly detected in glial cells, genetic ablation of Piezo1 exclusively in endothelial cells, but not in astrocytes or microglia, significantly reduced infarct volume and improved neurological deficits. Mechanistically, endothelial Piezo1 hyperactivation induced adenylyl cyclase 1, driving a surge in intracellular cyclic AMP (cAMP). This triggered the assembly and release of cAMP-enriched extracellular microvesicles, which preferentially accumulated within adjacent perivascular astrocytes. The vesicular cAMP payload subsequently activated the downstream effector Epac1, dictating a spatially restricted wave of astrocyte apoptosis. Concordantly, astrocyte-specific genetic ablation of Epac1 replicated the neuroprotective phenotype, significantly alleviating ischemic brain injury. These findings delineate a pathogenic mechanochemical cascade at the neurovascular interface, establishing that endothelial Piezo1 translates post-ischemic mechanical stress into an apoptotic chemical signal via microvesicular cAMP-Epac1 communication. Targeting the upstream endothelial Piezo1 mechanosensor or the downstream astrocytic Epac1 effector offers a promising therapeutic strategy to preserve neurovascular unit integrity following stroke reperfusion.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42585801</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42585801</infon>
+      <offset>0</offset>
+      <text>The decline of progranulin expression in cochlear Microglia-Like Cells accelerates the progression of age-related hearing loss.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>128</offset>
+      <text>Accumulating evidence indicates that crosstalk between immune cells and intrinsic cochlear cells is critical for maintaining auditory homeostasis. However, the activation profile of cochlear microglia-like cells (MLCs) and their mechanistic role in age-related hearing loss (ARHL) remain poorly defined. Here, we show that MLCs are robustly activated in the cochlea of aged mice, and that pharmacologic depletion of cochlear MLCs significantly attenuates ARHL progression. To dissect the mechanisms underlying MLC-driven cochlear damage in ARHL, we leveraged the single-cell transcriptomic landscape of the aged mouse cochlea previously generated by our research group, and conducted the related functional validation. We identified prominent age-related alterations in cochlear MLCs, and revealed that AAV-mediated (via posterior semicircular canal microinjection) upregulation of progranulin (GRN) in MLCs mitigates aging-associated oxidative stress damage in the cochlea. Collectively, our work demonstrates that targeting GRN signaling in cochlear MLCs alleviates aging-related oxidative stress in the cochlea, and thereby delays ARHL progression.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42587296</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42587296</infon>
+      <infon key="article-id_pmc">PMC13463953</infon>
+      <offset>0</offset>
+      <text>NLRC5 restricts Japanese encephalitis virus replication and neuroinflammation by interacting with the viral NS3 protein in an IFN-gamma-dependent manner.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>154</offset>
+      <text>BACKGROUND: NLRC5 is a known activator of MHC class I genes and a regulator of type I interferon activity. Although its expression increases in brains infected with Japanese encephalitis virus (JEV), its specific contribution to JEV pathogenesis and neuroinflammation remains unclear. METHODS: We utilised in vitro cell cultures, in silico modelling, and in vivo mouse knockdown models of NLRC5 to investigate its impact on JEV replication, antiviral immune responses, central nervous system (CNS) inflammation, and overall disease progression. RESULTS: JEV infection upregulated NLRC5 expression in the brain, microglia, and non-neuronal cells, but not in neuronal cells. However, NLRC5 expression could be induced in neuroblastoma cells via IFN-gamma treatment. Experimental modulation demonstrated that the typical antiviral restriction of JEV replication by IFN-gamma is lost in NLRC5-deficient cells. Evaluation of stable cell lines expressing different NLRC5 variants showed that cytoplasmic retention and NLRC5 leucine-rich repeats (LRRs) are essential for viral restriction. Mechanistically, in silico modelling, co-immunoprecipitation, and immunofluorescence confirmed that NLRC5 binds directly to the viral NS3 protein in an LRR-dependent manner. In mouse models, in vivo knockdown of NLRC5 in the brain significantly accelerated clinical disease progression, heightened mortality, and triggered uncontrolled viral replication, indicated by elevated viral titers and NS3/NS1 expression. This viral surge induced severe neuroinflammation, as evidenced by significantly elevated levels of ASC and cleaved caspase-3 in NLRC5-deficient brains. CONCLUSIONS: These findings demonstrate that NLRC5 functions as a cell-type-specific antiviral regulator during JEV infection. It suppresses viral replication by directly binding to and degrading the viral NS3 protein. Loss of NLRC5 impairs IFN-gamma-mediated antiviral restriction, leading to enhanced viral replication, severe neuroinflammation, and accelerated disease progression in vivo.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42600613</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42600613</infon>
+      <offset>0</offset>
+      <text>Brain perivascular macrophages regulate endothelial cell function via a cMAF-dependent transcriptional program in mouse and human.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>131</offset>
+      <text>Brain perivascular macrophages maintain brain physiology, yet their transcriptional regulators and functions in health and disease remain unclear. Using single-cell multi-omics and functional experiments, we identify cellular musculoaponeurotic fibrosarcoma oncogene (cMAF) as a key transcription factor for brain perivascular macrophages, and conditional deletion of cMAF disrupts their phenotype in vivo. Functionally, cMAF drives insulin-like growth factor-1 (IGF1) expression in perivascular macrophages, enabling communication with endothelial cells. Consistently, cMAF deletion in perivascular macrophages causes transcriptional alterations in cerebral arteries, affecting vascular functions. Notably, cMAF emerges as the main transcription factor for human perivascular macrophages, suggesting conservation of this transcriptional module. During Alzheimer's disease (AD), human perivascular macrophages upregulate cMAF and IGF1 to enhance communication with vascular cells, and this response is abrogated in APOE4 carriers. Lastly, we explore an uncharacterized polymorphism in cMAF, providing evidence that the cMAF program is protective against AD. Targeting cMAF in perivascular macrophages may offer new therapeutic strategies for neurodegenerative and cerebrovascular diseases.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42603208</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42603208</infon>
+      <offset>0</offset>
+      <text>Comprehensive Analysis of Starvation Response-Related Genes in the Diagnosis of Ischemic Stroke: Based on Machine Learning and Single-Cell RNA Sequencing Data.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>160</offset>
+      <text>BACKGROUND: The pathogenesis of ischemic stroke (IS) involves a starvation response (SR); however, the mechanistic link between the two remains unclear. Therefore, it is imperative to identify SR-related gene (SRRG) biomarkers involved in IS. METHODS: IS datasets were obtained from the Gene Expression Omnibus, and SRRGs were acquired from the Molecular Signatures Database. Biomarkers were screened using differential expression analysis, machine learning, and expression validation. Subsequent analyses included immune infiltration, gene set enrichment analysis (GSEA), drug prediction, and single-cell RNA sequencing (scRNA-seq). The middle cerebral artery occlusion mouse model and oxygen-glucose deprivation/reoxygenation (OGD/R)-treated BV2 cells were used. PAK2/Iba1 co-expression was assessed using immunofluorescence double-staining. The effects of PAK2 knockdown on cell proliferation, apoptosis, and inflammation were assessed using functional assays. RESULTS: Two biomarkers, PAK2 and lysosome-associated membrane protein 2 (LAMP2), were identified and used to construct a diagnostic model that demonstrated good performance. Immune infiltration analysis revealed changes in 33 immune cell types. GSEA revealed that biomarker-related genes were enriched in different pathways, including NOD-like receptor and T-cell receptor signaling pathways. Drug prediction analysis identified 48 potential agents targeting PAK2 and 35 agents targeting LAMP2. Microglia were identified as a key cell subtype using scRNA-seq analysis. PAK2 mRNA was significantly upregulated, and LAMP2 mRNA was downregulated in mouse ischemic penumbra; immunofluorescence confirmed PAK2/Iba1 co-localization. In vitro, PAK2 knockdown suppressed apoptosis, promoted proliferation, and reduced inflammatory cytokine levels in OGD/R-injured BV2 cells. CONCLUSION: In this study, two SR-derived biomarkers were identified for IS, and a diagnostic model was established, providing new insights into IS diagnosis and therapeutic development.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42608571</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42608571</infon>
+      <offset>0</offset>
+      <text>Microglia activation by derepression of endogenous retroviruses drives inflammation and cellular senescence.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>109</offset>
+      <text>Aging-associated loss of chromatin compaction is linked to derepression of retrotransposable elements (RTEs) in mouse and human tissues. Whether such RTE transcription contributes to the microglia activation that is common in aged brains is unknown. Here, we show that DAXX, a histone chaperone and RTE repressor, is downregulated during aging, preserves microglia homeostasis and inhibits cellular senescence. Loss of Daxx in young-adult microglia drives a reactive phenotype marked by chromatin decompaction at RTEs, loss of homeostatic markers, cell cycle re-entry and behavioral changes. This state leads to DNA damage and microglial depletion, followed by replacement with DAXX-deficient/Apoehigh microglia displaying features of senescence. Sustained induction of senescence relies on promyelocytic leukemia protein, a DAXX-interacting factor and interferon target. Together, these findings highlight the importance of heterochromatin maintenance in preserving adult microglial identity and plasticity, with broader implications for brain homeostasis, healthy aging and behavior.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42609060</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42609060</infon>
+      <infon key="article-id_pmc">PMC13482318</infon>
+      <offset>0</offset>
+      <text>TET2 as a Context-Dependent Epigenetic Integrator in Clonal Hematopoiesis, Inflammation, Cancer, and Immunotherapy.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>116</offset>
+      <text>Ten-Eleven Translocation 2 (TET2) is an Fe(II)- and alpha-ketoglutarate-dependent dioxygenase that initiates active DNA demethylation by oxidizing 5-methylcytosine (5mC). Beyond this enzymatic role, TET2 links DNA methylation dynamics with chromatin regulation, cellular metabolism, immune-cell identity, and treatment response in a context-dependent manner. Loss-of-function mutations in TET2 are among the most frequent genetic events in age-related clonal hematopoiesis of indeterminate potential (CHIP), where they are associated with higher risks of hematological malignancies and cardiovascular disease. Human genetic and clinical studies support these associations, while experimental models suggest that mutant hematopoietic clones can promote myeloid inflammatory programs through enhancer remodeling, NLRP3 inflammasome activation, IL-1beta/IL-6 signaling, and altered inflammatory resolution. In solid tumors and cancer therapy, TET2 has more variable effects: tumor-cell-intrinsic TET2 loss can contribute to immune escape or therapeutic resistance in selected settings, whereas TET2 disruption in engineered T cells can enhance memory-like persistence and anti-tumor activity, with possible long-term oncogenic risk. This narrative, mechanism-oriented review integrates current evidence on TET2 biology across clonal hematopoiesis, inflammation, cancer, and immunotherapy. We focus on evidence level, cell type, direction of TET2 alteration, and metabolic or therapeutic context as determinants of divergent TET2 functions. TET2 has traditionally been described as a DNA demethylation enzyme, but recent studies increasingly place it among context-dependent regulators of immune and disease phenotypes. The unresolved issue is why TET2 loss, inhibition, activation, or engineered deletion can produce distinct, and sometimes opposing, effects in hematopoietic stem/progenitor cells, macrophages, tumor cells, neurons, microglia, and CAR-T cells. This review uses four variables-cell type, direction of alteration, functional layer, and microenvironmental or therapeutic context-to interpret evidence from CHIP, hematologic malignancies, cardiovascular inflammation, solid tumors, and immunotherapy.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42609152</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42609152</infon>
+      <offset>0</offset>
+      <text>[Immune Checkpoint Tim-3 Regulates Microglial Function in Alzheimer's Disease].</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>80</offset>
+      <text>Microglia are resident immune cells of the central nervous system and play a central role in the pathogenesis of Alzheimer's disease (AD). Emerging evidence indicates that their functional state critically influences amyloid-beta (Abeta) clearance, neuroinflammation, and disease progression. Tim-3, an immune checkpoint molecule, is highly expressed in microglia and functions as a key regulator of microglial homeostasis through the transforming growth factor-beta (TGF-beta)-Smad2 signaling pathway. Microglia-specific deletion of Tim-3 enhances phagocytic activity. Moreover, microglia-specific Tim-3 deficiency results in reduced Abeta deposition, decreased neurotoxicity, and improved cognitive performance in the 5xFAD mouse model of AD. These effects are not mediated by changes in Abeta production but rather by enhanced microglial clearance and remodeling of Abeta plaques into less toxic forms. Furthermore, single-cell analyses reveal that Tim-3 deficiency promotes a microglial state characterized by increased phagocytic capacity and reduced pro-inflammatory signaling. These findings suggest that Tim-3 acts as a functional checkpoint that limits beneficial microglial responses in AD and that targeting Tim-3 may therefore represent a promising therapeutic strategy for reprogramming microglia and improving disease outcomes.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42616788</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42616788</infon>
+      <infon key="article-id_pmc">PMC13506028</infon>
+      <offset>0</offset>
+      <text>A human pluripotent stem cell triculture platform to elucidate microglial regulation of retinal ganglion cells in neuroinflammation.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>133</offset>
+      <text>Optic neuropathies, including glaucoma, are characterized by the progressive degeneration of retinal ganglion cells (RGCs), ultimately leading to irreversible vision loss. Increasing evidence implicates microglia, the resident immune cells of the central nervous system, as key modulators of RGC health and disease progression. However, the precise mechanisms by which microglia influence RGCs remain poorly understood, particularly in the human context. In this study, we established human pluripotent stem cell-derived coculture systems incorporating microglia, astrocytes, and RGCs to explore how microglia shape RGC growth and maturation under physiological conditions. We first examined the impact of homeostatic microglia on RGCs in both coculture and triculture systems, revealing distinct influences of cell types in coculture compared to when they were grown individually. We then modeled inflammatory states by activating microglia with lipopolysaccharide and evaluated their effects on RGCs both directly and in the context of astrocyte coculture. This stepwise, reductionist approach enabled us to dissect the cellular interactions driving RGC vulnerability in inflammatory conditions relevant to optic neuropathies. Our findings provide insight into the complex neuroimmune landscape that underlies RGC degeneration and identify key pathways that may serve as therapeutic targets across a range of optic nerve diseases.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42619794</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42619794</infon>
+      <infon key="article-id_pmc">PMC13483936</infon>
+      <offset>0</offset>
+      <text>Cellular origin and therapeutic potential of SERPINA3N in ischemic stroke.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>75</offset>
+      <text>Murine serine protease inhibitor clade A member 3N (SERPINA3N) and its human homolog SERPINA3 are injury-associated molecules induced in virtually all neurological conditions including ischemic stroke. Clinically, SERPINA3 is elevated in stroke patients, correlating with severe brain pathology and worse neurological outcomes. Yet, the exact cellular sources and therapeutic value of SERPINA3N/SERPINA3 in the ischemic brain remain elusive. Here, we report that oligodendrocytes are the major sources of SERPINA3/SERPINA3N and that SERPINA3N exerts neurotoxic effects in experimental cerebral ischemia. Given SERPINA3N's secretory nature, we used knock-in Serpina3n-tdTom reporter mice to define its temporospatial evolution. The tdTom signal was barely detectable by day1 but gradually increased from day 3 through day 7 following cerebral ischemia. The majority of tdTom + cells were identified as oligodendrocytes and astrocytes with fewer found in neurons or microglia. This cellular identity was corroborated by meta-analysis of single-cell transcriptomics datasets and human ischemic stroke brain data. Antagonizing SERPINA3N attenuated blood-brain barrier disruption, neuroinflammation, and neuronal damage and improved neurological function in a mouse model of cerebral ischemia. These findings resolve a longstanding debate regarding the cellular origins of SERPINA3N, identifying oligodendrocytes as its major source. Our studies highlight SERPINA3N antagonism as a possible therapeutic intervention for ischemic stroke, providing new insights for precision therapies that target oligodendroglia- or astroglia-specific SERPINA3N.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42623758</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42623758</infon>
+      <offset>0</offset>
+      <text>Integrative transcriptomic and machine learning analysis identifies S100A8 as a key hub bridging peripheral inflammation and synaptic deficits in schizophrenia.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>161</offset>
+      <text>Schizophrenia (SCZ) involves immune dysregulation and synaptic deficits, yet the molecular link between peripheral inflammation and central synaptic pathology remains unclear. We integrated blood transcriptomes from four SCZ cohorts (478 samples: 245 patients, 233 controls) and validated findings in single-cell brain data and an ELNI mouse model. After batch correction, 272 genes were differentially expressed, with S100A8 as the top upregulated immune gene. WGCNA identified a disease-associated module (blue, 133 genes, r = 0.16, p = 7 x 10-4) containing S100A8; its intersection with differentially expressed genes yielded 44 key genes enriched for cytoplasmic translation, mitochondrial electron transport, and innate immunity. Machine learning ranked S100A8 as the top discriminative feature, and its upregulation was robust across four independent analytic pipelines. CIBERSORTx revealed increased neutrophils and decreased regulatory T and resting NK cells in patients, with S100A8 correlating positively with neutrophils. Single-cell analysis showed that S100A8-expressing cells were specifically expanded in microglia (2.98%   3.94%, OR = 1.34), and S100A8+ microglia displayed an activated state with coordinated upregulation of complement (C1QA/B/C) and phagocytic genes and downregulation of homeostatic markers (P2RY12, CX3CR1). In ELNI mice exhibiting SCZ-like behaviors, S100A8/S100A9 were upregulated in hippocampus and frontal cortex, accompanied by CD68 induction and reduced synaptophysin, with S100A8 correlating positively with CD68 and negatively with synaptophysin. Molecular docking identified hydroxyzine as a candidate S100A8 ligand. These convergent findings establish S100A8 as a hub linking peripheral immune dysregulation to microglial activation and synaptic pathology in SCZ, highlighting it as a candidate biomarker and therapeutic target.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42624101</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42624101</infon>
+      <offset>0</offset>
+      <text>Development and validation of a long-term co-maturation protocol for human stem cell-derived microglia and neuronal networks.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>126</offset>
+      <text>Microglia-neuron interactions play a key role in a variety of central nervous system disorders. Technologies using human induced pluripotent stem cells (hiPSCs) have been developed to model human brain cells with the goal to understand their function. To effectively study neuro-immune crosstalk and investigate microglial contributions to neuronal network development and function, both microglia and neurons should co-mature allowing for long-term interactions throughout their differentiation. Here, we present a co-maturation protocol that robustly generates glutamatergic neuronal networks containing hiPSC-derived microglia. We validated the long-term co-cultures using single-cell transcriptomics, imaging, and neuronal activity readouts. In this protocol, astrocytes were required for long-term survival of microglia and for their integration into neuronal networks. Our co-maturation approach induced the typical ramified microglia morphology and characteristic microglia-neuron interactions. Homeostatic markers such as P2RY12 and TMEM119 and neuronal remodeling-associated genes were upregulated compared to microglia monocultures, highlighting the necessity of the environment to generate and maintain the context-dependent microglia signature in vitro. In this manuscript, we include the full optimization process of our co-maturation approach, a comprehensive description of the protocol, practical guidelines, and troubleshooting tips. Our co-maturation model provides a powerful tool to assess the role of human microglia in modulating neuronal function and development in health and disease.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42629379</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42629379</infon>
+      <offset>0</offset>
+      <text>Maternal sleep deprivation reshapes offspring hippocampal development through a Trem2-centered microglial program revealed by single-nucleus and spatial transcriptomics.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>170</offset>
+      <text>Maternal sleep deprivation during late pregnancy is common and has been linked to increased neuropsychiatric risk in offspring, but the mechanisms by which it shapes developing hippocampal circuits remain unclear. The triggering receptor expressed on myeloid cells 2 (Trem2) is a key genetic risk factor for neurodegenerative disease and regulator of microglial survival and synaptic refinement, but it is unknown whether perinatal environmental stressors, such as maternal sleep loss, reprogram Trem2-associated microglial states in the developing hippocampus. Here, we combine single-nucleus RNA sequencing and spatial transcriptomics to generate a lifespan atlas of hippocampal cell populations in rat dams and offspring exposed to late-pregnancy maternal sleep deprivation (LSD) across postnatal day (P)1, 7, 14, and 56. LSD induces widespread, cell-type-specific transcriptional alterations across oligodendrocytes, astrocytes, and excitatory and inhibitory neurons, with a convergent and persistent disruption of microglial states characterized by downregulation of Trem2 and enrichment of gene modules shared with human neuropsychiatric and neurodegenerative risk loci. Behaviourally, LSD offspring display long-lasting deficits in Morris water maze performance, altered anxiety-related and exploratory behaviors in the open field and elevated plus maze, and impaired hippocampal long-term potentiation (LTP). AAV-mediated hippocampal Trem2 restoration, accompanied by recovery of Trem2 signal in Iba1-positive microglia, partially attenuates inflammatory remodeling and ameliorates LTP and behavioural abnormalities. Our findings identify maternal sleep deprivation as an early-life insult that programs a Trem2-centred microglial axis shaping hippocampal circuits and long-lasting cognitive and behavioral alterations, and suggest microglial Trem2 as a candidate target for mitigating neuropsychiatric risk associated with adverse sleep in pregnancy.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42637929</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42637929</infon>
+      <offset>0</offset>
+      <text>Microglial TLR7 contributes to traumatic brain injury-induced neuroinflammation in mice.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>89</offset>
+      <text>Neuroinflammation driven by activated microglia is an important component of secondary injury after traumatic brain injury (TBI), but the underlying molecular mechanisms remain incompletely understood. Here, we investigated the role of microglial Toll-like receptor 7 (TLR7) in TBI-induced neuroinflammation and evaluated the therapeutic effect of the TLR7-targeting compound Enpatoran (M5049). Analysis of public single-cell transcriptomic datasets showed that TLR7 is preferentially expressed in microglia among resident brain cells. In the controlled cortical impact (CCI) mouse TBI model, TBI increased TLR7 expression in microglia and elevated the abundance of cleaved-TLR7 in the peri-contusional cortex. Knockdown of the asparaginyl endopeptidase (AEP) attenuated TLR7 cleavage and downstream signaling in cultured microglia. Deletion of AEP decreased cleaved-TLR7 and inflammatory marker expression in TBI mice, indicating an AEP-mediated proteolytic processing of TLR7 and suggesting TLR7's involvement in TBI inflammation. Global TLR7 deletion in mice failed to reduce TBI-induced inflammation and was accompanied by marked TLR8 upregulation. In contrast, inducible microglia-specific TLR7 deletion in mice attenuated CD86, TNF-alpha, and IL-1beta expression without a pronounced TLR8 upregulation. The TLR7 inhibitor M5049 suppressed TLR7 agonist-induced inflammation in cultured microglia without inhibiting mouse TLR8. In TBI mice, treatment with M5049 at 0.1, 0.3, and 3 mg/kg all significantly reduced TBI-induced IL-1beta and IL-6 mRNA expression. Pharmacological tests further showed that M5049 is effective in suppressing TBI-induced microglial activation and inflammatory cytokine secretion in wild-type mice but lost this efficacy in TLR7 knockout mice. Therefore, M5049's anti-inflammatory action relies on the presence of TLR7. Additionally, M5049 was not able to rescue glutamate- and H2O2-induced cell death in HT22 mouse hippocampus neuronal cells, or broadly suppress the examined peripheral immune transcriptional program. These findings identify microglial TLR7 as an important player in TBI-induced neuroinflammation and support a predominantly TLR7-dependent anti-inflammatory effect of M5049.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42648441</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42648441</infon>
+      <offset>0</offset>
+      <text>Recent Insights on Cell-Type-Specific Lactylation Driving Neuropathic Pain Chronification.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>91</offset>
+      <text>Neuropathic pain (NP) is a debilitating chronic condition whose molecular mechanisms remain incompletely understood, limiting the development of effective disease-modifying therapies. Lactylation, a lactate-derived post-translational modification of histone and non-histone lysine residues, has recently emerged as a critical epigenetic mechanism that directly couples glycolytic activity to transcriptional reprogramming. Following peripheral nerve injury, four pain-relevant cell populations undergo cell-type-specific glycolytic reprogramming through distinct upstream cascades: the AREG-EGFR-PKM2 axis in dorsal root ganglion sensory neurons, RUNX1-CMPK2 in spinal microglia, Sox9-HK1 in spinal astrocytes, and LDHA in peripheral Th17 cells. The resulting intracellular lactate accumulation drives lactylation through three mechanistic modes: transcriptional activation of pro-nociceptive genes, silencing of analgesic mediators, and direct inactivation of pain-suppressive signaling proteins. A self-reinforcing feedback loop between glycolysis and lactylation further perpetuates the chronic pain state. This review synthesizes current mechanistic evidence, evaluates emerging pharmacological strategies targeting this metabolic epigenetic axis, and discusses outstanding translational challenges including reader protein identification, sex-based variability, and human tissue validation.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42651124</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42651124</infon>
+      <offset>0</offset>
+      <text>Single-Cell Analysis of Brain Arteriovenous Malformations Reveals Pro-Angiogenic Myeloid Programs.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>99</offset>
+      <text>Background/Objectives: Brain arteriovenous malformations (bAVMs) are complex cerebrovascular lesions that carry a substantial risk of intracranial hemorrhage, yet the biological mechanisms underlying vascular remodeling remain incompletely understood. As increasing evidence suggests that inflammatory processes contribute to vascular remodeling and bAVM progression, this study aimed to characterize the cellular composition of the immune microenvironment in human bAVMs at single-cell resolution and to identify immune cell populations associated with transcriptional programs related to angiogenesis and extracellular matrix remodeling. Methods: Publicly accessible single-cell RNA sequencing data from five human bAVM samples and five control brain specimens were analyzed. After quality control and data integration, immune cell types were annotated based on canonical marker gene expression. To assess biological processes relevant to vascular remodeling, the expression of predefined gene sets associated with angiogenesis and extracellular matrix remodeling, derived from the Molecular Signatures Database (MSigDB), was quantified across cell populations using rank-based gene set scoring (UCell). Differences between bAVM and control samples were evaluated at the sample level using the Wilcoxon rank-sum test. For each immune cell type, mean UCell scores were calculated per biological sample and compared between groups. To account for multiple comparisons across cell types, p-values were adjusted using the Benjamini-Hochberg procedure. Results: After quality control, 46,360 immune cells were analyzed. Compared with control tissue, bAVMs showed numerically higher proportions of lymphoid (activated T cells and CD8 T cells) and myeloid populations (M1-like macrophages, monocytes, and dendritic cells). Angiogenesis-related transcriptional activity was highest in myeloid cells and significantly increased in bAVMs, particularly in M1-like macrophages (UCell score 0.22 vs. 0.13), dendritic cells (0.16 vs. 0.10) and monocytes (0.20 vs. 0.15), whereas proliferating CD8 T cells showed a lower score (0.04 vs. 0.05; adjusted p = 0.040 for all four). Extracellular matrix-related programs showed a similar but weaker and non-significant pattern in myeloid populations (e.g., monocytes, dendritic cells, microglia-like cells; adjusted p = 0.09). Conclusions: Our findings identify myeloid cells, particularly M1-like macrophages, monocytes and dendritic cells, as important immune populations associated with angiogenesis in bAVMs. These findings highlight a potential role of immune-driven vascular remodeling in the pathophysiology of bAVMs.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42653340</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42653340</infon>
+      <offset>0</offset>
+      <text>TSPO Regulates TLR4-Mediated Inflammation Through Calcium Homeostasis and Immunometabolic Adaptation.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>102</offset>
+      <text>Bacterial infection triggered excessive inflammatory responses, yet the mechanisms linking inflammatory activation to immunometabolic adaptation remained incompletely understood. The mitochondrial translocator protein (TSPO) has been implicated in inflammatory activation and cellular metabolism. This study aimed to investigate the role of TSPO in inflammation mediated by Toll-like receptor 4 (TLR4). Herein, we integrated transcriptomic data from the human peripheral blood dataset GSE72829, and single-cell transcriptomic profiles from the CELLxGENE platform with cellular mechanistic experiments in BV2 microglia and RAW264.7 macrophages. Transcriptomic analyses revealed that TSPO expression was markedly upregulated in patients with bacterial infection (n = 52) and exhibited diagnostic potential to distinguish bacterial infection from healthy controls (HCs, n = 16) and viral infection (n = 92). TSPO-correlated genes were enriched in Toll-like receptor (TLR) signaling, inflammatory response, and immunometabolic pathways. Mechanistically, TSPO interacted with TLR4 and selectively modulated TLR4-driven inflammatory activation. TSPO deficiency augmented lipopolysaccharide (LPS) induced tumor necrosis factor-alpha (TNF-alpha) and interleukin-6 (IL-6) secretion, accompanied by disrupted Ca2+ homeostasis, impaired cholesterol balance, and compensatory metabolic remodeling characterized by elevated L-lactate and sustained Adenosine triphosphate (ATP) levels. Collectively, these findings identified TSPO as an immunometabolic regulator bridging TLR4 signaling and metabolic adaptation during inflammatory activation. Besides, TSPO represented a promising biomarker and therapeutic target to limit exaggerated inflammatory responses.</text>
+    </passage>
+  </document>
+  <document>
+    <id>42653476</id>
+    <passage>
+      <infon key="type">title</infon>
+      <infon key="article-id_pmid">42653476</infon>
+      <offset>0</offset>
+      <text>ZBP1 in Neuroinflammation and Neurodegeneration: Z-Nucleic-Acid Sensing, RHIM Signalling and Therapeutic Targeting.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>116</offset>
+      <text>In contrast to foreign nucleic acids, some of our own endogenously synthesized nucleic acids may become immunologically active without being considered "foreign". For example, abnormalities in chromatin organization, transcription termination, ribonucleic acid (RNA) splicing, and RNA editing, together with damage to mitochondrial integrity, may render normally functional deoxyribonucleic acid (DNA) and RNA persistently available and aberrantly structured ligands for innate immunity. Z-DNA-binding protein 1 (ZBP1), recently identified as an important component of this innate immune system, recognizes both left-handed DNA (Z-DNA) and left-handed RNA (Z-RNA) using its tandem Z-alpha (Zalpha) domains and couples recognition of these conformational states to receptor-interacting serine/threonine-protein kinase 1 (RIPK1)-, receptor-interacting serine/threonine-protein kinase 3 (RIPK3)-, and mixed-lineage kinase domain-like pseudokinase (MLKL)-dependent inflammatory and cell-death pathways. More recent studies have also shown that ZBP1 plays a role in recognizing damaged self-nucleic acids associated with tauopathies, Alzheimer's disease (AD), traumatic brain injury (TBI), and amyloid-associated neuroinflammation. The nucleic-acid forms associated with these conditions include transposable-element activation, extended repeat-containing transcripts, RNA-RNA duplexes or RNA:DNA hybrids, oxidized mitochondrial DNA (mtDNA), and intercellularly transferred nucleic acids, all of which may exhibit substrate structures compatible with Z-form formation. Signaling by ZBP1 does not occur simply based upon nucleic-acid abundance; rather, signaling occurs after prolonged exposure to a nucleic acid when it persists in a structurally competent state, sufficient receptors are present to bind its exposed regions, the receptor proteoforms are competent to participate in signaling, receptor-interacting protein homotypic interaction motif (RHIM)-dependent assembly occurs, and the appropriate adaptor molecules are present. Furthermore, the identity of the cell type expressing ZBP1 determines whether the response produces RIPK3-MLKL-dependent neuronal injury, microglia-mediated inflammation, apoptosis, or mixed cell death. Finally, competition with adenosine deaminase acting on RNA 1 (ADAR1), melanoma differentiation-associated protein 5 (MDA5), double-stranded RNA-dependent protein kinase (PKR), the cyclic guanosine monophosphate-adenosine monophosphate synthase-stimulator of interferon genes (cGAS-STING) pathway, and other nucleic-acid-sensing proteins divides the available pool of endogenous nucleic acids among the outcomes of immune tolerance, type I interferon (IFN-I) signaling, translational inhibition, neuroinflammation, and necroptosis.</text>
+    </passage>
+  </document>
+</collection>
