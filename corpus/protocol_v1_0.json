@@ -1,0 +1,34 @@
+{
+  "protocol_version": "1.0.0",
+  "frozen_at_utc": "2026-10-07",
+  "seed": "abbr-phase1-representative-v1-2026-10-07",
+  "sources": {
+    "pubmed": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pubmed.cgi/BioC_xml/{id}/unicode",
+    "pmc": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC{id}/unicode"
+  },
+  "frames": {
+    "pubmed": {"id_range_inclusive": [1, 50000000], "eligible": "Live numeric PMID in range with nonempty title and abstract passages returned by the Unicode PubMed BioC API"},
+    "pmc": {"id_range_inclusive": [1, 20000000], "eligible": "Numeric PMCID in range in the PMC Open Access Subset with nonempty BioC full text and article reuse metadata"}
+  },
+  "limitations": [
+    "Identifiers above the frozen upper bounds are outside the frames.",
+    "The BioC service snapshot and availability at retrieval time define eligibility; this is not a historical immutable NCBI snapshot.",
+    "Articles absent from the Unicode BioC conversion are outside the accessible target, even if a citation exists elsewhere.",
+    "The PMC frame is the accessible reusable BioC subset, not all PMC full text."
+  ],
+  "ordering": "For each cohort, enumerate the numeric ID frame with a seeded SHA-256 keyed affine permutation modulo the frame size, choosing a multiplier coprime to that size. This produces a deterministic permutation without replacement.",
+  "allocation": [
+    {"partition": "development", "pubmed": 5000, "pmc": 500},
+    {"partition": "holdout", "pubmed": 20000, "pmc": 2000},
+    {"partition": "reserve", "pubmed": 20000, "pmc": 2000}
+  ],
+  "family_rule": "Normalize DOI by lowercase and trimming URL prefixes; normalize PMID and PMCID numerically. Union records sharing any of these IDs. Process PubMed first; a PMC article linked to a selected PubMed family must use that family's partition or is skipped if its cohort quota is full. A selected family cannot appear in two partitions. Supplied example and gold identifiers are excluded across all partitions.",
+  "replacement_rule": "Scan the same frozen permutation until each cohort and partition reaches its exact quota. Every unavailable, malformed, ineligible, duplicate, excluded or conflicting draw receives an explicit terminal retrieval status. Do not substitute another query or change quotas. Reserve order is the retained permutation order. If the primary holdout becomes development data, promote reserve in frozen order and draw a new holdout only under a new versioned protocol.",
+  "expansion_rule": "If predeclared reference evidence counts are insufficient, draw additional families from the unused continuation of the same permutations under a separately versioned addendum; never edit this frozen bundle in place.",
+  "probability": "Within each numeric-ID frame, the random permutation gives all eligible IDs exchangeable rank. For a cohort without exclusions, first-k selection probability is k/M where M is the eligible frame size; M is unknown and estimated from observed eligibility fraction. Family collisions and blocked PMC linked-family assignments alter marginal probabilities and are logged. Report observed draw fraction and estimated inverse-probability weights, plus limitations, by cohort and partition.",
+  "stratification": "Unstratified probability sampling gives approximately proportional publication-period, subject, article-type and publisher representation. Audit these strata after retrieval; do not adapt selection to detector results. Small strata may be sparse.",
+  "text": "Retain every nonempty native Unicode BioC passage exactly decoded, with original offsets and infons in provenance. Remove pre-existing annotations and relations. Canonical passage offset starts at zero and advances by len(previous text in Python code points)+1; no separator is inserted into passage text.",
+  "shards": {"pubmed_documents": 100, "pmc_documents": 20},
+  "api_request_policy": "At most one BioC request every 1.5 seconds, with bounded retries and exponential backoff for 429/5xx/network failures. Honor Retry-After. Do not send an email or API key unless explicitly supplied by the user.",
+  "reference_status": "No C++ outcome, including zero abbreviations, is assumed by this protocol."
+}

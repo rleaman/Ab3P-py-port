@@ -4,3 +4,7 @@ __pycache__/
 .venv/
 *.egg-info/
 .pytest-tmp/
+evaluation/representative_v1/
+evaluation/representative_v1_staging/
+evaluation/representative_v1.input.tar.gz*
+evaluation/representative_v1_cache/
