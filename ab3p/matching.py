@@ -14,6 +14,20 @@ if TYPE_CHECKING:
     from .algorithm import Token
 
 
+def _ascii_lower(value: str) -> str:
+    """C-locale tolower changes ASCII bytes and leaves UTF-8 bytes intact."""
+    return value.translate(str.maketrans("ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                                        "abcdefghijklmnopqrstuvwxyz"))
+
+
+def _ascii_alpha(char: str) -> bool:
+    return "A" <= char <= "Z" or "a" <= char <= "z"
+
+
+def _ascii_alnum(char: str) -> bool:
+    return _ascii_alpha(char) or "0" <= char <= "9"
+
+
 @dataclass(frozen=True)
 class _Rule:
     general_initial: bool = True
@@ -75,7 +89,7 @@ def _alignments(wanted: str, words: list[str], general_initial: bool):
                 char_index = len(words[token_index]) - 1
             else:
                 if sf_index == 0 and char_index != 0:
-                    if not general_initial or words[token_index][char_index - 1].isalnum():
+                    if not general_initial or _ascii_alnum(words[token_index][char_index - 1]):
                         char_index -= 1
                         continue
                 positions[sf_index] = token_index, char_index
@@ -102,18 +116,19 @@ def match_strategy(strategy: str, sf: str, long_tokens: list["Token"],
     if not sf or not long_tokens:
         return None
     original = [token.text for token in long_tokens]
-    words = [word.lower() for word in original]
+    words = [_ascii_lower(word) for word in original]
     if strategy == "FirstLetOneChSF":
         last = original[-1]
-        if (sum(c.isalpha() for c in last) == 1
-                or all(not c.isalpha() or c.isupper() for c in last)
+        if (sum(_ascii_alpha(c) for c in last) == 1
+                or all(not _ascii_alpha(c) or "A" <= c <= "Z" for c in last)
                 or words[-1] in data.stopwords or words[-1] not in data.one_char_lfs):
             return None
     if rule.terminal_s and (len(sf) < 2 or not sf.endswith("s")
-                            or not sf[:-1].isalpha() or not sf[:-1].isupper()):
+                            or not all(_ascii_alpha(c) for c in sf[:-1])
+                            or not all("A" <= c <= "Z" for c in sf[:-1])):
         return None
 
-    for positions in _alignments(sf.lower(), words, rule.general_initial):
+    for positions in _alignments(_ascii_lower(sf), words, rule.general_initial):
         gaps = [b[0] - a[0] - 1 for a, b in zip(positions, positions[1:])]
         # The C++ skip constraints also count unmatched words after the last
         # matched character. Skipping strategies can end before the last token.
@@ -128,7 +143,7 @@ def match_strategy(strategy: str, sf: str, long_tokens: list["Token"],
                 words[ti + j] not in data.stopwords
                 for (ti, _), gap in zip(positions, gaps) for j in range(1, gap + 1)):
             continue
-        boundaries = [ci == 0 or (rule.general_initial and not words[ti][ci - 1].isalnum())
+        boundaries = [ci == 0 or (rule.general_initial and not _ascii_alnum(words[ti][ci - 1]))
                       for ti, ci in positions]
         if rule.first_letters and not all(boundaries):
             continue

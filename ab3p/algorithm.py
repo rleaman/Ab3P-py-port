@@ -1,6 +1,8 @@
 """Readable Python port of the Ab3P extraction and matching stages."""
 
 from dataclasses import dataclass
+from functools import lru_cache
+from pathlib import Path
 import re
 from .data import WordData, load_precisions
 from .matching import match_strategy as _match
@@ -31,27 +33,75 @@ class Abbreviation:
     precision: float
 
 
+@lru_cache(maxsize=1)
+def _medpost_mid_sentence_abbreviations() -> frozenset[str]:
+    path = Path(__file__).resolve().parents[1] / "BioC_C++_1.1/MedPost/medpost.abbr"
+    with path.open(encoding="ascii") as stream:
+        return frozenset(parts[1] for line in stream
+                         if (parts := line.split()) and len(parts) == 2
+                         and parts[0] == "ABB")
+
+
 def tokenize(text: str, base=0) -> list[Token]:
-    """Tokenize like token2 for the punctuation relevant to extraction."""
+    """Mirror token2 delimiter splitting while keeping embedded groups attached."""
     out = []
-    for m in re.finditer(r"\S+", text):
-        word, start = m.group(), m.start()
-        # Parentheses/brackets adjacent to ordinary text are retained, as in
-        # MPtok.  Boundary delimiters are separate tokens for candidates.
-        pieces = []
-        pos = 0
-        for q in re.finditer(r"(?<!\w)([()\[\]])(?!\w)|(?<!\w)([()\[\]])|([()\[\]])(?!\w)", word):
-            if q.start() > pos:
-                pieces.append((word[pos:q.start()], pos))
-            pieces.append((q.group(), q.start()))
-            pos = q.end()
-        if pos < len(word):
-            pieces.append((word[pos:], pos))
-        if not pieces:
-            pieces = [(word, 0)]
-        for p, off in pieces:
-            if p:
-                out.append(Token(p, base + start + off))
+    start = None
+    isolated = {"(": [], "[": []}
+    opening_for = {")": "(", "]": "["}
+    protected_until = 0
+
+    def flush(end):
+        nonlocal start
+        if start is not None and end > start:
+            out.append(Token(text[start:end], base + start))
+        start = None
+
+    for i, char in enumerate(text):
+        if char in " \t":
+            flush(i)
+            continue
+        if i < protected_until:
+            if start is None:
+                start = i
+            continue
+        if char in isolated:
+            # token2 isolates an opener only after blank space. An opener
+            # embedded in a chemical name remains part of the same token.
+            closer = ")" if char == "(" else "]"
+            end = i
+            balance = 0
+            last_close = -1
+            while end < len(text) and text[end] not in " \t":
+                if text[end] == char:
+                    balance -= 1
+                elif text[end] == closer:
+                    balance += 1
+                    last_close = end
+                end += 1
+            if (balance == 0 and last_close >= 0 and last_close + 1 < len(text)
+                    and ("A" <= text[last_close + 1] <= "Z"
+                         or "a" <= text[last_close + 1] <= "z"
+                         or "0" <= text[last_close + 1] <= "9")):
+                protected_until = end
+                if start is None:
+                    start = i
+                continue
+            split = i == 0 or text[i - 1] in " \t"
+            isolated[char].append(split)
+            if split:
+                flush(i)
+                out.append(Token(char, base + i))
+                continue
+        elif char in opening_for:
+            stack = isolated[opening_for[char]]
+            split = stack.pop() if stack else False
+            if split:
+                flush(i)
+                out.append(Token(char, base + i))
+                continue
+        if start is None:
+            start = i
+    flush(len(text))
     return out
 
 
@@ -62,16 +112,8 @@ def candidates(text: str) -> list[Candidate]:
         k = 0
         j = 0
         flag = False
-        last_close = None
-        last_short = None
         for i, tok in enumerate(toks):
             if tok.text == opening:
-                if (not flag and last_close is not None
-                        and (i - last_close > 3
-                             or (last_short is not None
-                                 and len(last_short) == 1
-                                 and last_short.isalpha()))):
-                    k = last_close + 1
                 if flag:
                     k = j + 1
                 if i > k and toks[i - 1].text != close:
@@ -81,22 +123,17 @@ def candidates(text: str) -> list[Candidate]:
                 continue
             if not flag:
                 j = k = i + 1
-                last_close = i
-                last_short = None
                 continue
             if not (j > k and i < j + 12 and i > j + 1):
                 flag = False
                 k = i + 1
-                last_close = i
-                last_short = None
                 continue
             # At most ten long-form tokens immediately preceding the opener.
-            begin = max(k, j - 10)
-            long_tokens = toks[begin:j]
+            k = max(k, j - 10)
+            long_tokens = toks[k:j]
             if not long_tokens:
                 continue
             flag = False
-            last_close = i
             sf_tokens = toks[j + 1:i]
             if not sf_tokens:
                 continue
@@ -114,8 +151,10 @@ def candidates(text: str) -> list[Candidate]:
                     continue
             sf = text[sf_tokens[0].start:sf_end]
             lf = text[long_tokens[0].start:long_tokens[-1].start + len(long_tokens[-1].text)]
-            result.append(Candidate(lf, long_tokens, sf, sf_tokens[0].start, sf_tokens))
-            last_short = sf.strip()
+            # Extract2_ch applies Test to the parenthesized form before the
+            # candidate reaches either normal or swapped orientation.
+            if _candidate_ok(sf):
+                result.append(Candidate(lf, long_tokens, sf, sf_tokens[0].start, sf_tokens))
 
     # token2 keeps a balanced parenthesized group attached to a word.  The
     # ordinary token pass above consequently cannot see candidates whose SF
@@ -141,7 +180,7 @@ def candidates(text: str) -> list[Candidate]:
             match.start("sf"),
             [Token(short, match.start("sf"))],
         )
-        if not any(c.short_start == candidate.short_start
+        if _candidate_ok(short) and not any(c.short_start == candidate.short_start
                    and c.short_text == candidate.short_text
                    and c.long_text == candidate.long_text for c in result):
             result.append(candidate)
@@ -149,19 +188,22 @@ def candidates(text: str) -> list[Candidate]:
 
 
 def _group(sf: str, lf: str):
-    compact = re.sub(r"[^A-Za-z0-9]", "", sf)
-    alpha = sum(c.isalpha() for c in sf)
-    digits = sum(c.isdigit() for c in sf)
-    non = len(sf) - alpha - digits
-    if (not compact or not sf or not sf[0].isalnum() or alpha < 1
-            or len(lf) < len(sf)
+    # StratUtil::group_sf applies C-locale ctype to UTF-8 *bytes* and uses
+    # strlen for its length/group. A Python Unicode letter is not equivalent.
+    raw = sf.encode("utf-8")
+    alpha = sum(65 <= byte <= 90 or 97 <= byte <= 122 for byte in raw)
+    digits = sum(48 <= byte <= 57 for byte in raw)
+    non = len(raw) - alpha - digits
+    if (not raw or not (65 <= raw[0] <= 90 or 97 <= raw[0] <= 122
+                       or 48 <= raw[0] <= 57) or alpha < 1
+            or len(lf.encode("utf-8")) < len(raw)
             or sf.count("(") != sf.count(")")
             or sf.count("[") != sf.count("]")):
         return None
-    if alpha > 10 or len(sf.split()) > 2:
+    if alpha > 10 or len([token for token in re.split(r"[ \t]+", sf) if token]) > 2:
         return None
-    kind = "Al" if alpha == len(sf) else ("Num" if digits else "Spec")
-    return kind + str(min(5, len(sf)))
+    kind = "Al" if alpha == len(raw) else ("Num" if digits else "Spec")
+    return kind + str(min(5, len(raw)))
 
 
 def _lf_ok(sf: str, lf: str) -> bool:
@@ -180,9 +222,9 @@ def _candidate_ok(sf: str) -> bool:
     }
     if sf in blocked or any(sf.startswith(prefix) for prefix in ("=", "eg.", "eg,", "see ", "see,", "p<", "P<")):
         return False
-    first = sf.split(" ", 1)[0]
-    letters = sum(ch.isalpha() for ch in first)
-    digits = sum(ch.isdigit() for ch in first)
+    first = sf.split(" ", 1)[0].encode("utf-8")
+    letters = sum(65 <= byte <= 90 or 97 <= byte <= 122 for byte in first)
+    digits = sum(48 <= byte <= 57 for byte in first)
     if not letters or digits == len(first):
         return False
     return not (len(first) == digits and digits >= 3)
@@ -199,14 +241,14 @@ def _sequence_indices(forms: list[str]) -> set[int]:
     marked = set()
     for sequence in sequences:
         for start in range(len(forms) - 1):
-            for sequence_start in range(len(sequence) - 1):
-                length = 0
-                while (length < len(sequence) - sequence_start
-                       and start + length < len(forms)
-                       and forms[start + length] == sequence[sequence_start + length]):
-                    length += 1
-                if length > 1:
-                    marked.update(range(start, start + length))
+            if forms[start] != sequence[0]:
+                continue
+            length = 1
+            while (length < len(sequence) and start + length < len(forms)
+                   and forms[start + length] == sequence[length]):
+                length += 1
+            if length > 1:
+                marked.update(range(start, start + length))
 
     for start, form in enumerate(forms):
         if len(form) > 1 and form[-1] == "1":
@@ -233,7 +275,7 @@ class Ab3P:
         # prevents a parenthesized form from borrowing a long form from a
         # preceding sentence while retaining passage-relative offsets.
         boundaries = []
-        for boundary in re.finditer(r"(?<=[.!?])\s+", text):
+        for boundary in re.finditer(r"(?<=[.!?])[ \t\r\n]+", text):
             prefix = text[:boundary.start()]
             if (prefix.count("(") - prefix.count(")") == 0
                     and prefix.count("[") - prefix.count("]") == 0):
@@ -242,8 +284,9 @@ class Ab3P:
                         and re.search(r"\([^()\r\n]{1,40}\)", following)):
                     continue
                 if text[boundary.start() - 1] == ".":
-                    previous = prefix.rstrip().split()[-1].lower()
-                    if (re.fullmatch(r"[a-z]\.", previous)
+                    previous = prefix.rstrip().split()[-1]
+                    if (previous in _medpost_mid_sentence_abbreviations()
+                            or re.fullmatch(r"(?:[A-Za-z]\.)+", previous)
                             or re.fullmatch(r"\d{1,2}\.", previous)):
                         continue
                 boundaries.append(boundary)
@@ -327,24 +370,12 @@ class Ab3P:
             # precision only to choose between the two orientations.
             best = None
             for candidate in orientations:
-                swapped_candidate = candidate is not c and candidate is not definition_candidate
                 group = _group(candidate.short_text, candidate.long_text)
                 if (not group or not _candidate_ok(candidate.short_text)
                         ):
                     continue
                 sf = re.sub(r"[^A-Za-z0-9]", "", candidate.short_text)
                 for strategy in self.strategies.get(group, []):
-                    # Swapped candidates use a token from the parenthesized
-                    # side as the long form.  WithinWrdWrd rejects a short
-                    # form that is only a suffix embedded in that token;
-                    # applying this specifically to swapped candidates keeps
-                    # ordinary mixed-form candidates eligible.
-                    if (swapped_candidate
-                            and any(re.search(
-                                r"[A-Za-z0-9]" + re.escape(sf), token.text,
-                                re.IGNORECASE)
-                                   for token in candidate.long_tokens)):
-                        continue
                     idx = _match(strategy, sf, candidate.long_tokens, self.data)
                     if idx is not None:
                         p = self.precision[group + strategy]
