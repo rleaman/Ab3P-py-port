@@ -1,0 +1,68 @@
+{
+  "reference_kind": "gold",
+  "min_precision": 0.0,
+  "offset_unit": "Python Unicode code points; C++ equivalence tested separately",
+  "target": null,
+  "files": {
+    "Ab3P_bioc_corpus.xml": {
+      "reference": 1223,
+      "system": 1042,
+      "common": 1010,
+      "reference_only": 213,
+      "system_only": 32,
+      "precision": 0.9692898272552783,
+      "recall": 0.8258381030253475,
+      "f1": 0.891832229580574,
+      "input_sha256": "423bc4d29e2495841bbe6f35f18779e1f9fa078e72d811e1d70da32cc34bebf3",
+      "reference_sha256": "1ebbd44bd1c00c685857bff79a0b2c1d6b43d33a9b87dfc3f35eeb6339e69219",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\Ab3P-BioC\\Ab3P_bioc_corpus.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\Ab3P-BioC\\Ab3P_bioc_gold.xml",
+      "corpus_counts": {
+        "documents": 1250,
+        "passages": 2500,
+        "characters": 1545383,
+        "non_ascii_characters": 0
+      }
+    }
+  },
+  "source_sha256": {
+    "ab3p\\__init__.py": "f493c2bc3cea4141dd6d4464e26416e1bccd4e3ae8a0beed9aa4e8d46905c3dc",
+    "ab3p\\__main__.py": "43a9ddf955a185c6e1d75aea4e074cf9e3737c37f6c934594b497f609254eb91",
+    "ab3p\\algorithm.py": "c0e919cc3f0e1f61d8fa86ba8bbbc242fc0a220abf199342d7deec279c87a4d9",
+    "ab3p\\bioc.py": "e19fce2879a5d57f22763d5c0103e8ae57b455b0a490746e15c54a860c2e02f5",
+    "ab3p\\data.py": "cf4c4c6e2b88e2f345484343842391c6a69e3001bac8af6cf2aa3cb590a2c9b0",
+    "ab3p\\matching.py": "09b7192311e445860e30e562bd113e044cca5acd361a346005def025092c6658",
+    "audit\\evaluate_current.py": "ff504c541cd381acfa22d8210885f563d739eb42cb02b33249885a54469ba202",
+    "audit\\compare_ab3p.py": "5798f20f650855cacd9b1c3115230ff16bf256841947d9c29ec9a52da3261b02"
+  },
+  "data_sha256": {
+    "cshset_wrdset3.str": "254f4c80f40b559bd35cb8af23d8bb7937d2140a489366ff27fe9ef86dba4185",
+    "hshset_Lf1chSf.str": "9944c495948e1ef0492307e699337962a3463ae4271a5766b9b441671652e66c",
+    "hshset_stop.str": "d69d2e82dd9c2b5e964e231aa8fee44bcdf622e3526b16c65262d44c2bd99f6e",
+    "Ab3P_prec.dat": "77903769069451f67095b8aa677ac19b4074e86cf165519c3cd1cb02734db5c3"
+  },
+  "exact_occurrences": {
+    "all": {
+      "reference": 1223,
+      "system": 1042,
+      "common": 1010,
+      "reference_only": 213,
+      "system_only": 32,
+      "precision": 0.9692898272552783,
+      "recall": 0.8258381030253475,
+      "f1": 0.891832229580574
+    },
+    "other": {
+      "reference": 1223,
+      "system": 1042,
+      "common": 1010,
+      "reference_only": 213,
+      "system_only": 32,
+      "precision": 0.9692898272552783,
+      "recall": 0.8258381030253475,
+      "f1": 0.891832229580574
+    }
+  },
+  "elapsed_seconds": 1.56596660008654,
+  "target_met": null
+}

@@ -3,6 +3,7 @@
 from dataclasses import dataclass
 import re
 from .data import WordData, load_precisions
+from .matching import match_strategy as _match
 
 
 @dataclass
@@ -219,330 +220,10 @@ def _sequence_indices(forms: list[str]) -> set[int]:
     return marked
 
 
-def _initial_match(sf: str, tokens: list[str], general=False, skips=0,
-                   stopwords=None, require_skipwords=0, exact_skipwords=None,
-                   trailing_s=False):
-    letters = re.sub(r"[^A-Za-z0-9]", "", sf).lower()
-    if not letters:
-        return None
-    positions = [(ti, ci) for ti, token in enumerate(tokens)
-                 for ci, char in enumerate(token)
-                 if char.isalnum()
-                 and (ci == 0 or (general and not token[ci - 1].isalnum()))]
-    final_positions = positions
-    if trailing_s:
-        if (not letters.endswith("s") or not tokens
-                or not tokens[-1].lower().endswith("s")):
-            return None
-        terminal = (len(tokens) - 1, len(tokens[-1]) - 1)
-        final_positions = [position for position in positions
-                           if position != terminal]
-
-    def walk(letter_index, previous, matched):
-        if letter_index < 0:
-            if trailing_s and (len(matched) < 2
-                               or matched[1][0] != matched[0][0]):
-                return None
-            if stopwords is not None:
-                gaps = [tokens[b[0] + 1:a[0]]
-                        for a, b in zip(matched, matched[1:])]
-                if require_skipwords and not any(gaps):
-                    return None
-                if exact_skipwords is not None and not any(
-                        len(gap) == exact_skipwords for gap in gaps):
-                    return None
-                if any(any(x.lower() not in stopwords for x in gap)
-                       for gap in gaps):
-                    return None
-            return matched[-1][0]
-        for ti, ci in reversed(positions):
-            if (ti > previous[0] or (ti == previous[0] and ci >= previous[1])
-                    or tokens[ti][ci].lower() != letters[letter_index]):
-                continue
-            gap = previous[0] - ti - (1 if previous[0] > ti else 0)
-            if gap <= skips:
-                result = walk(letter_index - 1, (ti, ci),
-                              matched + [(ti, ci)])
-                if result is not None:
-                    return result
-        return None
-
-    # C++ search_backward is initialized at the last long-form token; it
-    # never starts a FirstLet match from an earlier token.
-    if trailing_s:
-        final_positions = [(len(tokens) - 1, len(tokens[-1]) - 1)]
-    else:
-        final_positions = [position for position in final_positions
-                           if position[0] == len(tokens) - 1]
-    for final in reversed(final_positions):
-        if tokens[final[0]][final[1]].lower() != letters[-1]:
-            continue
-        result = walk(len(letters) - 2, final, [final])
-        if result is not None:
-            return result
-    return None
-
-
-def _backward_subsequence_start(sf, long_tokens, max_token_jump,
-                                first_at_boundary=False, word_set=None,
-                                final_token=False):
-    """Find a complete short form by walking backward from its final char."""
-    wanted = re.sub(r"[^A-Za-z0-9]", "", sf).lower()
-    if not wanted:
-        return None
-    words = [token.text.lower() for token in long_tokens]
-    end_tokens = (len(words) - 1,) if final_token else range(len(words) - 1, -1, -1)
-    for end_token in end_tokens:
-        for end_pos in range(len(words[end_token]) - 1, -1, -1):
-            if words[end_token][end_pos] != wanted[-1]:
-                continue
-            token_index, char_index = end_token, end_pos
-            first_token = token_index
-            last_token = token_index
-            matched_positions = [(token_index, char_index)]
-            for wanted_char in reversed(wanted[:-1]):
-                found = None
-                for candidate_token in range(last_token, max(-1, last_token - max_token_jump - 1), -1):
-                    limit = char_index if candidate_token == last_token else len(words[candidate_token])
-                    position = words[candidate_token].rfind(wanted_char, 0, limit)
-                    if position >= 0:
-                        if (first_at_boundary and position > 0
-                                and words[candidate_token][position - 1].isalnum()):
-                            continue
-                        found = (candidate_token, position)
-                        continue
-                if found is None:
-                    break
-                last_token, char_index = found
-                first_token = last_token
-                matched_positions.append((last_token, char_index))
-            else:
-                if word_set is not None and any(
-                        position > 0 and words[token_index][position:] not in word_set
-                        for token_index, position in matched_positions):
-                    continue
-                return first_token
-    return None
-
-
-def _match(strategy, sf, long_tokens, data, word_set_allowed=True):
-    delimiter_tokens = {"(", ")", "[", "]"}
-    if any(token.text in delimiter_tokens for token in long_tokens):
-        kept = [token for token in long_tokens if token.text not in delimiter_tokens]
-        if not kept:
-            return None
-        index_map = [index for index, token in enumerate(long_tokens)
-                     if token.text not in delimiter_tokens]
-        result = _match(strategy, sf, kept, data, word_set_allowed)
-        return index_map[result] if result is not None else None
-
-    words = [t.text for t in long_tokens]
-    compact = re.sub(r"[^A-Za-z0-9]", "", sf).lower()
-    s = strategy
-    # MPtok separates URL punctuation before the strategies search.  Mask
-    # URL-like tokens here so an abbreviation is not matched opportunistically
-    # inside a domain (for example, FDA in ``accessdata.fda.gov``); token
-    # positions and the original emitted text remain unchanged.
-    url_indices = [index for index, word in enumerate(words)
-                   if re.search(r"(?:https?://|www\.|\.[A-Za-z]{2,}/)",
-                                word, re.IGNORECASE)]
-    if url_indices and any(
-            any(not re.search(r"(?:https?://|www\.|\.[A-Za-z]{2,}/)",
-                              words[prior], re.IGNORECASE)
-                for prior in range(index))
-            for index in url_indices):
-        long_tokens = [
-            Token(re.sub(r"[A-Za-z0-9]", "_", token.text)
-                 if re.search(r"(?:https?://|www\.|\.[A-Za-z]{2,}/)",
-                              token.text, re.IGNORECASE) else token.text,
-                 token.start)
-            for token in long_tokens
-        ]
-        words = [t.text for t in long_tokens]
-    if s == "FirstLetOneChSF":
-        last_word = words[-1]
-        last_lower = last_word.lower()
-        last_is_one_alpha = sum(char.isalpha() for char in last_word) == 1
-        last_is_upper = all(
-            not char.isalpha() or char.isupper() for char in last_word
-        )
-        if (len(compact) != 1 or last_is_one_alpha or last_is_upper
-                or last_lower in data.stopwords
-                or last_lower not in data.one_char_lfs):
-            return None
-        return _initial_match(sf, words, False, 0)
-    if s.startswith("FirstLet"):
-        if s in ("FirstLet", "FirstLetGen", "FirstLetGenS") and not all(c.isalpha() for c in sf):
-            return None
-        if s == "FirstLetGenS" and not (sf.endswith("s") and sf[:-1].isupper()):
-            return None
-        skips = 0
-        stop = None
-        require_skipwords = 0
-        exact_skipwords = None
-        if s == "FirstLetGenStp":
-            skips, stop, require_skipwords = 1, data.stopwords, 1
-        elif s == "FirstLetGenStp2":
-            skips, stop, exact_skipwords = 2, data.stopwords, 2
-        elif s == "FirstLetGenSkp": skips = 1
-        return _initial_match(
-            sf, words, s != "FirstLet", skips, stop,
-            require_skipwords, exact_skipwords, s == "FirstLetGenS",
-        )
-    # Remaining strategies use character matches in token text. These compact
-    # implementations retain the C++ constraints while remaining easy to edit.
-    if s.startswith("WithinWrd") or s.startswith("ContLet") or s == "AnyLet":
-        # The C++ matcher works backward from the final short-form
-        # character.  This matters for pairs such as ``C1 inhibitor (C1-inh)``:
-        # the match ends inside the final token, but the long form starts at
-        # the token ``C1``.
-        remaining = len(compact) - 1
-        # A numeric-leading form must not be accepted as a suffix embedded
-        # in an alphanumeric token (for example, ``4A2`` in ``EIF4A2``).
-        # Token-boundary forms such as ``2h`` remain eligible.
-        if (s == "WithinWrdWrd" and sf[:1].isdigit()
-                and any(re.search(r"[A-Za-z]" + re.escape(compact), word,
-                                  re.IGNORECASE)
-                       for word in words)):
-            return None
-        camel_case = len(sf) > 1 and sf[0].islower() and any(ch.isupper() for ch in sf[1:])
-        max_token_jump = 2 if ("Skp" in s or s == "AnyLet"
-                                or (s == "WithinWrdWrd" and camel_case)) else 1
-        word_set = (data.words if word_set_allowed and sf.islower()
-                    and sf.isalpha()
-                    and ((s.startswith("WithinWrd") and "F" not in s)
-                         or (s.startswith("ContLet")
-                         and "Let" not in s)
-                         or s == "AnyLet") else None)
-        boundary_start = _subsequence_start(
-            sf,
-            long_tokens,
-            max_token_jump,
-            first_at_boundary=True,
-            all_at_boundary=(s.startswith("WithinWrdFWrd")
-                             or s.startswith("WithinWrdFLet")
-                             or s.startswith("ContLet")),
-            word_set=word_set,
-            final_token=s == "AnyLet",
-        )
-        if boundary_start is not None:
-            return boundary_start
-        if (s.startswith("WithinWrdFWrd")
-                or s.startswith("WithinWrdFLet")
-                or s.startswith("ContLet")):
-            return None
-
-        start_tokens = (len(words) - 1,) if s == "AnyLet" else range(len(words) - 1, -1, -1)
-        for i in start_tokens:
-            for pos in range(len(words[i]) - 1, -1, -1):
-                if words[i][pos].lower() != compact[remaining]:
-                    continue
-                ti, pi = i, pos
-                last_ti = ti
-                first_ti = ti
-                matched_positions = [(ti, pi)]
-                remaining -= 1
-                while remaining >= 0:
-                    pi -= 1
-                    while ti >= 0:
-                        while pi >= 0 and words[ti][pi].lower() != compact[remaining]:
-                            pi -= 1
-                        if pi >= 0:
-                            break
-                        ti -= 1
-                        if last_ti - ti > max_token_jump:
-                            ti = -1
-                            break
-                        if ti >= 0:
-                            pi = len(words[ti]) - 1
-                    if ti < 0:
-                        break
-                    last_ti = ti
-                    first_ti = ti
-                    matched_positions.append((ti, pi))
-                    remaining -= 1
-                else:
-                    if word_set is not None and any(
-                            position > 0 and words[token_index][position:].lower() not in word_set
-                            for token_index, position in matched_positions):
-                        remaining = len(compact) - 1
-                        continue
-                    # The backward search may finish on an earlier token
-                    # than the token where its final character was found;
-                    # extraction includes all tokens through the candidate's
-                    # end.  Recover that left edge when available.
-                    # A successful legacy search can have crossed one
-                    # additional token while backtracking; use that wider
-                    # window only to recover the left edge, not acceptance.
-                    earlier = _subsequence_start(
-                        sf, long_tokens, max_token_jump + 1,
-                        first_at_boundary=True, word_set=word_set,
-                    )
-                    return min(first_ti, earlier) if earlier is not None else first_ti
-                remaining = len(compact) - 1
-        if s.startswith("WithinWrd") or s.startswith("ContLet") or s == "AnyLet":
-            return _backward_subsequence_start(
-                sf, long_tokens, max_token_jump, first_at_boundary=True,
-                word_set=word_set,
-                final_token=s == "AnyLet",
-            )
-    return None
-
-
-def _subsequence_start(sf, long_tokens, max_token_jump=None,
-                       first_at_boundary=False, all_at_boundary=False,
-                       word_set=None, final_token=False):
-    """Conservative final fallback for legacy tokenizer edge cases.
-
-    The original backward matcher permits initials after punctuation inside a
-    token.  This equivalent character-level check covers those cases while
-    still requiring the complete short form to occur in order and to finish
-    in the final long-form token.
-    """
-    wanted = re.sub(r"[^A-Za-z0-9]", "", sf).lower()
-    if len(wanted) < 2:
-        return None
-    positions = [(i, j) for i, t in enumerate(long_tokens) for j, c in enumerate(t.text.lower()) if c.isalnum()]
-    def boundary_ok(i, j, first):
-        if not ((first_at_boundary and first) or all_at_boundary) or j == 0:
-            return True
-        return not long_tokens[i].text[j - 1].isalnum()
-
-    def walk(at, previous, matched):
-        if at == len(wanted):
-            if final_token and matched[-1][0] != len(long_tokens) - 1:
-                return None
-            if word_set is not None and any(
-                    j > 0 and long_tokens[i].text[j:].lower() not in word_set
-                    for i, j in matched):
-                return None
-            return matched[0][0]
-        for i, j in reversed(positions):
-            if i < previous[0] or (i == previous[0] and j <= previous[1]):
-                continue
-            if (long_tokens[i].text[j].lower() != wanted[at]
-                    or not boundary_ok(i, j, at == 0)):
-                continue
-            if (max_token_jump is not None
-                    and i - previous[0] > max_token_jump):
-                continue
-            result = walk(at + 1, (i, j), matched + [(i, j)])
-            if result is not None:
-                return result
-        return None
-
-    for start in reversed(positions):
-        i, j = start
-        if long_tokens[i].text[j].lower() != wanted[0] or not boundary_ok(i, j, True):
-            continue
-        result = walk(1, start, [start])
-        if result is not None:
-            return result
-    return None
-
-
 class Ab3P:
-    def __init__(self, data_dir=None, precision_file=None, min_precision=0.696532):
+    def __init__(self, data_dir=None, precision_file=None, min_precision=0.0):
+        if not 0 <= min_precision <= 1:
+            raise ValueError("min_precision must be between 0 and 1")
         self.data = WordData(data_dir)
         self.precision, self.strategies = load_precisions(precision_file)
         self.min_precision = min_precision
@@ -645,7 +326,6 @@ class Ab3P:
             # the first successful strategy for each orientation, then uses
             # precision only to choose between the two orientations.
             best = None
-            best_is_definition = False
             for candidate in orientations:
                 swapped_candidate = candidate is not c and candidate is not definition_candidate
                 group = _group(candidate.short_text, candidate.long_text)
@@ -665,11 +345,7 @@ class Ab3P:
                                 re.IGNORECASE)
                                    for token in candidate.long_tokens)):
                         continue
-                    idx = _match(
-                        strategy, sf, candidate.long_tokens, self.data,
-                        word_set_allowed=all(char.isalpha()
-                                             for char in candidate.short_text),
-                    )
+                    idx = _match(strategy, sf, candidate.long_tokens, self.data)
                     if idx is not None:
                         p = self.precision[group + strategy]
                         lf_start = candidate.long_tokens[idx].start - candidate.long_tokens[0].start
@@ -682,13 +358,10 @@ class Ab3P:
                                     candidate.short_start,
                                     candidate.long_tokens[idx].start,
                                     strategy)
-                            best_is_definition = candidate is definition_candidate
                         break
             if best is not None:
                 p, sf_text, lf_text, sf_start, lf_start, strategy = best
-                mixed_case = (any(ch.isupper() for ch in sf_text)
-                              and any(ch.islower() for ch in sf_text))
-                if p >= self.min_precision or best_is_definition:
+                if p > 0 and p >= self.min_precision:
                     found.append(Abbreviation(sf_text, lf_text, offset + sf_start,
                                               offset + lf_start, strategy, p))
         return found

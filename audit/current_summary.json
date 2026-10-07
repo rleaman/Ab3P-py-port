@@ -1,0 +1,398 @@
+{
+  "reference_kind": "cpp",
+  "min_precision": 0.0,
+  "offset_unit": "Python Unicode code points; C++ equivalence tested separately",
+  "target": 0.999,
+  "files": {
+    "collection_full_00001.xml": {
+      "reference": 6277,
+      "system": 6253,
+      "common": 6244,
+      "reference_only": 33,
+      "system_only": 9,
+      "precision": 0.9985606908683832,
+      "recall": 0.9947427114863788,
+      "f1": 0.9966480446927374,
+      "input_sha256": "8f787716c9d16c2da1de3b2a66a07b80710dd21087ee17dbc70b9d3f2a322b1b",
+      "reference_sha256": "d9b4528b8786e6cda37514b88d00f6acb603725a117f60059fddc05e4c03e9af",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_full_00001.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_full_00001.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 30491,
+        "characters": 10367701,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_full_00002.xml": {
+      "reference": 7318,
+      "system": 7295,
+      "common": 7282,
+      "reference_only": 36,
+      "system_only": 13,
+      "precision": 0.9982179575051405,
+      "recall": 0.9950806231210714,
+      "f1": 0.9966468213234791,
+      "input_sha256": "0fd1e2d50337da2fec824943da6247a272de6c8e2e451927eaae8eab06226aba",
+      "reference_sha256": "f0c5633a98610793966492bb5dde2bdd6d9d101d3b6b0ac6fe54851acb7cc824",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_full_00002.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_full_00002.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 36302,
+        "characters": 11913596,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_full_00003.xml": {
+      "reference": 7882,
+      "system": 7839,
+      "common": 7821,
+      "reference_only": 61,
+      "system_only": 18,
+      "precision": 0.9977037887485649,
+      "recall": 0.9922608475006344,
+      "f1": 0.9949748743718593,
+      "input_sha256": "4d0cc38dd8dab26fd42926093c0c286506384d5a35f56301e6589ae61216157f",
+      "reference_sha256": "e72d137059feb809a48107d06127abb4f28831c17aeedc126a4d950464328f9b",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_full_00003.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_full_00003.xml",
+      "corpus_counts": {
+        "documents": 201,
+        "passages": 38035,
+        "characters": 12767125,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_full_00004.xml": {
+      "reference": 8464,
+      "system": 8425,
+      "common": 8397,
+      "reference_only": 67,
+      "system_only": 28,
+      "precision": 0.9966765578635015,
+      "recall": 0.9920841209829868,
+      "f1": 0.9943750370063354,
+      "input_sha256": "d4d48b64bc071302d333e0b72b632de9a5075831268e1a0530588c036ef933e5",
+      "reference_sha256": "8e00611722ab181b9fc0e15682ff21ef4721b8e0c2a3631019ee085cd42eca41",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_full_00004.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_full_00004.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 37718,
+        "characters": 13130212,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_full_00005.xml": {
+      "reference": 8688,
+      "system": 8659,
+      "common": 8645,
+      "reference_only": 43,
+      "system_only": 14,
+      "precision": 0.9983831851253031,
+      "recall": 0.9950506445672191,
+      "f1": 0.9967141292442497,
+      "input_sha256": "f04269bb8fea4877b9be148687f0412235871a86f190a2c36f48211230524591",
+      "reference_sha256": "554d63d9664b6ee73023ab30c872bea2402cd7b8fe2248dc62c2a282d9862b79",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_full_00005.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_full_00005.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 40868,
+        "characters": 14047764,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_full_00006.xml": {
+      "reference": 7413,
+      "system": 7394,
+      "common": 7383,
+      "reference_only": 30,
+      "system_only": 11,
+      "precision": 0.9985123072761699,
+      "recall": 0.9959530554431404,
+      "f1": 0.9972310393732694,
+      "input_sha256": "036c0da75c180c08b64735fac38974d3cd3ee73968ee462b15c139e19bbb429e",
+      "reference_sha256": "3a19d6e6bb6e946215704730a7b21c4c17726da695c368a621020201b724b891",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_full_00006.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_full_00006.xml",
+      "corpus_counts": {
+        "documents": 159,
+        "passages": 33125,
+        "characters": 11574703,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00001.xml": {
+      "reference": 350,
+      "system": 349,
+      "common": 349,
+      "reference_only": 1,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9971428571428571,
+      "f1": 0.9985693848354793,
+      "input_sha256": "0b9c7038079fc59e588dd730c49d99ae4e0ba89afdc99607ef6d115e1efe8cae",
+      "reference_sha256": "6988234c36efff8db498528b0ccc08c9ee77632d377a09822fcb6e01286d39f3",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00001.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00001.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 400,
+        "characters": 337123,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00002.xml": {
+      "reference": 436,
+      "system": 431,
+      "common": 431,
+      "reference_only": 5,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9885321100917431,
+      "f1": 0.994232987312572,
+      "input_sha256": "41fd262f6bd07f05a344108cc611d9c1066ee2f16a4b89ef5549395883905660",
+      "reference_sha256": "30be7a7d4d73f1d0c2856ea4a3276d306a0cf8f77a2183ed3871054153b6f623",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00002.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00002.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 400,
+        "characters": 320484,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00003.xml": {
+      "reference": 445,
+      "system": 443,
+      "common": 443,
+      "reference_only": 2,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9955056179775281,
+      "f1": 0.9977477477477478,
+      "input_sha256": "8672a00cd303101d1c9d909913438f28d5a9857498d7b39791a6447c0acb101b",
+      "reference_sha256": "9b631efd74e5d9bf7df8dfbf1ecec67515abe1ae6cb9eb29b284f0e23a7b50f8",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00003.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00003.xml",
+      "corpus_counts": {
+        "documents": 199,
+        "passages": 397,
+        "characters": 340093,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00004.xml": {
+      "reference": 423,
+      "system": 423,
+      "common": 423,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "input_sha256": "09703e061408855c5a707fcb8e19ad24a030511f10d76f3dc06f8b26655377a2",
+      "reference_sha256": "ca6864317fdf3e9ebd4ce5aa6868670c2c71b284053c8433fbdb1db55761bd36",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00004.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00004.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 400,
+        "characters": 327637,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00005.xml": {
+      "reference": 396,
+      "system": 397,
+      "common": 396,
+      "reference_only": 0,
+      "system_only": 1,
+      "precision": 0.9974811083123426,
+      "recall": 1.0,
+      "f1": 0.9987389659520807,
+      "input_sha256": "4b2298ab524582367668f1c219560df8ab0f28a15a42901364baa418143464fe",
+      "reference_sha256": "29adba17deee177fd717c35f3a6a7da65b224559ae839e556de2b515d1e7d033",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00005.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00005.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 399,
+        "characters": 314893,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00006.xml": {
+      "reference": 426,
+      "system": 426,
+      "common": 426,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "input_sha256": "b8714204267e9fda2966a0dfcbe322e3cbc7eadcb6ae768ccf0bb671cdd6bf5f",
+      "reference_sha256": "eebd71ccfba0211f22d9cedc6fa5dbad12bcb8928f7f02b4bed21dfdf7c2157f",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00006.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00006.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 400,
+        "characters": 323076,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00007.xml": {
+      "reference": 453,
+      "system": 452,
+      "common": 452,
+      "reference_only": 1,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9977924944812362,
+      "f1": 0.9988950276243094,
+      "input_sha256": "9b7b0166b936acc4c6b9e1cb7f291cfb312907787ff291c8f6d6051e8702fce1",
+      "reference_sha256": "2caff452e49d40ac215980e6220421fdaafae0d4b84f4cd9efa8c4f4ed9c8c8e",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00007.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00007.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 400,
+        "characters": 337013,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00008.xml": {
+      "reference": 518,
+      "system": 519,
+      "common": 518,
+      "reference_only": 0,
+      "system_only": 1,
+      "precision": 0.9980732177263969,
+      "recall": 1.0,
+      "f1": 0.9990356798457087,
+      "input_sha256": "602d9b7a84d92a659e5fb904707d567507b14cc449df2eb2cc6047373e416b1d",
+      "reference_sha256": "07bb7a87f4e5e2b1a836cc0a3f67a496f9c3006655ead648b4cc160e3b89b278",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00008.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00008.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 400,
+        "characters": 345467,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00009.xml": {
+      "reference": 521,
+      "system": 521,
+      "common": 521,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "input_sha256": "d847c3003f35503025d70205518143c2e134ac7309890ba1fe50fcd271e31e16",
+      "reference_sha256": "97976679df4846813f4e90b1fa163a98b6a9f555d8bb08bc2dd2c9c1c6d6f425",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00009.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00009.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 400,
+        "characters": 345728,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00010.xml": {
+      "reference": 560,
+      "system": 560,
+      "common": 560,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "input_sha256": "607c6334a21ed2b326f1bc91972afe2b815a8fe0f4cf7544dec7377c73f2aabb",
+      "reference_sha256": "d7b5952d11039f622ff69c8e48478438cd8ef74e80cf8ba1b35a322fc343c2b6",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00010.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00010.xml",
+      "corpus_counts": {
+        "documents": 200,
+        "passages": 399,
+        "characters": 365584,
+        "non_ascii_characters": 0
+      }
+    },
+    "collection_tiab_00011.xml": {
+      "reference": 174,
+      "system": 174,
+      "common": 174,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "input_sha256": "6944025eb3218736791480b5097db9a106a801fa1852b951048150c53d6a2da7",
+      "reference_sha256": "525c258bcd0f4723efc06ff1d5e8da92062b1f34d5af6157b7580130a095531c",
+      "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\input\\collection_tiab_00011.xml",
+      "reference_path": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\examples\\reference_output\\collection_tiab_00011.xml",
+      "corpus_counts": {
+        "documents": 74,
+        "passages": 148,
+        "characters": 136149,
+        "non_ascii_characters": 0
+      }
+    }
+  },
+  "source_sha256": {
+    "ab3p\\__init__.py": "f493c2bc3cea4141dd6d4464e26416e1bccd4e3ae8a0beed9aa4e8d46905c3dc",
+    "ab3p\\__main__.py": "43a9ddf955a185c6e1d75aea4e074cf9e3737c37f6c934594b497f609254eb91",
+    "ab3p\\algorithm.py": "c0e919cc3f0e1f61d8fa86ba8bbbc242fc0a220abf199342d7deec279c87a4d9",
+    "ab3p\\bioc.py": "e19fce2879a5d57f22763d5c0103e8ae57b455b0a490746e15c54a860c2e02f5",
+    "ab3p\\data.py": "cf4c4c6e2b88e2f345484343842391c6a69e3001bac8af6cf2aa3cb590a2c9b0",
+    "ab3p\\matching.py": "09b7192311e445860e30e562bd113e044cca5acd361a346005def025092c6658",
+    "audit\\evaluate_current.py": "ff504c541cd381acfa22d8210885f563d739eb42cb02b33249885a54469ba202",
+    "audit\\compare_ab3p.py": "5798f20f650855cacd9b1c3115230ff16bf256841947d9c29ec9a52da3261b02"
+  },
+  "data_sha256": {
+    "cshset_wrdset3.str": "254f4c80f40b559bd35cb8af23d8bb7937d2140a489366ff27fe9ef86dba4185",
+    "hshset_Lf1chSf.str": "9944c495948e1ef0492307e699337962a3463ae4271a5766b9b441671652e66c",
+    "hshset_stop.str": "d69d2e82dd9c2b5e964e231aa8fee44bcdf622e3526b16c65262d44c2bd99f6e",
+    "Ab3P_prec.dat": "77903769069451f67095b8aa677ac19b4074e86cf165519c3cd1cb02734db5c3"
+  },
+  "exact_occurrences": {
+    "all": {
+      "reference": 50744,
+      "system": 50560,
+      "common": 50465,
+      "reference_only": 279,
+      "system_only": 95,
+      "precision": 0.9981210443037974,
+      "recall": 0.9945018130222292,
+      "f1": 0.9963081418305298
+    },
+    "full": {
+      "reference": 46042,
+      "system": 45865,
+      "common": 45772,
+      "reference_only": 270,
+      "system_only": 93,
+      "precision": 0.9979723100403358,
+      "recall": 0.9941357890621606,
+      "f1": 0.9960503552504162
+    },
+    "tiab": {
+      "reference": 4702,
+      "system": 4695,
+      "common": 4693,
+      "reference_only": 9,
+      "system_only": 2,
+      "precision": 0.9995740149094782,
+      "recall": 0.9980859208847299,
+      "f1": 0.9988294136426519
+    }
+  },
+  "elapsed_seconds": 90.88855640008114,
+  "target_met": false
+}
