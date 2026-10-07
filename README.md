@@ -180,5 +180,19 @@ The older `audit/summary.json` and `audit/strategy_probe*.json` files preserve t
 initial audit and isolated experiment. They are historical evidence; use
 `evaluate_current.py` for new measurements.
 
-See [the project plan](docs/PROJECT_PLAN.md) for the remaining repair and broader
-evaluation, and [the kickoff prompt](docs/KICKOFF_PROMPT.md) to start that work.
+The remaining work is split into three phases so preparation can finish before
+Linux C++ results are available:
+
+1. [Prepare the representative corpus](docs/PHASE_1_PREPARE_CORPUS.md): complete
+   kickoff instructions and goal prompt; creates `evaluation/representative_v1/`
+   and its portable input archive without needing C++.
+2. [Generate the C++ reference on Linux](docs/PHASE_2_LINUX_REFERENCE.md): run the
+   frozen inputs and copy the result tree back to
+   `evaluation/representative_v1/reference_cpp/`.
+3. [Complete repair and evaluation](docs/PHASE_3_COMPLETE_REPAIR.md): separate
+   kickoff instructions and goal prompt using the returned results.
+
+These are planned corpus paths; the documentation does not download the set.
+See [the project plan](docs/PROJECT_PLAN.md) for the technical requirements and
+both 99.9% completion gates, or [the phase selector](docs/KICKOFF_PROMPT.md) to
+choose a kickoff prompt.
