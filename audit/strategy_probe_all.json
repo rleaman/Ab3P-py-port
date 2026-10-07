@@ -1,0 +1,408 @@
+{
+  "collection_full_00001.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 6277,
+      "system": 6253,
+      "common": 6244,
+      "reference_only": 33,
+      "system_only": 9,
+      "precision": 0.9985606908683832,
+      "recall": 0.9947427114863788,
+      "f1": 0.9966480446927374
+    },
+    "document_pairs": {
+      "reference": 5260,
+      "system": 5238,
+      "common": 5230,
+      "reference_only": 30,
+      "system_only": 8,
+      "precision": 0.9984726995036274,
+      "recall": 0.9942965779467681,
+      "f1": 0.9963802629072204
+    }
+  },
+  "collection_full_00002.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 7318,
+      "system": 7295,
+      "common": 7282,
+      "reference_only": 36,
+      "system_only": 13,
+      "precision": 0.9982179575051405,
+      "recall": 0.9950806231210714,
+      "f1": 0.9966468213234791
+    },
+    "document_pairs": {
+      "reference": 6161,
+      "system": 6141,
+      "common": 6128,
+      "reference_only": 33,
+      "system_only": 13,
+      "precision": 0.9978830809314444,
+      "recall": 0.9946437266677487,
+      "f1": 0.9962607706064055
+    }
+  },
+  "collection_full_00003.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 7882,
+      "system": 7839,
+      "common": 7821,
+      "reference_only": 61,
+      "system_only": 18,
+      "precision": 0.9977037887485649,
+      "recall": 0.9922608475006344,
+      "f1": 0.9949748743718593
+    },
+    "document_pairs": {
+      "reference": 6529,
+      "system": 6494,
+      "common": 6483,
+      "reference_only": 46,
+      "system_only": 11,
+      "precision": 0.9983061287342162,
+      "recall": 0.9929545106448154,
+      "f1": 0.995623128311449
+    }
+  },
+  "collection_full_00004.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 8464,
+      "system": 8425,
+      "common": 8397,
+      "reference_only": 67,
+      "system_only": 28,
+      "precision": 0.9966765578635015,
+      "recall": 0.9920841209829868,
+      "f1": 0.9943750370063354
+    },
+    "document_pairs": {
+      "reference": 7004,
+      "system": 6980,
+      "common": 6956,
+      "reference_only": 48,
+      "system_only": 24,
+      "precision": 0.9965616045845272,
+      "recall": 0.9931467732724157,
+      "f1": 0.9948512585812357
+    }
+  },
+  "collection_full_00005.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 8688,
+      "system": 8659,
+      "common": 8645,
+      "reference_only": 43,
+      "system_only": 14,
+      "precision": 0.9983831851253031,
+      "recall": 0.9950506445672191,
+      "f1": 0.9967141292442497
+    },
+    "document_pairs": {
+      "reference": 7278,
+      "system": 7253,
+      "common": 7239,
+      "reference_only": 39,
+      "system_only": 14,
+      "precision": 0.9980697642354888,
+      "recall": 0.994641384995878,
+      "f1": 0.9963526254215126
+    }
+  },
+  "collection_full_00006.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 7413,
+      "system": 7394,
+      "common": 7383,
+      "reference_only": 30,
+      "system_only": 11,
+      "precision": 0.9985123072761699,
+      "recall": 0.9959530554431404,
+      "f1": 0.9972310393732694
+    },
+    "document_pairs": {
+      "reference": 6202,
+      "system": 6186,
+      "common": 6176,
+      "reference_only": 26,
+      "system_only": 10,
+      "precision": 0.9983834464920789,
+      "recall": 0.9958078039342148,
+      "f1": 0.9970939618986115
+    }
+  },
+  "collection_tiab_00001.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 350,
+      "system": 349,
+      "common": 349,
+      "reference_only": 1,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9971428571428571,
+      "f1": 0.9985693848354793
+    },
+    "document_pairs": {
+      "reference": 347,
+      "system": 346,
+      "common": 346,
+      "reference_only": 1,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9971181556195965,
+      "f1": 0.9985569985569985
+    }
+  },
+  "collection_tiab_00002.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 436,
+      "system": 431,
+      "common": 431,
+      "reference_only": 5,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9885321100917431,
+      "f1": 0.994232987312572
+    },
+    "document_pairs": {
+      "reference": 433,
+      "system": 428,
+      "common": 428,
+      "reference_only": 5,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9884526558891455,
+      "f1": 0.9941927990708479
+    }
+  },
+  "collection_tiab_00003.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 445,
+      "system": 443,
+      "common": 443,
+      "reference_only": 2,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9955056179775281,
+      "f1": 0.9977477477477478
+    },
+    "document_pairs": {
+      "reference": 438,
+      "system": 436,
+      "common": 436,
+      "reference_only": 2,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9954337899543378,
+      "f1": 0.9977116704805492
+    }
+  },
+  "collection_tiab_00004.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 423,
+      "system": 423,
+      "common": 423,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "document_pairs": {
+      "reference": 417,
+      "system": 417,
+      "common": 417,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "collection_tiab_00005.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 396,
+      "system": 397,
+      "common": 396,
+      "reference_only": 0,
+      "system_only": 1,
+      "precision": 0.9974811083123426,
+      "recall": 1.0,
+      "f1": 0.9987389659520807
+    },
+    "document_pairs": {
+      "reference": 387,
+      "system": 388,
+      "common": 387,
+      "reference_only": 0,
+      "system_only": 1,
+      "precision": 0.9974226804123711,
+      "recall": 1.0,
+      "f1": 0.9987096774193548
+    }
+  },
+  "collection_tiab_00006.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 426,
+      "system": 426,
+      "common": 426,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "document_pairs": {
+      "reference": 412,
+      "system": 412,
+      "common": 412,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "collection_tiab_00007.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 453,
+      "system": 452,
+      "common": 452,
+      "reference_only": 1,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9977924944812362,
+      "f1": 0.9988950276243094
+    },
+    "document_pairs": {
+      "reference": 442,
+      "system": 441,
+      "common": 441,
+      "reference_only": 1,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.997737556561086,
+      "f1": 0.9988674971687429
+    }
+  },
+  "collection_tiab_00008.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 518,
+      "system": 519,
+      "common": 518,
+      "reference_only": 0,
+      "system_only": 1,
+      "precision": 0.9980732177263969,
+      "recall": 1.0,
+      "f1": 0.9990356798457087
+    },
+    "document_pairs": {
+      "reference": 514,
+      "system": 515,
+      "common": 514,
+      "reference_only": 0,
+      "system_only": 1,
+      "precision": 0.9980582524271845,
+      "recall": 1.0,
+      "f1": 0.9990281827016521
+    }
+  },
+  "collection_tiab_00009.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 521,
+      "system": 521,
+      "common": 521,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "document_pairs": {
+      "reference": 518,
+      "system": 518,
+      "common": 518,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "collection_tiab_00010.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 560,
+      "system": 560,
+      "common": 560,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "document_pairs": {
+      "reference": 560,
+      "system": 560,
+      "common": 560,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "collection_tiab_00011.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 174,
+      "system": 174,
+      "common": 174,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "document_pairs": {
+      "reference": 174,
+      "system": 174,
+      "common": 174,
+      "reference_only": 0,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "aggregate": {
+    "all": {
+      "reference": 50744,
+      "system": 50560,
+      "common": 50465,
+      "reference_only": 279,
+      "system_only": 95,
+      "precision": 0.9981210443037974,
+      "recall": 0.9945018130222292,
+      "f1": 0.9963081418305298
+    },
+    "full": {
+      "reference": 46042,
+      "system": 45865,
+      "common": 45772,
+      "reference_only": 270,
+      "system_only": 93,
+      "precision": 0.9979723100403358,
+      "recall": 0.9941357890621606,
+      "f1": 0.9960503552504162
+    },
+    "tiab": {
+      "reference": 4702,
+      "system": 4695,
+      "common": 4693,
+      "reference_only": 9,
+      "system_only": 2,
+      "precision": 0.9995740149094782,
+      "recall": 0.9980859208847299,
+      "f1": 0.9988294136426519
+    }
+  }
+}

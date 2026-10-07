@@ -1,0 +1,134 @@
+{
+  "Ab3P_bioc_corpus.xml; min_precision=0.696532": {
+    "exact_occurrences": {
+      "reference": 1223,
+      "system": 1036,
+      "common": 1007,
+      "reference_only": 216,
+      "system_only": 29,
+      "precision": 0.972007722007722,
+      "recall": 0.8233851185609158,
+      "f1": 0.8915449313855688
+    },
+    "document_pairs": {
+      "reference": 1205,
+      "system": 1021,
+      "common": 992,
+      "reference_only": 213,
+      "system_only": 29,
+      "precision": 0.9715964740450539,
+      "recall": 0.8232365145228215,
+      "f1": 0.8912848158131177
+    }
+  },
+  "collection_full_00001.xml; min_precision=0.696532": {
+    "exact_occurrences": {
+      "reference": 6277,
+      "system": 6204,
+      "common": 6195,
+      "reference_only": 82,
+      "system_only": 9,
+      "precision": 0.9985493230174082,
+      "recall": 0.9869364346025171,
+      "f1": 0.9927089175546832
+    },
+    "document_pairs": {
+      "reference": 5260,
+      "system": 5193,
+      "common": 5185,
+      "reference_only": 75,
+      "system_only": 8,
+      "precision": 0.9984594646639707,
+      "recall": 0.9857414448669202,
+      "f1": 0.9920596957811154
+    }
+  },
+  "collection_tiab_00001.xml; min_precision=0.696532": {
+    "exact_occurrences": {
+      "reference": 350,
+      "system": 348,
+      "common": 348,
+      "reference_only": 2,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9942857142857143,
+      "f1": 0.997134670487106
+    },
+    "document_pairs": {
+      "reference": 347,
+      "system": 345,
+      "common": 345,
+      "reference_only": 2,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9942363112391931,
+      "f1": 0.9971098265895953
+    }
+  },
+  "Ab3P_bioc_corpus.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 1223,
+      "system": 1042,
+      "common": 1010,
+      "reference_only": 213,
+      "system_only": 32,
+      "precision": 0.9692898272552783,
+      "recall": 0.8258381030253475,
+      "f1": 0.891832229580574
+    },
+    "document_pairs": {
+      "reference": 1205,
+      "system": 1027,
+      "common": 995,
+      "reference_only": 210,
+      "system_only": 32,
+      "precision": 0.9688412852969815,
+      "recall": 0.8257261410788381,
+      "f1": 0.8915770609318996
+    }
+  },
+  "collection_full_00001.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 6277,
+      "system": 6253,
+      "common": 6244,
+      "reference_only": 33,
+      "system_only": 9,
+      "precision": 0.9985606908683832,
+      "recall": 0.9947427114863788,
+      "f1": 0.9966480446927374
+    },
+    "document_pairs": {
+      "reference": 5260,
+      "system": 5238,
+      "common": 5230,
+      "reference_only": 30,
+      "system_only": 8,
+      "precision": 0.9984726995036274,
+      "recall": 0.9942965779467681,
+      "f1": 0.9963802629072204
+    }
+  },
+  "collection_tiab_00001.xml; min_precision=0.0": {
+    "exact_occurrences": {
+      "reference": 350,
+      "system": 349,
+      "common": 349,
+      "reference_only": 1,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9971428571428571,
+      "f1": 0.9985693848354793
+    },
+    "document_pairs": {
+      "reference": 347,
+      "system": 346,
+      "common": 346,
+      "reference_only": 1,
+      "system_only": 0,
+      "precision": 1.0,
+      "recall": 0.9971181556195965,
+      "f1": 0.9985569985569985
+    }
+  }
+}

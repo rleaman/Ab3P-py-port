@@ -1,0 +1,492 @@
+{
+  "files": {
+    "collection_full_00001.xml": {
+      "reference": 6277,
+      "system": 6426,
+      "common": 6124,
+      "reference_only": 153,
+      "system_only": 302,
+      "precision": 0.9530034235916589,
+      "recall": 0.9756252987095746,
+      "f1": 0.964181689364717,
+      "fresh_vs_saved": {
+        "reference": 6426,
+        "system": 6426,
+        "common": 6426,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_full_00002.xml": {
+      "reference": 7318,
+      "system": 7514,
+      "common": 7162,
+      "reference_only": 156,
+      "system_only": 352,
+      "precision": 0.9531541123236625,
+      "recall": 0.9786827001913091,
+      "f1": 0.9657497303128371,
+      "fresh_vs_saved": {
+        "reference": 7514,
+        "system": 7514,
+        "common": 7514,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_full_00003.xml": {
+      "reference": 7882,
+      "system": 8103,
+      "common": 7733,
+      "reference_only": 149,
+      "system_only": 370,
+      "precision": 0.954337899543379,
+      "recall": 0.981096168485156,
+      "f1": 0.9675320613074757,
+      "fresh_vs_saved": {
+        "reference": 8103,
+        "system": 8103,
+        "common": 8103,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_full_00004.xml": {
+      "reference": 8464,
+      "system": 8725,
+      "common": 8287,
+      "reference_only": 177,
+      "system_only": 438,
+      "precision": 0.9497994269340975,
+      "recall": 0.9790879017013232,
+      "f1": 0.9642213043225318,
+      "fresh_vs_saved": {
+        "reference": 8725,
+        "system": 8725,
+        "common": 8725,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_full_00005.xml": {
+      "reference": 8688,
+      "system": 8920,
+      "common": 8520,
+      "reference_only": 168,
+      "system_only": 400,
+      "precision": 0.9551569506726457,
+      "recall": 0.9806629834254144,
+      "f1": 0.967741935483871,
+      "fresh_vs_saved": {
+        "reference": 8920,
+        "system": 8920,
+        "common": 8920,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_full_00006.xml": {
+      "reference": 7413,
+      "system": 7547,
+      "common": 7284,
+      "reference_only": 129,
+      "system_only": 263,
+      "precision": 0.965151715913608,
+      "recall": 0.9825981384055038,
+      "f1": 0.9737967914438502,
+      "fresh_vs_saved": {
+        "reference": 7547,
+        "system": 7547,
+        "common": 7547,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00001.xml": {
+      "reference": 350,
+      "system": 350,
+      "common": 347,
+      "reference_only": 3,
+      "system_only": 3,
+      "precision": 0.9914285714285714,
+      "recall": 0.9914285714285714,
+      "f1": 0.9914285714285714,
+      "fresh_vs_saved": {
+        "reference": 350,
+        "system": 350,
+        "common": 350,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00002.xml": {
+      "reference": 436,
+      "system": 434,
+      "common": 426,
+      "reference_only": 10,
+      "system_only": 8,
+      "precision": 0.9815668202764977,
+      "recall": 0.9770642201834863,
+      "f1": 0.9793103448275862,
+      "fresh_vs_saved": {
+        "reference": 434,
+        "system": 434,
+        "common": 434,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00003.xml": {
+      "reference": 445,
+      "system": 449,
+      "common": 440,
+      "reference_only": 5,
+      "system_only": 9,
+      "precision": 0.9799554565701559,
+      "recall": 0.9887640449438202,
+      "f1": 0.9843400447427293,
+      "fresh_vs_saved": {
+        "reference": 449,
+        "system": 449,
+        "common": 449,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00004.xml": {
+      "reference": 423,
+      "system": 430,
+      "common": 419,
+      "reference_only": 4,
+      "system_only": 11,
+      "precision": 0.9744186046511628,
+      "recall": 0.9905437352245863,
+      "f1": 0.9824150058616647,
+      "fresh_vs_saved": {
+        "reference": 430,
+        "system": 430,
+        "common": 430,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00005.xml": {
+      "reference": 396,
+      "system": 405,
+      "common": 394,
+      "reference_only": 2,
+      "system_only": 11,
+      "precision": 0.9728395061728395,
+      "recall": 0.9949494949494949,
+      "f1": 0.9837702871410736,
+      "fresh_vs_saved": {
+        "reference": 405,
+        "system": 405,
+        "common": 405,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00006.xml": {
+      "reference": 426,
+      "system": 433,
+      "common": 426,
+      "reference_only": 0,
+      "system_only": 7,
+      "precision": 0.9838337182448037,
+      "recall": 1.0,
+      "f1": 0.9918509895227008,
+      "fresh_vs_saved": {
+        "reference": 433,
+        "system": 433,
+        "common": 433,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00007.xml": {
+      "reference": 453,
+      "system": 458,
+      "common": 449,
+      "reference_only": 4,
+      "system_only": 9,
+      "precision": 0.980349344978166,
+      "recall": 0.9911699779249448,
+      "f1": 0.9857299670691547,
+      "fresh_vs_saved": {
+        "reference": 458,
+        "system": 458,
+        "common": 458,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00008.xml": {
+      "reference": 518,
+      "system": 528,
+      "common": 514,
+      "reference_only": 4,
+      "system_only": 14,
+      "precision": 0.9734848484848485,
+      "recall": 0.9922779922779923,
+      "f1": 0.982791586998088,
+      "fresh_vs_saved": {
+        "reference": 528,
+        "system": 528,
+        "common": 528,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00009.xml": {
+      "reference": 521,
+      "system": 528,
+      "common": 519,
+      "reference_only": 2,
+      "system_only": 9,
+      "precision": 0.9829545454545454,
+      "recall": 0.9961612284069098,
+      "f1": 0.9895138226882746,
+      "fresh_vs_saved": {
+        "reference": 528,
+        "system": 528,
+        "common": 528,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00010.xml": {
+      "reference": 560,
+      "system": 566,
+      "common": 556,
+      "reference_only": 4,
+      "system_only": 10,
+      "precision": 0.9823321554770318,
+      "recall": 0.9928571428571429,
+      "f1": 0.9875666074600356,
+      "fresh_vs_saved": {
+        "reference": 566,
+        "system": 566,
+        "common": 566,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "collection_tiab_00011.xml": {
+      "reference": 174,
+      "system": 178,
+      "common": 172,
+      "reference_only": 2,
+      "system_only": 6,
+      "precision": 0.9662921348314607,
+      "recall": 0.9885057471264368,
+      "f1": 0.9772727272727273,
+      "fresh_vs_saved": {
+        "reference": 178,
+        "system": 178,
+        "common": 178,
+        "reference_only": 0,
+        "system_only": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "source_sha256": {
+    "ab3p\\algorithm.py": "cc32cebb5f03ee46b5fed8dcdc678040fc2156026a364c1e58ac56bf172ccd0f",
+    "ab3p\\data.py": "cf4c4c6e2b88e2f345484343842391c6a69e3001bac8af6cf2aa3cb590a2c9b0"
+  },
+  "exact_occurrences": {
+    "full": {
+      "reference": 46042,
+      "system": 47235,
+      "common": 45110,
+      "reference_only": 932,
+      "system_only": 2125,
+      "precision": 0.9550121731766699,
+      "recall": 0.9797576126145693,
+      "f1": 0.9672266475122485
+    },
+    "all": {
+      "reference": 50744,
+      "system": 51994,
+      "common": 49772,
+      "reference_only": 972,
+      "system_only": 2222,
+      "precision": 0.9572642997268915,
+      "recall": 0.9808450260129277,
+      "f1": 0.9689112110416789
+    },
+    "tiab": {
+      "reference": 4702,
+      "system": 4759,
+      "common": 4662,
+      "reference_only": 40,
+      "system_only": 97,
+      "precision": 0.9796175667156966,
+      "recall": 0.9914929817099106,
+      "f1": 0.9855195011098192
+    }
+  },
+  "unique_document_sf_lf": {
+    "reference": 43076,
+    "system": 44306,
+    "common": 42240,
+    "reference_only": 836,
+    "system_only": 2066,
+    "precision": 0.953369746761161,
+    "recall": 0.9805924412665986,
+    "f1": 0.9667894989814836
+  },
+  "input_characters": 77294348,
+  "non_ascii_characters": 0,
+  "strategies_vs_reference": {
+    "WithinWrdWrd": {
+      "predicted": 21003,
+      "matches_reference": 19221,
+      "precision_sum": 20118.474180997793
+    },
+    "FirstLet": {
+      "predicted": 16655,
+      "matches_reference": 16646,
+      "precision_sum": 16643.269142002402
+    },
+    "FirstLetGen": {
+      "predicted": 4495,
+      "matches_reference": 4495,
+      "precision_sum": 4490.037804999968
+    },
+    "FirstLetGen2": {
+      "predicted": 2010,
+      "matches_reference": 2004,
+      "precision_sum": 2004.5781469999647
+    },
+    "FirstLetGenS": {
+      "predicted": 2933,
+      "matches_reference": 2930,
+      "precision_sum": 2931.933226000062
+    },
+    "WithinWrdFWrd": {
+      "predicted": 529,
+      "matches_reference": 403,
+      "precision_sum": 525.1879380000001
+    },
+    "FirstLetGenSkp": {
+      "predicted": 802,
+      "matches_reference": 779,
+      "precision_sum": 797.8223670000024
+    },
+    "AnyLet": {
+      "predicted": 1138,
+      "matches_reference": 998,
+      "precision_sum": 972.0541409999938
+    },
+    "FirstLetOneChSF": {
+      "predicted": 350,
+      "matches_reference": 347,
+      "precision_sum": 338.5283999999975
+    },
+    "WithinWrdFWrdSkp": {
+      "predicted": 238,
+      "matches_reference": 124,
+      "precision_sum": 232.56870299999986
+    },
+    "FirstLetGenStp": {
+      "predicted": 1534,
+      "matches_reference": 1533,
+      "precision_sum": 1530.460857000036
+    },
+    "ContLet": {
+      "predicted": 133,
+      "matches_reference": 125,
+      "precision_sum": 129.72447599999953
+    },
+    "FirstLetGenStp2": {
+      "predicted": 126,
+      "matches_reference": 126,
+      "precision_sum": 125.72028700000014
+    },
+    "ContLetSkp": {
+      "predicted": 47,
+      "matches_reference": 41,
+      "precision_sum": 45.409989999999944
+    },
+    "WithinWrdLet": {
+      "predicted": 1,
+      "matches_reference": 0,
+      "precision_sum": 0.986326
+    }
+  },
+  "passages_differing_from_saved": 0,
+  "example_runtime_seconds": 143.34880659996998,
+  "changed_lf_same_sf_occurrence": 120,
+  "gold_exact_occurrences": {
+    "reference": 1223,
+    "system": 1060,
+    "common": 1013,
+    "reference_only": 210,
+    "system_only": 47,
+    "precision": 0.9556603773584905,
+    "recall": 0.8282910874897792,
+    "f1": 0.8874288217257994
+  },
+  "gold_unique_document_sf_lf": {
+    "reference": 1205,
+    "system": 1046,
+    "common": 999,
+    "reference_only": 206,
+    "system_only": 47,
+    "precision": 0.9550669216061185,
+    "recall": 0.829045643153527,
+    "f1": 0.8876055086628165
+  }
+}

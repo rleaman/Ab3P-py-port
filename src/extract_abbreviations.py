@@ -1,6 +1,7 @@
+import argparse
 import datetime
+import json
 import os
-import sys
 from pathlib import Path
 
 import bioc
@@ -27,13 +28,17 @@ def process_file(input_filename):
     print("Found " + str(len(abbreviations)))
     return abbreviations
         
-if __name__ == "__main__":
+def main():
+    parser = argparse.ArgumentParser(description="Extract abbreviation pairs from BioC XML")
+    parser.add_argument("input", type=Path, help="BioC XML file or directory")
+    parser.add_argument("output", type=Path, help="Output file")
+    parser.add_argument("--format", choices=("tsv", "jsonl"), default="tsv",
+                        help="Output format (default: tsv)")
+    args = parser.parse_args()
+
     start = datetime.datetime.now()
-    if len(sys.argv) != 3:
-        print("Usage: <input> <output>")
-        exit()
-    input_path = Path(sys.argv[1])
-    output_path = Path(sys.argv[2])
+    input_path = args.input
+    output_path = args.output
     
     abbreviations = set()
     start = datetime.datetime.now()
@@ -57,8 +62,20 @@ if __name__ == "__main__":
     abbreviations = list(abbreviations)
     abbreviations.sort()
 
-    # Open the file
-    file = open(output_path, 'w', encoding="utf-8") 
-    for document_ID, short, long in abbreviations:
-        file.write("{}\t{}\t{}\n".format(document_ID, short, long))
-    file.close()
+    with open(output_path, 'w', encoding="utf-8", newline="\n") as output_file:
+        for document_id, short, long in abbreviations:
+            if args.format == "jsonl":
+                record = {
+                    "document_id": document_id,
+                    "short_form": short,
+                    "long_form": long,
+                }
+                # ensure_ascii also escapes non-ASCII control characters.
+                line = json.dumps(record, ensure_ascii=True).replace("\x7f", "\\u007f")
+            else:
+                line = f"{document_id}\t{short}\t{long}"
+            output_file.write(line + "\n")
+
+
+if __name__ == "__main__":
+    main()

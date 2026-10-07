@@ -15,6 +15,15 @@ output keeps the corresponding input filename:
 python -m ab3p examples/input output
 ```
 
+To extract abbreviation pairs from annotated BioC XML as JSON Lines, run:
+
+```text
+python src/extract_abbreviations.py annotated.xml abbreviations.jsonl --format jsonl
+```
+
+Each line contains `document_id`, `short_form`, and `long_form`. The default
+output format is TSV; pass `--format tsv` to select it explicitly.
+
 The loader in `ab3p/data.py` reads the original NUL-delimited `.str` word
 tables and the precision table directly; no C++ library or binary extension is
 used. The matching code is intentionally split into small functions and data
