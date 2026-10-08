@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+  <source>Ab3P phase 3 MedPost path probe</source>
+  <date>20261007</date>
+  <key>collection.key</key>
+  <document><id>MEDPOST_ST</id><passage><offset>0</offset><text>St. George's Respiratory Questionnaire (SGRQ)</text></passage></document>
+  <document><id>MEDPOST_SUBSP</id><passage><offset>0</offset><text>Treponema pallidum subsp. pallidum (TPA)</text></passage></document>
+  <document><id>MEDPOST_CONTROL</id><passage><offset>0</offset><text>alpha receptor (AR)</text></passage></document>
+</collection>

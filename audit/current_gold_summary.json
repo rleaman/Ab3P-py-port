@@ -6,13 +6,13 @@
   "files": {
     "Ab3P_bioc_corpus.xml": {
       "reference": 1223,
-      "system": 1054,
+      "system": 1053,
       "common": 1022,
       "reference_only": 201,
-      "system_only": 32,
-      "precision": 0.969639468690702,
+      "system_only": 31,
+      "precision": 0.9705603038936372,
       "recall": 0.8356500408830744,
-      "f1": 0.8976723759332454,
+      "f1": 0.8980667838312829,
       "input_sha256": "423bc4d29e2495841bbe6f35f18779e1f9fa078e72d811e1d70da32cc34bebf3",
       "reference_sha256": "1ebbd44bd1c00c685857bff79a0b2c1d6b43d33a9b87dfc3f35eeb6339e69219",
       "input": "C:\\Users\\leamanjr\\OneDrive - National Institutes of Health\\Projects\\abbr\\Ab3P-BioC\\Ab3P_bioc_corpus.xml",
@@ -28,7 +28,7 @@
   "source_sha256": {
     "ab3p\\__init__.py": "f493c2bc3cea4141dd6d4464e26416e1bccd4e3ae8a0beed9aa4e8d46905c3dc",
     "ab3p\\__main__.py": "43a9ddf955a185c6e1d75aea4e074cf9e3737c37f6c934594b497f609254eb91",
-    "ab3p\\algorithm.py": "e15319c3ecc644076f3ce2ba5d89bedd742a61e0f37e611af0897ea6e82c5a07",
+    "ab3p\\algorithm.py": "dcadee34c932156f2335d43bcaa3ede7a2305dab257c132c15a177aee123864a",
     "ab3p\\bioc.py": "e19fce2879a5d57f22763d5c0103e8ae57b455b0a490746e15c54a860c2e02f5",
     "ab3p\\data.py": "cf4c4c6e2b88e2f345484343842391c6a69e3001bac8af6cf2aa3cb590a2c9b0",
     "ab3p\\matching.py": "d6a798bcd0bc711f2af9ef06abdd80786ba3c3d32a5a53bff3efb584a8550e2d",
@@ -44,25 +44,25 @@
   "exact_occurrences": {
     "all": {
       "reference": 1223,
-      "system": 1054,
+      "system": 1053,
       "common": 1022,
       "reference_only": 201,
-      "system_only": 32,
-      "precision": 0.969639468690702,
+      "system_only": 31,
+      "precision": 0.9705603038936372,
       "recall": 0.8356500408830744,
-      "f1": 0.8976723759332454
+      "f1": 0.8980667838312829
     },
     "other": {
       "reference": 1223,
-      "system": 1054,
+      "system": 1053,
       "common": 1022,
       "reference_only": 201,
-      "system_only": 32,
-      "precision": 0.969639468690702,
+      "system_only": 31,
+      "precision": 0.9705603038936372,
       "recall": 0.8356500408830744,
-      "f1": 0.8976723759332454
+      "f1": 0.8980667838312829
     }
   },
-  "elapsed_seconds": 1.9030710000079125,
+  "elapsed_seconds": 1.5953697999939322,
   "target_met": null
 }

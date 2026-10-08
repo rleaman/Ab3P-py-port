@@ -1,0 +1,479 @@
+{
+  "seed": 20261007,
+  "per_class": 8,
+  "random_passages": 10,
+  "input_sha256": "423bc4d29e2495841bbe6f35f18779e1f9fa078e72d811e1d70da32cc34bebf3",
+  "gold_sha256": "1ebbd44bd1c00c685857bff79a0b2c1d6b43d33a9b87dfc3f35eeb6339e69219",
+  "algorithm_sha256": "dcadee34c932156f2335d43bcaa3ede7a2305dab257c132c15a177aee123864a",
+  "pool_sizes": {
+    "gold_only": 201,
+    "python_only": 31,
+    "shared": 1022,
+    "source_passage": 2500,
+    "abstract_passage": 1250
+  },
+  "selections": {
+    "gold_only": [
+      {
+        "document_index": 341,
+        "document_id": "17307014",
+        "passage_index": 1,
+        "passage_offset": 118,
+        "sf": "1-D NRDPWT",
+        "lf": "non-recursive 1-D discrete periodized wavelet transform",
+        "sf_offset": 349,
+        "lf_offset": 292,
+        "sf_length": 10,
+        "lf_length": 55,
+        "context": "cing the performance of wavelet-based ECG data compression methods. To overcome these influences, a non-recursive 1-D discrete periodized wavelet transform (1-D NRDPWT) and a reversible round-off linear transformation (RROLT) theorem are developed. The 1-D NRDPWT can"
+      },
+      {
+        "document_index": 535,
+        "document_id": "9401107",
+        "passage_index": 1,
+        "passage_offset": 105,
+        "sf": "DM",
+        "lf": "Myotonic dystrophy",
+        "sf_offset": 125,
+        "lf_offset": 105,
+        "sf_length": 2,
+        "lf_length": 18,
+        "context": "Myotonic dystrophy (DM) is an autosomal dominant neuromuscular disorder characterized by marked variability of its clinica"
+      },
+      {
+        "document_index": 119,
+        "document_id": "11606624",
+        "passage_index": 1,
+        "passage_offset": 99,
+        "sf": "P(ves1)",
+        "lf": "vesicle release probability",
+        "sf_offset": 520,
+        "lf_offset": 491,
+        "sf_length": 7,
+        "lf_length": 27,
+        "context": "initial release probability: the number of immediately releasable vesicles (preprimed pool) and the vesicle release probability (P(ves1)). Depletion and replenishment of this pool, an alteration in P(ves), and desensitization of postsyn"
+      },
+      {
+        "document_index": 425,
+        "document_id": "16445697",
+        "passage_index": 1,
+        "passage_offset": 103,
+        "sf": "cdc2",
+        "lf": "cell division control",
+        "sf_offset": 1135,
+        "lf_offset": 1112,
+        "sf_length": 4,
+        "lf_length": 21,
+        "context": "lators (glucocorticoid-induced leucine zipper, inhibitor of DNA binding 3) and proteins involved in cell division control (cdc2) or cell signalling (insulin-like growth factor binding protein-3, mutant p53-binding protein, grp7"
+      },
+      {
+        "document_index": 996,
+        "document_id": "8825501",
+        "passage_index": 1,
+        "passage_offset": 132,
+        "sf": "Bactimos",
+        "lf": "Bacillus thuringiensis serovar israelensis",
+        "sf_offset": 198,
+        "lf_offset": 208,
+        "sf_length": 8,
+        "lf_length": 42,
+        "context": "In 1992, Altosid (methoprene) pellets, Abate (temephos) 5 CG, and Bactimos (Bacillus thuringiensis serovar israelensis) granules were applied aerially to small field plots within a Culiseta breeding swamp. Aspects meas"
+      },
+      {
+        "document_index": 1002,
+        "document_id": "8262697",
+        "passage_index": 0,
+        "passage_offset": 0,
+        "sf": "CsA",
+        "lf": "cyclosporine",
+        "sf_offset": 122,
+        "lf_offset": 108,
+        "sf_length": 3,
+        "lf_length": 12,
+        "context": "eptor expression by SAC-activated B-lymphocytes: its role in B-cell proliferation and the effect of cyclosporine (CsA), prednisolone and verapamil."
+      },
+      {
+        "document_index": 1124,
+        "document_id": "1164343",
+        "passage_index": 1,
+        "passage_offset": 38,
+        "sf": "SUD",
+        "lf": "Sub-Aviation of France",
+        "sf_offset": 392,
+        "lf_offset": 368,
+        "sf_length": 3,
+        "lf_length": 22,
+        "context": " sound (Mach 2). At the end of the decade, discussions between the British Aircraft Corp. (BAC) and Sub-Aviation of France (SUD) resulted in suggested designs for a supersonic transport (SST) aircraft. With official backing fro"
+      },
+      {
+        "document_index": 885,
+        "document_id": "8128599",
+        "passage_index": 1,
+        "passage_offset": 155,
+        "sf": "END-",
+        "lf": "END phenomenon negative",
+        "sf_offset": 542,
+        "lf_offset": 517,
+        "sf_length": 4,
+        "lf_length": 23,
+        "context": " (END) test, these NCP BVD viruses were divided into two groups; END phenomenon positive (END+) and END phenomenon negative (END-) viruses. Additionally, the END+ NCP BVD viruses interfered only with CP BVD virus whereas the END-"
+      }
+    ],
+    "python_only": [
+      {
+        "document_index": 926,
+        "document_id": "1355917",
+        "passage_index": 1,
+        "passage_offset": 88,
+        "sf": "HNa",
+        "lf": "high NaCl diet",
+        "sf_offset": 670,
+        "lf_offset": 654,
+        "sf_length": 3,
+        "lf_length": 14,
+        "context": "dard diet alone or supplemented with NaCl. To accentuate differences in sodium balance, rats on the high NaCl diet (HNa) were uninephrectomized. Half the animals on each diet were subjected to chronic stress using daily"
+      },
+      {
+        "document_index": 244,
+        "document_id": "2440068",
+        "passage_index": 1,
+        "passage_offset": 115,
+        "sf": "Rt",
+        "lf": "resistance",
+        "sf_offset": 325,
+        "lf_offset": 313,
+        "sf_length": 2,
+        "lf_length": 10,
+        "context": "means of transepithelial potential difference (PD), short-circuit current (Isc) and transepithelial resistance (Rt) measurements in control rats and after deoxycorticosterone acetate (DOCA) pretreatment. Rt and PD "
+      },
+      {
+        "document_index": 493,
+        "document_id": "17285587",
+        "passage_index": 1,
+        "passage_offset": 136,
+        "sf": "Si-",
+        "lf": "silylene",
+        "sf_offset": 538,
+        "lf_offset": 543,
+        "sf_length": 3,
+        "lf_length": 8,
+        "context": "ry. The SCB molecule was found to decompose at a filament temperature as low as 900 degrees C. Both Si- (silylene, methylsilylene, and silene) and C-containing (ethene and propene) species were produced from the S"
+      },
+      {
+        "document_index": 1065,
+        "document_id": "11731976",
+        "passage_index": 1,
+        "passage_offset": 155,
+        "sf": "T(a)",
+        "lf": "temperature",
+        "sf_offset": 381,
+        "lf_offset": 368,
+        "sf_length": 4,
+        "lf_length": 11,
+        "context": "rds (Calypte anna) have been shown to be an exception to this rule; under conditions of low ambient temperature (T(a)) and on a nitrogen-free diet, they increased their water intake and often became ammonotelic (ammon"
+      },
+      {
+        "document_index": 1050,
+        "document_id": "17129743",
+        "passage_index": 1,
+        "passage_offset": 116,
+        "sf": "HGPRT",
+        "lf": "hypoxanthine-guanine phosphoribosyl transferase activity",
+        "sf_offset": 533,
+        "lf_offset": 475,
+        "sf_length": 5,
+        "lf_length": 56,
+        "context": "centrations in blood, high uric acid and hypoxanthine excretion in urine, and decreased activity of hypoxanthine-guanine phosphoribosyl transferase activity (HGPRT). However, normal uric acid concentrations in blood and uric acid excretions in urine have been rep"
+      },
+      {
+        "document_index": 387,
+        "document_id": "2992660",
+        "passage_index": 1,
+        "passage_offset": 82,
+        "sf": "Cyp",
+        "lf": "-[125I]-cyanopindolol",
+        "sf_offset": 301,
+        "lf_offset": 278,
+        "sf_length": 3,
+        "lf_length": 21,
+        "context": "s been examined by the technique of in vitro labelling combined with autoradiography. Binding of (-)-[125I]-cyanopindolol (Cyp) to kidney sections equilibrated and dissociated slowly, was saturable and stereoselective with res"
+      },
+      {
+        "document_index": 733,
+        "document_id": "9734740",
+        "passage_index": 1,
+        "passage_offset": 86,
+        "sf": "FVC",
+        "lf": "/forced vital capacity",
+        "sf_offset": 1467,
+        "lf_offset": 1443,
+        "sf_length": 3,
+        "lf_length": 22,
+        "context": "red with never smoking. Greater airway obstruction [decreased forced expiratory volume in 1 s (FEV1)/forced vital capacity (FVC)] was associated with an increased OR for metaplasia (OR: 2.86; 95% CI: 1.09, 7.69). These results "
+      },
+      {
+        "document_index": 737,
+        "document_id": "2574062",
+        "passage_index": 1,
+        "passage_offset": 124,
+        "sf": "ICl",
+        "lf": "-induced chloride current",
+        "sf_offset": 255,
+        "lf_offset": 228,
+        "sf_length": 3,
+        "lf_length": 25,
+        "context": "he effects of benzodiazepines and non-benzodiazepine compounds on the gamma-aminobutyric acid (GABA)-induced chloride current (ICl) were studied in frog isolated sensory neurones by use of a concentration-jump (termed 'concentrati"
+      }
+    ],
+    "shared": [
+      {
+        "document_index": 1004,
+        "document_id": "15527127",
+        "passage_index": 1,
+        "passage_offset": 255,
+        "sf": "NP",
+        "lf": "Nonylphenol",
+        "sf_offset": 1171,
+        "lf_offset": 1158,
+        "sf_length": 2,
+        "lf_length": 11,
+        "context": "ns ranged from 2.8 to 6.6 microg/L, which corresponded to an average primary elimination of 93-96%. Nonylphenol (NP) was found in concentrations from 0.2 to 18 microg/L in WWTP influents and up to 5 microg/L in the "
+      },
+      {
+        "document_index": 920,
+        "document_id": "17905041",
+        "passage_index": 1,
+        "passage_offset": 101,
+        "sf": "BDI-II",
+        "lf": "Beck Depression Inventory-II",
+        "sf_offset": 364,
+        "lf_offset": 334,
+        "sf_length": 6,
+        "lf_length": 28,
+        "context": " METHODS: The study population was 230 outpatients receiving chronic hemodialysis (HD) therapy. The Beck Depression Inventory-II (BDI-II), the 20-item Toronto Alexithymia Scale (TAS-20), and two subscales of the Social Support Questionn"
+      },
+      {
+        "document_index": 132,
+        "document_id": "8480736",
+        "passage_index": 1,
+        "passage_offset": 113,
+        "sf": "P",
+        "lf": "progesterone",
+        "sf_offset": 732,
+        "lf_offset": 718,
+        "sf_length": 1,
+        "lf_length": 12,
+        "context": "ders of the association sex hormones-cholelithiasis. Testosterone (T) 17-beta-estradiol (E2), 17-OH progesterone (P), and SHBG were dosed by radioimmunoassay; follicle-stimulating hormone (FSH), luteinizing hormone "
+      },
+      {
+        "document_index": 1004,
+        "document_id": "15527127",
+        "passage_index": 1,
+        "passage_offset": 255,
+        "sf": "NPEOs",
+        "lf": "nonylphenol ethoxylates",
+        "sf_offset": 642,
+        "lf_offset": 617,
+        "sf_length": 5,
+        "lf_length": 23,
+        "context": "rrence and distribution of linear alkylbenzene sulfonates (LASs), coconut diethanol amides (CDEAs), nonylphenol ethoxylates (NPEOs) and their degradation products were studied in coastal areas receiving WWTP effluents. For the ana"
+      },
+      {
+        "document_index": 132,
+        "document_id": "8480736",
+        "passage_index": 1,
+        "passage_offset": 113,
+        "sf": "FSH",
+        "lf": "follicle-stimulating hormone",
+        "sf_offset": 807,
+        "lf_offset": 777,
+        "sf_length": 3,
+        "lf_length": 28,
+        "context": "terone (T) 17-beta-estradiol (E2), 17-OH progesterone (P), and SHBG were dosed by radioimmunoassay; follicle-stimulating hormone (FSH), luteinizing hormone (LH), and prolactin (Prl) by dissociation-enhanced lanthanide fluoro immunoas"
+      },
+      {
+        "document_index": 586,
+        "document_id": "8908268",
+        "passage_index": 1,
+        "passage_offset": 88,
+        "sf": "S. pyogenes",
+        "lf": "Streptococcus Pyogenes",
+        "sf_offset": 227,
+        "lf_offset": 203,
+        "sf_length": 11,
+        "lf_length": 22,
+        "context": "f bacteria to mucosal surface constitutes the initial, critical step in colonization and infection. Streptococcus Pyogenes (S. pyogenes) is one of the most important bacteria in tonsillitis and pharyngitis. The mode of the adherence of"
+      },
+      {
+        "document_index": 1103,
+        "document_id": "7872688",
+        "passage_index": 1,
+        "passage_offset": 175,
+        "sf": "MDR",
+        "lf": "multidrug resistant",
+        "sf_offset": 258,
+        "lf_offset": 237,
+        "sf_length": 3,
+        "lf_length": 19,
+        "context": "Various agents have been shown to enhance drug sensitivity of multidrug resistant (MDR) cells and are thus of interest when the MDR phenotype is identified. Detection of MDR cells is of "
+      },
+      {
+        "document_index": 1245,
+        "document_id": "15603590",
+        "passage_index": 1,
+        "passage_offset": 131,
+        "sf": "TRN",
+        "lf": "transcriptional regulatory network",
+        "sf_offset": 306,
+        "lf_offset": 270,
+        "sf_length": 3,
+        "lf_length": 34,
+        "context": "dinately carried out by groups of genes forming functional modules. Identifying such modules in the transcriptional regulatory network (TRN) of organisms is important for understanding the structure and function of these fundamental cellul"
+      }
+    ],
+    "source_passage": [
+      {
+        "document_index": 11,
+        "document_id": "8774329",
+        "passage_index": 1,
+        "passage_offset": 75,
+        "text": "OBJECTIVE: To determine whether women with congenital heart disease were receiving appropriate advice on contraception. SETTING: Adult congenital heart disease clinic in a tertiary cardiac referral centre. DESIGN: Questionnaire administered to 35 consecutive female patients attending the adult congenital clinic. The cardiologist assessed what the risk would be if each patient used an oestrogen containing contraceptive pill (OCP). RESULTS: Of the 33 patients admitted to the study 6 patients thought their heart condition precluded them from taking an OCP when in fact it did not and 3 incorrectly said that an OCP would be suitable for them. Three women with relatively minor lesions had been incorrectly denied the OCP and 2 further patients were using inappropriate methods. There had been 6 unwanted pregnancies in the total group. CONCLUSIONS: Many women with congenital heart disease do not know the most appropriate method of contraception for them or have received incorrect advice. It is often patients with less severe lesions who receive the most inappropriate advice. It is clear that the family planning needs of this population are currently poorly catered for. Each unit must ensure that the information necessary in making informed decisions on contraception is available to the doctor advising on family planning."
+      },
+      {
+        "document_index": 390,
+        "document_id": "10928700",
+        "passage_index": 0,
+        "passage_offset": 0,
+        "text": "Cellular volume determination of alginate-entrapped hepatocytes by MRI diffusion measurements."
+      },
+      {
+        "document_index": 245,
+        "document_id": "12477818",
+        "passage_index": 0,
+        "passage_offset": 0,
+        "text": "Disulfide-linked integrase oligomers involving C280 residues are formed in vitro and in vivo but are not essential for human immunodeficiency virus replication."
+      },
+      {
+        "document_index": 1110,
+        "document_id": "7540594",
+        "passage_index": 0,
+        "passage_offset": 0,
+        "text": "Bone marrow stroma-dependent modulation of CD45R isoform expression on Abelson virus transformed pre-B cells."
+      },
+      {
+        "document_index": 340,
+        "document_id": "15283222",
+        "passage_index": 0,
+        "passage_offset": 0,
+        "text": "Low endothelial cell count and clear corneal grafts."
+      },
+      {
+        "document_index": 360,
+        "document_id": "9428682",
+        "passage_index": 1,
+        "passage_offset": 100,
+        "text": "Cytochrome ba3, a terminal oxidase was isolated from the haloalkaliphilic archaeon Natronobacterium pharaonis. NH2-terminal sequence information of two subunits with apparent molecular masses of 40 and 36 kDa was used to generate a DNA probe by polymerase chain reaction. Cloning and sequencing of two overlapping genomic fragments revealed four genes forming a transcriptional unit. The policystronic messenger RNA of this cbaDBAC gene locus was identified by RNA analysis. The genes cbaC and cbaD code for small hydrophobic peptides with 81 and 54 amino acids. The genes cbaB and cbaA code for cytochrome oxidase subunit II (calculated molecular mass = 18.6 kDa) and I (calculated molecular mass = 63.8 kDa) respectively. Five potential CuA ligands for subunit II and six His residues for subunit I located in conserved positions indicate cytochrome ba3 to be a c-type oxidase. Sequence comparison and phylogenetic analysis place the natronobacterial enzyme together with the archaeal quinol oxidase SoxABCD from Sulfolobus acidocaldarius and the eubacterial ba3-type oxidase from Thermus thermophilus into a distinct evolutionary group. All three members are missing residues which are functionally important for vectorial proton translocation. The four-subunit enzyme complex was also identified on the protein level using chromatographic buffers containing ethylene glycol for purification."
+      },
+      {
+        "document_index": 225,
+        "document_id": "12146730",
+        "passage_index": 0,
+        "passage_offset": 0,
+        "text": "Evidence for knowledge-based category discrimination in infancy."
+      },
+      {
+        "document_index": 646,
+        "document_id": "101774",
+        "passage_index": 0,
+        "passage_offset": 0,
+        "text": "[Bone sarcoma (author's transl)]"
+      },
+      {
+        "document_index": 403,
+        "document_id": "3237910",
+        "passage_index": 1,
+        "passage_offset": 71,
+        "text": "A family history method for DSM-III anxiety and personality disorders (FHPD) was validated by direct interview of 182 relatives. The categories of \"any anxiety disorder,\" \"panic disorder,\" and \"any personality disorder\" achieved sensitivities and specificities equivalent to currently accepted psychiatric family history methods. The family history results for the DSM-III dramatic and anxious personality disorder clusters showed good specificities, but only fair sensitivities. It is possible these cluster sensitivities could be improved in the future by using less stringent criteria. The FHPD is designed so that it can easily be integrated into the Family History-Research Diagnostic Criteria format and scoring."
+      },
+      {
+        "document_index": 742,
+        "document_id": "15208635",
+        "passage_index": 1,
+        "passage_offset": 63,
+        "text": "The distinct absorbance spectra of the cone photopigments form the basis of color vision, but ultrastructural and physiological evidence shows that mammalian cones are electrically coupled. Coupling between cones of the same spectral type should average voltage noise in adjacent photoreceptors and improve the ability to resolve low-contrast spatial patterns. However, indiscriminate coupling between spectral types could compromise color vision by smearing chromatic information across channels. Here we show, by measuring the junctional conductance between green-green and blue-green cone pairs in slices from the dichromatic ground-squirrel retina, that green-green cone pairs are routinely coupled with an average conductance of 220 pS, whereas coupling is undetectable in blue-green cone pairs. Together with a lack of tracer coupling and the selective localization of connexin proteins, our results show that signals in blue and green cones are processed separately in the photoreceptor layer."
+      }
+    ],
+    "abstract_passage": [
+      {
+        "document_index": 1229,
+        "document_id": "1595721",
+        "passage_index": 1,
+        "passage_offset": 64,
+        "text": "The effects of an automated medication storage and distribution system in a hospital setting were evaluated. The Pyxis Medstation system was implemented on two nursing units at a 1000-bed tertiary-care referral hospital. The system, which is designed like an automated bank teller, dispenses items to authorized users and records all transactions. Floor-stock controlled substances and noncontrolled medications, large-volume i.v. solutions, and i.v. administration sets were stocked in the system. The system was evaluated (1) by comparing the mean patient charge capture rates for six months before and for three months after implementation, (2) by measuring nurse and pharmacy technician time required for various tasks before and after implementation, and (3) through questionnaires filled out by nurses and technicians. After the system was installed, nursing personnel spent less time on medication-related activities, charting, and documentation and more time interacting with patients. Pharmacy technicians spent more time on floor-stock activities and less time on billing activities. Nurses indicated positive attitudes toward the system features. Both nurses and pharmacy technicians indicated that the system should remain in use. After implementation, the charge capture rate for noncontrolled medications, i.v. solutions, and i.v. sets increased from 63% to 97%. This increase, extrapolated to the entire hospital, reflects $35,000 in additional revenue over the total costs of implementation of the system. Implementation of an automated medication storage and dispensing system is expected to increase hospital revenue and enable nurses to spend more time interacting with patients at this institution."
+      },
+      {
+        "document_index": 990,
+        "document_id": "1698571",
+        "passage_index": 1,
+        "passage_offset": 83,
+        "text": "When applied extracellularly in the micromolar range, ATP and related compounds induced a positive inotropy in the rat papillary muscle. This was also true in the rat auricle after pertussis toxin treatment. Then, in both tissues, ATP further increased the contraction after a maximal beta-adrenergic stimulation. The increase in contractile force could be related to the increase in the calcium current. The L-type calcium current was measured by whole-cell patch-clamp recording in single cells isolated from the rat ventricle after the sodium and potassium currents were inhibited by tetrodotoxin and cesium, respectively. When added alone, 10 microM ATP increased the calcium current by 60%. Adenosine 5'-O-(3-thiotriphosphate) was also able to increase calcium current. Adenosine was much less effective, and GTP, UTP, CTP, and ITP were without effect. A similar increase in calcium current was observed when ATP was added in addition to a maximal stimulation by a beta-adrenergic agonist or after internal perfusion with cyclic AMP. However, this increase was preceded by a transient decrease whose origin could not be attributed to a P1-purinergic agonistic effect of ATP. The transient decrease was not elicited by adenosine or in a magnesium-free HEPES solution and was not suppressed after pertussis toxin treatment. This effect appeared related to the variations in the holding current also observed upon ATP application. Together with vasodilation, ATP and adenine compounds induced positive inotropy. The latter effect could be attributed in part to the increase in calcium current and was independent of cyclic AMP. Both effects are complementary with the beta-adrenergic stimulation and can help healthy cells to compensate the failing zone from which ATP could be released."
+      },
+      {
+        "document_index": 480,
+        "document_id": "9061515",
+        "passage_index": 1,
+        "passage_offset": 75,
+        "text": "The pattern of subchondral bone density, which is supposed to reflect the long-term distribution of stress, was investigated in both wrist joints of nine healthy young subjects and seven patients suffering from Kienbock's disease by means of CT osteoabsorptiometry. Two density maxima were found on the distal articular surface of the radius in the healthy subjects, corresponding to the position of the scaphoid and the lunate. Our relative quantitative results showed three different physiological types of stress indicated by the predominantly monocentric density maxima either on the scaphoid or the lunate surface of the radius and the symmetrical distribution of the mineralization. In Kienbock's disease no type of mineralization predominated. In the progressive stages the lunate density maximum was absent. The overall mineralization was generally less than in controls. Changes in the pattern of mineralization were also found on the contralateral side."
+      },
+      {
+        "document_index": 5,
+        "document_id": "10542352",
+        "passage_index": 1,
+        "passage_offset": 65,
+        "text": "Texture analysis was applied to MR images of the spinal cord in an attempt to quantify pathological changes that occur in multiple sclerosis (MS). Texture features quantify macroscopic lesions and also the microscopic abnormalities that may be undetectable using conventional measures of lesion volume and number. Significant differences in texture between normal controls and MS patients were seen. Texture differences were detected between normal controls and relapsing-remitting patients before detectable spinal cord atrophy. There was also significant correlation between texture and disability. The segmentation and texture analysis technique demonstrates intraobserver coefficients of variation ranging from 0. 6-8.2%. Texture analysis has potential as a tool for monitoring changes associated with the development of disability in patients with MS. Reproducibility and sensitivity must be improved to use the technique for serial monitoring in individuals. Magn Reson Med 42:929-935, 1999."
+      },
+      {
+        "document_index": 1155,
+        "document_id": "9299731",
+        "passage_index": 1,
+        "passage_offset": 188,
+        "text": "Three multivariate calibration methods, partial least squares (PLS-1 and PLS-2) and principal component regression, were applied to the simultaneous determination of the five pesticides iprodione, procymidone, chlorothalonil, folpet and triazophos by high-performance liquid chromatography with diode array detection. Such detection gives multiwavelength chromatograms from a single analysis of one sample. In this paper, calibration models at two different wavelengths were developed to resolve mixtures of five pesticides with overlapping chromatographic peaks. The first model, carried out at 220 nm as detector compromise wavelength, yielded satisfactory sensitivity for accurate estimation of the concentration of iprodione, procymidone, chlorothalonil and folpet and the second model, at 200 nm, was used for accurate estimation of triazophos. Both calibration models were evaluated using the chromatograms and first-derivative (1D) chromatograms by predicting the concentrations of independent test set samples. Finally, the proposed 1D calibration models were successfully applied to the determination of these pesticides in groundwater and soil samples. In all cases, the PLS-1 calibration method showed superior quantitative prediction ability than the PLS-2 or principal component regression methods."
+      },
+      {
+        "document_index": 691,
+        "document_id": "15121968",
+        "passage_index": 1,
+        "passage_offset": 41,
+        "text": "Decisions regarding the length of hospital stays for newborns and their mothers became driven by financial reimbursement from third-party payers in the 1990s. The Newborns' and Mothers' Health Protection Act of 1996 and a report from the Secretary's Advisory Committee on Infant Mortality acknowledge the importance of physician assessment in determining the timing of each newborn's discharge. The pediatrician's primary role is to ensure the health and well-being of the newborn in the context of the family. It is within this context that this revised statement addresses the short hospital stay (<48 hours after birth) for healthy term newborns."
+      },
+      {
+        "document_index": 543,
+        "document_id": "6961904",
+        "passage_index": 1,
+        "passage_offset": 85,
+        "text": "Fifteen kittens were perfused with 2.5 per cent glutaraldehyde or modified Karnovsky fixative. Distribution and structural features of the three kinds of intercellular junctions; gap junctions, macular tight junctions and desmosome-like junctions were clarified by correlated observations using thin sections and freeze-fracture replicas. Distal junctional complexes of the odontoblasts were composed of both gap and macular tight junctions and sealed extracellular spaces incompletely, because of the poor sealing capacities of macular tight junctions. Therefore, there was no predentine-pulp barrier in the odontoblast layer. Except for the junctional complex, no tight junction was observed in the odontoblasts. Gap junctions and desmosome-like junctions were found between adjacent odontoblasts and between odontoblasts and neighbouring pulp cells. Gap junctions were similar to those of many other tissues but the desmosome-like junctions were different from mature desmosomes in the epithelial cells and showed immature features. Each intercellular junction of odontoblasts is considered to form a site of intercellular communication and cell-to-cell attachment."
+      },
+      {
+        "document_index": 1117,
+        "document_id": "17552315",
+        "passage_index": 1,
+        "passage_offset": 58,
+        "text": "OBJECTIVE: This paper introduces a robust, real-time system for detecting driver lane changes. Background: As intelligent transportation systems evolve to assist drivers in their intended behaviors, the systems have demonstrated a need for methods of inferring driver intentions and detecting intended maneuvers. METHOD: Using a \"model tracing\" methodology, our system simulates a set of possible driver intentions and their resulting behaviors using a simplification of a previously validated computational model of driver behavior. The system compares the model's simulated behavior with a driver's actual observed behavior and thus continually infers the driver's unobservable intentions from her or his observable actions. RESULTS: For data collected in a driving simulator, the system detects 82% of lane changes within 0.5 s of maneuver onset (assuming a 5% false alarm rate), 93% within 1 s, and 95% before the vehicle moves one fourth of the lane width laterally. For data collected from an instrumented vehicle, the system detects 61% within 0.5 s, 77% within 1 s, and 84% before the vehicle moves one-fourth of the lane width laterally. CONCLUSION: The model-tracing system is the first system to demonstrate high sample-by-sample accuracy at low false alarm rates as well as high accuracy over the course of a lane change with respect to time and lateral movement. APPLICATION: By providing robust real-time detection of driver lane changes, the system shows good promise for incorporation into the next generation of intelligent transportation systems."
+      },
+      {
+        "document_index": 96,
+        "document_id": "2635624",
+        "passage_index": 1,
+        "passage_offset": 111,
+        "text": "We study 65 patients coming from neonatology service with a diagnostic of prematurity and we test of audiometric level with brain stem response audiometry during three years, giving importance to the clinics characteristics that have affected during the story in the hospital. We diagnose hearing loss in a 41% of the patients, and in one case (5.88%) is retrocochlear (17.6%) as with no valuable. After three years only one patient presents persistent hearing loss; while in the first exploration 17 are considered pathologics. The prematurity by itself and without others clinic factors doesn't involve an important risk in the generation of hypoacusy."
+      },
+      {
+        "document_index": 437,
+        "document_id": "8922085",
+        "passage_index": 1,
+        "passage_offset": 125,
+        "text": "The serious form of alpha-1-antitrypsin deficiency (ATD) Pi ZZ strongly predisposes the individual for pulmonary emphysema and premature death in adulthood, especially if exposed to tobacco smoking. General screening of all new-born children was conducted in Sweden during 1972-1974, the major purpose being to reduce exposure of the child to parental smoking while growing up and to prevent the child from starting to smoke. Sixty-one children with ATD neonatally identified through mass-screening, and their families, have been compared with a demographically matched control group regarding smoking habits, as studied through interviews and questionnaires on two occasions. When the children were 5-7 years old, the smoking rates among parents of the ATD children and especially among the ATD fathers exceeded smoking rates for controls. Thirteen years later no differences in parental smoking were found between the groups. At 18-20 years of age the ATD children reported smoking significantly less than the control children (p < 0.05). From the perspective of prevention, the goal of the neonatal screening to reduce the smoking rates among the parents of the ATD children was not attained, while it was achieved among the ATD children. The results indicate that a screening program with early detection of ATD effectively prevents adolescent children from starting to smoke. From ethical, medical and psychological points of view, a voluntary screening program for ATD in pre-adolescence is recommended."
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "protocol_version": "1.3.0-holdout-addendum-1",
+  "purpose": "Separate expansion of untouched primary holdout from unused frozen permutations; original representative_v1 bundle remains unchanged",
+  "parent_protocol_version": "1.2.0",
+  "parent_input_manifest_sha256": "96c865827581d9488e0b5434bd0d271689e0cbe7d496ba02617ec2e834732bcd",
+  "parent_retrieval_log_sha256": "e8aa075dc5f46e262bfdb22e747c1b2d8340c8116db22ce7497e3518e65cd7d6",
+  "parent_oracle_fingerprint": "021e3dd554a3829a48d6436cc1bb1540fb31325fc5a227ade7fe3541b3e71bc6",
+  "required_executable_sha256": "ffe44acd5946ab37b614811e274ac89b5c4ff946eda7088454456a50f07f23bb",
+  "pmc_crossref_sha256": "9a52009ab18c8f0122b5c1c3ae8cd2b23f40c393108be2b48780a73137063127",
+  "primary_holdout_reference_occurrences": {"all": 65274, "pubmed": 28688, "pmc": 36586},
+  "minimum_final_reference_occurrences": {"all": 100000, "pubmed": 20000, "pmc": 20000},
+  "expansion_rationale": "The primary holdout is 34,726 C++ occurrences short overall. At its observed C++ occurrences per article, adding 15,000 PubMed and 1,500 PMC articles projects about 48,956 further occurrences and a buffer of about 14,230. Expansion quotas were fixed from C++ counts alone, before Python holdout comparison. If the C++ count is still below 100,000, a new versioned addendum is required; no inspected holdout record is discarded.",
+  "seed": "abbr-phase1-representative-v1-2026-10-07",
+  "sources": {
+    "pubmed": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pubmed.cgi/BioC_xml/{id}/unicode",
+    "pmc": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC{id}/unicode"
+  },
+  "frames": {
+    "pubmed": {"id_range_inclusive": [1, 50000000]},
+    "pmc": {"id_range_inclusive": [1, 20000000]}
+  },
+  "continuation": {
+    "pubmed": {"first_ordinal": 76529, "maximum_draws": 60000},
+    "pmc": {"first_ordinal": 10871, "maximum_draws": 15000}
+  },
+  "allocation": [{"partition": "holdout", "pubmed": 15000, "pmc": 1500}],
+  "shards": {"pubmed_documents": 100, "pmc_documents": 20},
+  "batching": {
+    "pubmed": {"start_ordinal": 184, "size": 25},
+    "pmc": {"start_ordinal": 0, "size": 20}
+  },
+  "eligibility": "Use the parent 1.2.0 protocol's Unicode BioC, title-and-abstract PubMed, full-body and reuse-metadata PMC criteria, unchanged canonical passage conversion, and unchanged response bounds/retries.",
+  "family_rule": "Exclude supplied example/gold and every family already selected in representative_v1, including links from the pinned PMC-ids cross-reference. Among new records, reject a repeated family within a cohort; a PubMed and PMC record in the same new family may both enter this holdout expansion. Do not use Python predictions for selection.",
+  "replacement_rule": "Continue each parent affine permutation at the exact first ordinal above. Log every draw and terminal retrieval outcome, replacing unavailable, ineligible, excluded and duplicate draws until fixed quotas are filled. Do not scan beyond a predeclared maximum_draws window without a new addendum.",
+  "reference_rule": "Use the same Linux executable SHA-256, WordData and source as the parent run. Keep all raw output, terminal statuses, source spans, failures and provenance in a separate reference_cpp tree. Do not merge with or overwrite the frozen parent bundle."
+}

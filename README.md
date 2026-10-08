@@ -64,8 +64,9 @@ for pair in detector.find("transactivator of transcription (Tat)"):
 ```
 
 `find(text, offset=0)` adds the supplied passage offset to each result. Python
-offsets and lengths currently count Unicode code points. UTF-8 byte-offset
-compatibility with the C++ implementation remains to be completed.
+offsets and lengths count Unicode code points. The representative evaluator
+converts the C++ wrapper's passage-local UTF-8 byte spans to these coordinates
+and rejects invalid boundaries.
 
 ## Export abbreviation pairs
 
@@ -146,24 +147,47 @@ python audit/evaluate_current.py --target 0.999
 
 Both measures must pass overall and separately for `full` and `tiab` collections.
 The command saves its reports and exits with code 1 while any target fails.
-Additional file names are grouped as `other`; the broader evaluation will need
-explicit corpus manifests and strata. Use `--input`, `--reference`, `--output`,
+Additional example file names are grouped as `other`. The representative
+evaluator uses its frozen manifest for explicit cohort and passage strata.
+Use `--input`, `--reference`, `--output`,
 and `--differences` to evaluate other file pairs or directories without replacing
 the saved reports.
 
-The integrated repair produces these results on the 17 supplied example files:
+The current default produces these results on the 17 supplied example files:
 
 | Corpus | C++ occurrences | Python occurrences | Exact matches | Prediction agreement | C++ occurrences recovered |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| All | 50,744 | 50,560 | 50,465 | 99.8121% | 99.4502% |
-| Full text | 46,042 | 45,865 | 45,772 | 99.7972% | 99.4136% |
-| Titles and abstracts | 4,702 | 4,695 | 4,693 | 99.9574% | 99.8086% |
+| All | 50,744 | 50,743 | 50,709 | 99.9330% | 99.9310% |
+| Full text | 46,042 | 46,041 | 46,007 | 99.9262% | 99.9240% |
+| Titles and abstracts | 4,702 | 4,702 | 4,702 | 100% | 100% |
 
-**The 99.9% goal is not yet met.** There are 279 C++-only and 95 Python-only
-occurrences. All supplied example text is ASCII. Embedded parentheses, candidate
-windows, sequence suppression, sentence segmentation, and remaining application
-heuristics still require reconciliation. These are compatibility measurements,
-not human-judged extraction accuracy.
+Both example-corpus gates pass. There are 35 C++-only and 34 Python-only
+occurrences. All supplied example text is ASCII. These are compatibility
+measurements, not human-judged extraction accuracy. The final representative
+holdout gate remains open: its saved C++ output has only 65,274 occurrences,
+below the frozen protocol's 100,000-occurrence minimum. The versioned input
+expansion is built and validated; its new Linux C++ reference output is required
+before a qualifying final evaluation.
+
+For the frozen representative corpus, development and challenge can be checked
+without opening holdout or reserve Python comparisons:
+
+```text
+python evaluation/representative_v1/runner/validate_bundle.py --corpus evaluation/representative_v1 --stage reference
+python audit/evaluate_representative.py --partition development --target 0.999 --output evaluation/phase3_reports/development_family_cluster.json --differences evaluation/phase3_reports/development_family_cluster_differences.jsonl
+python audit/evaluate_representative.py --partition challenge --target 0.999 --output evaluation/phase3_reports/challenge_family_cluster.json --differences evaluation/phase3_reports/challenge_family_cluster_differences.jsonl
+```
+
+The current development result is 15,489 shared among 15,496 Python and 15,494
+C++ occurrences, passing both 99.9% gates overall and by PubMed/PMC cohort.
+Challenge is 44/44. `evaluation/phase3_reports/` retains generated diagnostics
+outside the frozen bundle.
+
+The primary holdout requires the separately versioned input expansion and its
+Linux C++ result. [Expansion and final evaluation commands](docs/HOLDOUT_EXPANSION.md)
+include a reference-only count check before any Python holdout comparison.
+Once both reference trees are present and code/evaluator are frozen, the final
+comparison command is `python audit/evaluate_final_holdout.py --frozen-evaluation`.
 
 To evaluate the supplied human-annotated corpus separately:
 
@@ -171,8 +195,8 @@ To evaluate the supplied human-annotated corpus separately:
 python audit/evaluate_current.py --input Ab3P-BioC/Ab3P_bioc_corpus.xml --reference Ab3P-BioC/Ab3P_bioc_gold.xml --reference-kind gold --output audit/current_gold_summary.json --differences audit/current_gold_differences.jsonl
 ```
 
-The repaired default yields 1,010 exact matches among 1,042 predictions and 1,223
-gold occurrences: **96.93% precision and 82.58% recall**. The original annotated
+The current default yields 1,022 exact matches among 1,053 predictions and 1,223
+gold occurrences: **97.06% precision and 83.57% recall**. The original annotated
 corpus is an accuracy evaluation set, not a substitute for the large unlabeled
 corpus used to estimate Ab3P's strategy pseudo-precisions.
 
@@ -180,17 +204,16 @@ The older `audit/summary.json` and `audit/strategy_probe*.json` files preserve t
 initial audit and isolated experiment. They are historical evidence; use
 `evaluate_current.py` for new measurements.
 
-The remaining work is split into three phases so preparation can finish before
-Linux C++ results are available:
+The project follows three phase documents:
 
-1. [Prepare the representative corpus](docs/PHASE_1_PREPARE_CORPUS.md): complete
-   kickoff instructions and goal prompt; creates `evaluation/representative_v1/`
-   and its portable input archive without needing C++.
-2. [Generate the C++ reference on Linux](docs/PHASE_2_LINUX_REFERENCE.md): run the
-   frozen inputs and copy the result tree back to
-   `evaluation/representative_v1/reference_cpp/`.
-3. [Complete repair and evaluation](docs/PHASE_3_COMPLETE_REPAIR.md): separate
-   kickoff instructions and goal prompt using the returned results.
+1. [Prepare the representative corpus](docs/PHASE_1_PREPARE_CORPUS.md): completed;
+   the original frozen input is in `evaluation/representative_v1/`.
+2. [Generate the C++ reference on Linux](docs/PHASE_2_LINUX_REFERENCE.md): the
+   original returned `reference_cpp/` tree is present and validated.
+3. [Complete repair and evaluation](docs/PHASE_3_COMPLETE_REPAIR.md): active;
+   [the current evidence](docs/FINAL_EVALUATION.md) and
+   [holdout expansion plan](docs/HOLDOUT_EXPANSION.md) track the remaining
+   final comparison.
 
 These are planned corpus paths; the documentation does not download the set.
 See [the project plan](docs/PROJECT_PLAN.md) for the technical requirements and

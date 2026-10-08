@@ -1,4 +1,6 @@
 from ab3p.algorithm import Ab3P, candidates, tokenize
+import random
+import string
 
 
 def test_tokenize_offsets():
@@ -38,3 +40,17 @@ def test_parenthesized_citation_is_not_reversed_pair():
         item.sf == "AD" and "Gonzalez-Dominguez" in item.lf
         for item in found
     )
+
+
+def test_generated_candidates_terminate_with_valid_source_spans():
+    rng = random.Random(20261007)
+    detector = Ab3P()
+    alphabet = string.ascii_letters + string.digits + " ()[]-.,;/\n\tβé😀"
+    for _ in range(200):
+        text = "".join(rng.choice(alphabet) for _ in range(rng.randrange(1, 100)))
+        base = rng.randrange(0, 500)
+        for item in detector.find(text, base):
+            for value, offset in ((item.sf, item.sf_offset), (item.lf, item.lf_offset)):
+                local = offset - base
+                assert 0 <= local <= len(text)
+                assert text[local:local + len(value)] == value

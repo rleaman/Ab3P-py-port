@@ -1,11 +1,9 @@
 """Readable Python port of the Ab3P extraction and matching stages."""
 
 from dataclasses import dataclass
-from functools import lru_cache
-from pathlib import Path
 import re
 from .data import WordData, load_precisions
-from .matching import match_strategy as _match
+from .matching import _ascii_lower, match_strategy as _match
 
 
 @dataclass
@@ -31,15 +29,6 @@ class Abbreviation:
     lf_offset: int
     strategy: str
     precision: float
-
-
-@lru_cache(maxsize=1)
-def _medpost_mid_sentence_abbreviations() -> frozenset[str]:
-    path = Path(__file__).resolve().parents[1] / "BioC_C++_1.1/MedPost/medpost.abbr"
-    with path.open(encoding="ascii") as stream:
-        return frozenset(parts[1] for line in stream
-                         if (parts := line.split()) and len(parts) == 2
-                         and parts[0] == "ABB")
 
 
 def tokenize(text: str, base=0) -> list[Token]:
@@ -86,7 +75,9 @@ def tokenize(text: str, base=0) -> list[Token]:
                 if start is None:
                     start = i
                 continue
-            split = i == 0 or text[i - 1] in " \t"
+            # token2 copies pch[0] before its scanning loop, so a leading
+            # opener remains attached to the first word.
+            split = i > 0 and text[i - 1] in " \t"
             isolated[char].append(split)
             if split:
                 flush(i)
@@ -167,6 +158,11 @@ def candidates(text: str) -> list[Candidate]:
         r"\([^()\s]{1,12}\))\)"
     )
     for match in nested.finditer(text):
+        # token2 isolates an outer opener only after an ASCII blank. An
+        # embedded chemical group such as Co(CH(3)) stays in one token and
+        # cannot supply a parenthesized short-form candidate.
+        if match.start() > 0 and text[match.start() - 1] not in " \t":
+            continue
         short = match.group("sf")
         prefix_tokens = tokenize(text[:match.start()])
         if not prefix_tokens:
@@ -210,7 +206,14 @@ def _lf_ok(sf: str, lf: str) -> bool:
     """Match the C++ AbbrStra::lf_ok validation."""
     if lf.count("(") != lf.count(")") or lf.count("[") != lf.count("]"):
         return False
-    return f" {sf.lower()} " not in f" {lf.lower()} "
+    # AbbrStra::lf_ok lowercases bytes in the C locale. Unicode lowercasing
+    # can change both identity and length (for example U+0130).
+    return f" {_ascii_lower(sf)} " not in f" {_ascii_lower(lf)} "
+
+
+def _c_has_upper(text: str) -> bool:
+    """Mirror StratUtil::exist_upperal under the saved run's C locale."""
+    return any("A" <= char <= "Z" for char in text)
 
 
 def _candidate_ok(sf: str) -> bool:
@@ -225,9 +228,13 @@ def _candidate_ok(sf: str) -> bool:
     first = sf.split(" ", 1)[0].encode("utf-8")
     letters = sum(65 <= byte <= 90 or 97 <= byte <= 122 for byte in first)
     digits = sum(48 <= byte <= 57 for byte in first)
+    # AbbrvE::Test rejects immediately when the first three bytes are digits,
+    # even if a later byte is alphabetic (for example, 135d).
+    if len(first) >= 3 and all(48 <= byte <= 57 for byte in first[:3]):
+        return False
     if not letters or digits == len(first):
         return False
-    return not (len(first) == digits and digits >= 3)
+    return True
 
 
 def _sequence_indices(forms: list[str]) -> set[int]:
@@ -280,14 +287,15 @@ class Ab3P:
             if (prefix.count("(") - prefix.count(")") == 0
                     and prefix.count("[") - prefix.count("]") == 0):
                 following = text[boundary.end():].lstrip().lower()
-                if (following.startswith(("http://", "https://", "www."))
+                if (following.lstrip("([{ ").startswith(("http://", "https://", "www."))
                         and re.search(r"\([^()\r\n]{1,40}\)", following)):
                     continue
                 if text[boundary.start() - 1] == ".":
                     previous = prefix.rstrip().split()[-1]
-                    if (previous in _medpost_mid_sentence_abbreviations()
-                            or re.fullmatch(r"(?:[A-Za-z]\.)+", previous)
-                            or re.fullmatch(r"\d{1,2}\.", previous)):
+                    if (re.fullmatch(r"(?:[A-Za-z]\.){2,}", previous)
+                            or re.fullmatch(r"\d{1,2}\.", previous)
+                            or (re.fullmatch(r"[A-Za-z]\.", previous)
+                                and not following.startswith("("))):
                         continue
                 boundaries.append(boundary)
         if boundaries:
@@ -348,7 +356,7 @@ class Ab3P:
             if definition_candidate is not None:
                 orientations = [definition_candidate]
             if (c.long_tokens and c.short_tokens
-                    and any(ch.isupper() for ch in c.long_tokens[-1].text)):
+                    and _c_has_upper(c.long_tokens[-1].text)):
                 sf_tok = c.long_tokens[-1]
                 # A citation in parentheses is not a reversed LF/SF pair;
                 # otherwise its initials can be matched against the token
