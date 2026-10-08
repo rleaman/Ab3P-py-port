@@ -5,6 +5,18 @@ The matching engine is pure Python and reads the bundled Ab3P word and precision
 tables directly. No C++ executable, compiler, or Ab3P binary extension is needed
 to run it. XML processing uses `lxml` and the export utility uses `bioc`.
 
+The completed compatibility implementation is preserved by the GitHub tag
+[`compatibility-baseline-2026-10-08`](https://github.com/rleaman/Ab3P-py-port/tree/compatibility-baseline-2026-10-08).
+The next [release project](docs/RELEASE_PROJECT_PLAN.md) has four ready-to-use goal
+prompts for implementation repairs, evidence archiving, packaging, independent
+installation checks and publication. Start with
+[release part 1](docs/RELEASE_PART_1_REPAIR.md). The release work must preserve
+existing occurrence predictions; repeated evaluations are regression checks,
+separate from the historical fresh holdout result. These release tasks are planned,
+not yet completed. The [recorded licensing decision](docs/RELEASE_DECISIONS.md)
+is to reuse the NLM public-domain notice and disclaimers for this work performed
+as part of the developer's normal U.S. Federal employment duties.
+
 The repaired matcher preserves the C++ backward-search order and the separate
 conditions for all 17 strategies: dictionary suffixes, word beginnings, internal
 letters, consecutive letters, plural endings, and skipped words. It also counts
