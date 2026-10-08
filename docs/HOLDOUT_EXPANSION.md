@@ -1,6 +1,6 @@
 # Versioned primary holdout expansion
 
-**Input package ready; Linux C++ reference pending.** The fixed continuation
+**Retired after the failed first final evaluation.** The fixed continuation
 selected exactly 15,000 PubMed and 1,500 PMC articles in 29,254 logged draws.
 The last ordinals were 102,133 and 14,519, both inside their declared windows.
 The selection log SHA-256 is
@@ -13,12 +13,19 @@ parent and expansion family keys are disjoint. The 53,061,000-byte
 has SHA-256
 `ae700fcf420898ccdc0876b501555c3eb7175599a12ef7a0ab32b9f18fa9a9b1`,
 matching its [sidecar](../evaluation/representative_v1_expansion_v1.input.tar.gz.sha256).
-No expansion C++ output or Python holdout comparison exists yet.
+The matching Linux C++ reference returned with all 16,500 documents successful
+and zero validator errors. Combined with the original primary holdout, it
+provided 113,934 C++ occurrences, meeting the predeclared size. The first
+frozen Python comparison failed only PMC prediction agreement: 63,916 shared
+of 63,998 Python predictions, or 99.8719%. The failed report and use log are
+in [`evaluation/phase3_reports/`](../evaluation/phase3_reports/). These
+inspected records are now regression data. The untouched reserve expansion is
+specified in [`RESERVE_EXPANSION.md`](RESERVE_EXPANSION.md).
 
 The frozen primary holdout has 65,274 saved C++ occurrences, 34,726 below the
 predeclared 100,000 overall minimum. PubMed and PMC separately exceed 20,000.
-The untouched reserve has 64,428 occurrences and is reserved for a failed
-final evaluation; it is not an expansion source.
+The untouched reserve has 64,428 occurrences and is the base for the next
+versioned final set; it is not an expansion source for this retired set.
 
 [`corpus/holdout_expansion_v1.json`](../corpus/holdout_expansion_v1.json) fixes
 15,000 additional PubMed and 1,500 additional PMC articles from the unused
@@ -69,7 +76,7 @@ Also return the build provenance and actual MedPost path evidence requested in
 the handoff. The separate
 [`MedPost probe`](../evaluation/medpost_probe_v1.tar.gz) can establish that
 unresolved runtime path without changing the frozen corpus.
-After C++ outputs return, first run the reference-only combined count check:
+The first final evaluation used this reference-only combined count check:
 
 ```text
 python audit/evaluate_final_holdout.py
@@ -77,22 +84,21 @@ python audit/evaluate_final_holdout.py
 
 That command rejects incompatible oracle versions, missing/invalid outputs,
 parent/expansion family overlaps and an undersized combined set without
-opening Python holdout differences. Only after code and evaluator are frozen
-and the count check passes should the first final comparison run.
+opening Python holdout differences. Code and evaluator were frozen before the
+first final comparison ran.
 
 The tested freeze is recorded in
 [`phase3_code_freeze.json`](../corpus/phase3_code_freeze.json), created by
 `python audit/freeze_phase3.py` after the example, development and challenge
 reports passed. The final command verifies all source, test and WordData hashes
-against it before recording holdout use. Run:
+against it before recording holdout use. The completed first-run command was:
 
 ```text
 python audit/evaluate_final_holdout.py --frozen-evaluation
 ```
 
-The evaluator records holdout use before comparing predictions. If this first
-comparison fails either gate and informs a repair, publish the failed report,
-retire the inspected primary holdout plus expansion to regression use, and
-obtain a separate adequately sized untouched reserve under a new addendum.
-The target remains 99.9% exact prediction agreement and 99.9% C++ occurrence
-recovery overall and for each major cohort.
+The evaluator recorded holdout use before comparing predictions. The failed
+report was retained, the inspected primary holdout plus expansion were retired
+to regression use, and a separate adequately sized untouched reserve is being
+assembled under a new addendum. The target remains 99.9% exact prediction
+agreement and 99.9% C++ occurrence recovery overall and for each major cohort.

@@ -2,7 +2,12 @@
 
 Counts refer to exact occurrence differences, including duplicates. The
 development ledger is in `evaluation/phase3_reports/`; no
-holdout or reserve differences were opened.
+holdout or reserve differences were opened before the first final comparison.
+That first final comparison failed PMC prediction agreement; its inspected
+records are now regression data. The fresh reserve plus expansion was opened
+once after the source-derived repair and passed all six 99.9% gates. Its
+remaining 24 C++-only and 46 Python-only occurrences are linked from
+[`REMAINING_DIFFERENCES.md`](REMAINING_DIFFERENCES.md).
 
 | Category | Evidence and reduced case | Current state |
 | --- | --- | --- |
@@ -15,12 +20,13 @@ holdout or reserve differences were opened.
 | Candidate window state | Python `last_close` resets did not exist in `Extract2_ch`; C++ advances `k` only for nested/invalid pairs and the ten-token cap. | Repaired in `candidates`; development improved from 20 misses/38 extras to 18/32. |
 | Original candidate `Test` | `N+ (425 mg/L of yeast assimilable nitrogen)` and `P5 (P<0.05)` were Python-only reversed pairs. The C++ excludes their original parenthesized forms before trying either orientation. | Repaired; development extras fell from 32 to 12; `test_original_short_form_is_screened_before_swapped_orientation`. |
 | MedPost abbreviations and initials | Development `G.P. (Gaio Paradossi)`, `contiguous U.S. (CONUS)`, `i.e. ... (Ea)`, and a NBSP after a sentence period had reference misses. | Dotted initials, numbers and ASCII boundary whitespace are retained in the current repair; the provisional bundled ABB list was removed after the later no-list diagnostic. |
-| Sentence segmentation | Development examples include author initials, captions and tables. The first divergent stage has not been established. | Open; compare `MPtok.C`/data and saved output. |
-| Remaining examples | Latest example run: 35 misses, 34 extras among 50,744 C++ occurrences, with both 99.9% gates passing overall and by major cohort. See `audit/current_differences.jsonl`. | Open; all differences remain in strict denominators. |
+| Sentence segmentation | Development examples include author initials, captions and tables. The exact first divergent stage for residual cases remains open. | Source newlines are now handled as `MPtok::segment` boundaries; residual punctuation cases remain. |
+| Remaining examples | Latest example run: 22 misses, 9 extras among 50,744 C++ occurrences, with both 99.9% gates passing overall and by major cohort. See `audit/current_differences.jsonl`. | Open; all differences remain in strict denominators. |
 | Embedded nested chemical group | PubMed development 21895015: Python emitted `CH(3)` inside `Co(CH(3))(2)I`; saved C++ did not. `AbbrvE.C::token2` only isolates an opener after ASCII blank. Development 16785555 has a genuine ` (gVPLA(2))` reference pair. | Repaired nested-candidate guard and added a paired regression; full development remeasurement passed. |
 | LF case classification | `AbbrStra.C::lf_ok` lowercases C-locale bytes, while Python previously used Unicode `lower()`; U+0130 can change length. | Source-derived repair with unit regression; no executed oracle fixture yet. |
 | MedPost ABB list availability | The returned runner could not fingerprint `app.parent/MedPost`; the actual selected runtime path is unknown. Python's unconditional local ABB list caused nine development extras, including `St.`, `subsp.`, `An.`, and `sp.` cases. A full no-list diagnostic removed the extras without losing any shared occurrences; examples also improved. | Default now omits the unverified ABB list, with saved-oracle regressions. Runtime path provenance remains open. Development, challenge and example gates pass after the change. |
 | Swapped orientation uppercase | `Ab3P.C` calls `StratUtil::exist_upperal` before testing a swapped pair; in the saved C locale it recognizes ASCII uppercase bytes. Python's Unicode `isupper()` also recognized `É` and `Δ`. | Source-derived ASCII check with a unit regression; no separate executed C++ fixture was available. |
 | Leading sentence delimiter | `AbbrvE.C::token2` copies byte zero before scanning, leaving a leading `[` or `(` attached to the first token. Saved PubMed development 2257799 and 22623039 have no `TENS` or `CPET` pair in bracketed titles, while the old Python split produced both. | Repaired with reduced saved-oracle regressions; development PubMed extras fell by two. |
 | Three leading digits in candidate `Test` | `AbbrvE.C::Test` rejects as soon as the first three bytes of the first token are digits, even if a letter follows. Saved PMC11266307 has C++ `54d` / `(54a) and` but no `135d` or `145d`. | Repaired the early-rejection predicate with a reduced regression. |
-| Single dotted initial before parenthesis | `MPtok.C::tok_14` and saved PubMed development distinguish `L. (Labiatae)` from multi-initials such as `G.P. (Gaio Paradossi)`; saved `M. (https://BioRender.com/mls61se)` retains its URL pair. | Repaired the single-initial boundary with a URL exception. A broad initial rule lost 17 C++ matches and was rejected. Current development has 5 misses and 7 extras. |
+| Single dotted initial before parenthesis | `MPtok.C::tok_14` and saved PubMed development distinguish `L. (Labiatae)` from multi-initials such as `G.P. (Gaio Paradossi)`; saved `M. (https://BioRender.com/mls61se)` retains its URL pair. | Repaired the single-initial boundary with a URL exception. A broad initial rule lost 17 C++ matches and was rejected. |
+| Source newline sentence boundary | `MPtok::segment` splits its output at every newline and version 11 retains source newlines. The failed first final PMC set had Python-only long forms crossing newlines, including `absolute\neosinophil count (AEC)`, while saved C++ `epidermal growth factor (EGF)` starts after a newline. | Repaired with reduced saved-oracle regressions. On the retired combined set, Python-only occurrences fell 99→33 and C++ misses 70→44; examples and development also pass. A fresh reserve final run remains required. |

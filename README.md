@@ -157,20 +157,27 @@ The current default produces these results on the 17 supplied example files:
 
 | Corpus | C++ occurrences | Python occurrences | Exact matches | Prediction agreement | C++ occurrences recovered |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| All | 50,744 | 50,743 | 50,709 | 99.9330% | 99.9310% |
-| Full text | 46,042 | 46,041 | 46,007 | 99.9262% | 99.9240% |
+| All | 50,744 | 50,731 | 50,722 | 99.9823% | 99.9566% |
+| Full text | 46,042 | 46,029 | 46,020 | 99.9804% | 99.9522% |
 | Titles and abstracts | 4,702 | 4,702 | 4,702 | 100% | 100% |
 
-Both example-corpus gates pass. There are 35 C++-only and 34 Python-only
+Both example-corpus gates pass. There are 22 C++-only and 9 Python-only
 occurrences. All supplied example text is ASCII. These are compatibility
-measurements, not human-judged extraction accuracy. The final representative
-holdout gate remains open: its saved C++ output has only 65,274 occurrences,
-below the frozen protocol's 100,000-occurrence minimum. The versioned input
-expansion is built and validated; its new Linux C++ reference output is required
-before a qualifying final evaluation.
+measurements, not human-judged extraction accuracy. The first frozen final set
+had 113,934 C++ occurrences, but PMC prediction agreement was 99.8719%, below
+the 99.9% target. Its failed report and use history are retained; that set is
+now regression data. After a source-derived newline repair, the single frozen
+comparison on the untouched reserve plus versioned expansion passed both
+99.9% gates overall and separately for PubMed and PMC:
+
+| Fresh final reserve | C++ | Python | Exact matches | Prediction agreement | C++ recovery |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| All | 112,671 | 112,693 | 112,647 | 99.9592% | 99.9787% |
+| PMC full text | 62,407 | 62,421 | 62,392 | 99.9535% | 99.9760% |
+| PubMed titles/abstracts | 50,264 | 50,272 | 50,255 | 99.9662% | 99.9821% |
 
 For the frozen representative corpus, development and challenge can be checked
-without opening holdout or reserve Python comparisons:
+without opening Python comparisons on the untouched reserve:
 
 ```text
 python evaluation/representative_v1/runner/validate_bundle.py --corpus evaluation/representative_v1 --stage reference
@@ -178,16 +185,17 @@ python audit/evaluate_representative.py --partition development --target 0.999 -
 python audit/evaluate_representative.py --partition challenge --target 0.999 --output evaluation/phase3_reports/challenge_family_cluster.json --differences evaluation/phase3_reports/challenge_family_cluster_differences.jsonl
 ```
 
-The current development result is 15,489 shared among 15,496 Python and 15,494
+The current development result is 15,489 shared among 15,493 Python and 15,494
 C++ occurrences, passing both 99.9% gates overall and by PubMed/PMC cohort.
 Challenge is 44/44. `evaluation/phase3_reports/` retains generated diagnostics
 outside the frozen bundle.
 
-The primary holdout requires the separately versioned input expansion and its
-Linux C++ result. [Expansion and final evaluation commands](docs/HOLDOUT_EXPANSION.md)
-include a reference-only count check before any Python holdout comparison.
-Once both reference trees are present and code/evaluator are frozen, the final
-comparison command is `python audit/evaluate_final_holdout.py --frozen-evaluation`.
+The completed [final evaluation](docs/FINAL_EVALUATION.md) documents the failed
+first holdout, fresh reserve result, coverage, uncertainty and provenance.
+The [reserve expansion record](docs/RESERVE_EXPANSION.md) gives the frozen input
+and one-time evaluation commands. The generated report and use history are in
+`evaluation/phase3_reports/`; the frozen evaluator refuses a second final run
+on the now-inspected reserve.
 
 To evaluate the supplied human-annotated corpus separately:
 
@@ -210,10 +218,9 @@ The project follows three phase documents:
    the original frozen input is in `evaluation/representative_v1/`.
 2. [Generate the C++ reference on Linux](docs/PHASE_2_LINUX_REFERENCE.md): the
    original returned `reference_cpp/` tree is present and validated.
-3. [Complete repair and evaluation](docs/PHASE_3_COMPLETE_REPAIR.md): active;
-   [the current evidence](docs/FINAL_EVALUATION.md) and
-   [holdout expansion plan](docs/HOLDOUT_EXPANSION.md) track the remaining
-   final comparison.
+3. [Complete repair and evaluation](docs/PHASE_3_COMPLETE_REPAIR.md): completed;
+   [the final evidence](docs/FINAL_EVALUATION.md) and
+   [reserve expansion record](docs/RESERVE_EXPANSION.md) document the result.
 
 These are planned corpus paths; the documentation does not download the set.
 See [the project plan](docs/PROJECT_PLAN.md) for the technical requirements and

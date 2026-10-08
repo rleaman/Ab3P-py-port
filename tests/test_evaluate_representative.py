@@ -269,6 +269,17 @@ def test_source_span_can_cross_a_line_break():
     assert [(item.sf, item.lf) for item in found] == [("GD", "gamma\r delta")]
 
 
+def test_saved_holdout_newlines_are_sentence_boundaries():
+    # The first frozen holdout is now a regression corpus. C++ has no AEC
+    # pair spanning the source newline, and its EGF LF starts after it.
+    detector = Ab3P()
+    assert not any(item.sf == "AEC" for item in detector.find(
+        "absolute\neosinophil count (AEC)"))
+    found = detector.find("(eos/hpf),\nepidermal growth factor (EGF)")
+    assert ("EGF", "epidermal growth factor") in [
+        (item.sf, item.lf) for item in found]
+
+
 def test_manifest_pairs_recovered_shards_and_reports_missing_status(tmp_path):
     corpus = tmp_path
     for directory in ("manifests", "input/development", "reference_cpp/outputs/development"):

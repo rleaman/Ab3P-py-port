@@ -1,0 +1,74 @@
+{
+  "baseline_reports": {
+    "challenge": {
+      "path": "evaluation/phase3_reports/challenge_family_cluster.json",
+      "sha256": "63e4fbf34cdd8e0b0dc23fd57e53772377f61bdf2bbf06e87b91162f5a21dc42"
+    },
+    "development": {
+      "path": "evaluation/phase3_reports/development_family_cluster.json",
+      "sha256": "fff653e43d3f2f4c56cc5b92553d5e31253e189cff4e657ec2585bfc036050a3"
+    },
+    "examples": {
+      "path": "audit/current_summary.json",
+      "sha256": "0df6b82fbee91c5aa4338b6e9c119426918602ba885d02aa5d86e0da789ebcf5"
+    },
+    "gold": {
+      "path": "audit/current_gold_summary.json",
+      "sha256": "4d411c7ed60b1d0b23dfa644eeb79fbaec485c7ea7c0dfd830ffd11a0439185a"
+    }
+  },
+  "frozen_at_utc": "2026-10-08T18:56:55.557752+00:00",
+  "holdout_python_inspected": false,
+  "platform": "Windows-11-10.0.22631-SP0",
+  "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "reserve_input_freeze_sha256": "0c68503e29c1e94aa8e28b9e72028193d1df93b4e26713f15d6f27f805bb8e0f",
+  "retired_first_final_report_sha256": "b5118aa30b59562f8fd2871894fcf7bec54d0d970f2efe830b0f7e50e477dffa",
+  "source_sha256": {
+    "ab3p/__init__.py": "f493c2bc3cea4141dd6d4464e26416e1bccd4e3ae8a0beed9aa4e8d46905c3dc",
+    "ab3p/__main__.py": "43a9ddf955a185c6e1d75aea4e074cf9e3737c37f6c934594b497f609254eb91",
+    "ab3p/algorithm.py": "8986d8c34ace2b89e6fa1c48b4104cca22ada54215f780b1d8645d06b0736579",
+    "ab3p/bioc.py": "e19fce2879a5d57f22763d5c0103e8ae57b455b0a490746e15c54a860c2e02f5",
+    "ab3p/data.py": "cf4c4c6e2b88e2f345484343842391c6a69e3001bac8af6cf2aa3cb590a2c9b0",
+    "ab3p/matching.py": "d6a798bcd0bc711f2af9ef06abdd80786ba3c3d32a5a53bff3efb584a8550e2d",
+    "audit/compare_ab3p.py": "5798f20f650855cacd9b1c3115230ff16bf256841947d9c29ec9a52da3261b02",
+    "audit/evaluate_current.py": "ff504c541cd381acfa22d8210885f563d739eb42cb02b33249885a54469ba202",
+    "audit/evaluate_final_holdout.py": "04bb9e287a0797905ca0cab57eeacfe1d958fe8ae542469e140bf18958057b96",
+    "audit/evaluate_final_reserve.py": "a11e2b6d9bdaab8436149e4c4ac8d95ae552f8d72775f0f6e8d32301844c4746",
+    "audit/evaluate_representative.py": "95208f43626d408f0bbeb1fa3e4cbb91ead786b7336e2117aa98c65c06f8d13f",
+    "audit/freeze_phase3.py": "4680709c38dfab64dbee5f50b12bd2e211e78acd4fd45c0df853986920817d84",
+    "audit/freeze_reserve.py": "9b50098b5d3af9c89794a93ffd8c4bba6a094181f416357b26b5578b9ae2f668",
+    "corpus/expand_reserve.py": "472f5d905108968d737e489942a9f3c3136448fec04ccb977e010998be7a011e",
+    "corpus/prepare.py": "c58fe97ca0b79e13bf0a11b1fc25fdac1c503b7cbb5861186d1814a8ed4b7e92",
+    "tests/test_algorithm.py": "dc6fcdb4c8bd04a9978ac3f45fd7863d506f46c18c90763ef770f6d405198b02",
+    "tests/test_cli.py": "d69e94764d7b753bf82a9725a0a901210cf4529a11dcaef2fe4c10609a9e8472",
+    "tests/test_corpus_runner.py": "b487857505cfd4f8ca40bb007c28d16bf16d68080a4eb47d1fd9875a8ff46320",
+    "tests/test_evaluate_representative.py": "055c009c43ec0f233f641ed32eb0a870ced3bd099691badab4b10b00e777a17c",
+    "tests/test_evaluation.py": "ff4e7064279b9e37491ecfefeea6e051affbe6b26135c5b8d87d4de1e7331be7",
+    "tests/test_expand_holdout.py": "14632dd2381818c33f1b60c716a089f14c63b27aac276184056e36237eb3c698",
+    "tests/test_expand_reserve.py": "c5a8d7cf649b67d3928a65d53b693c22e81e9a23dd03a76fcf4389f8c2c5669d",
+    "tests/test_extract_abbreviations.py": "dec5776b8bf794967ec1ec019df5223d6093a81f412062ff9931c1198caef7bf",
+    "tests/test_final_holdout.py": "136cb9eb29193731191c018feae43fb05d3e2c458873dd7e85f218cf7ac420fe",
+    "tests/test_final_reserve.py": "e3b8279f1469f7556c442b5a6a39c7e370f41f04ea59ff10b3915b307051ce04",
+    "tests/test_matching.py": "89578ea136c672b2d4e012bb8c0855891f75383cedf63bed43400361d99a8d74"
+  },
+  "target": 0.999,
+  "test_command": "python -m pytest -q -p no:cacheprovider tests",
+  "test_exit_code": 0,
+  "test_output": "........................................................................ [ 49%]\n........................................................................ [ 99%]\n.                                                                        [100%]\n145 passed in 8.85s",
+  "word_data_sha256": {
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/Ab3P_prec.dat": "77903769069451f67095b8aa677ac19b4074e86cf165519c3cd1cb02734db5c3",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/cshset_wrdset3.ad": "fa95dab7b42dcbdecde59921cf2f541aee381b24ab2679bdb4ce3c902ec28b7b",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/cshset_wrdset3.ct": "e66cefa5a22f13ba15e2187e516d5eaa2406d8fab43d6e1e965d8ab5a3c0971d",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/cshset_wrdset3.ha": "6da053e4472714dbf2e5239c6eee31e2e6685266d8d0d874c3f623919f4fcf62",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/cshset_wrdset3.nm": "1409301bded2b3409497d07dc3dcb98479fd1c9ed33eb303feea8d4f0501cf2c",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/cshset_wrdset3.str": "254f4c80f40b559bd35cb8af23d8bb7937d2140a489366ff27fe9ef86dba4185",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/hshset_Lf1chSf.ad": "be5d3b6e4dff138f07d83959848a5aaa0936ebe9d4fc62659e00f47fb7c66d8a",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/hshset_Lf1chSf.ha": "988c32b699b5b97491a190efbfd7fa393b43c20c6496880bcbae829932baab75",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/hshset_Lf1chSf.nm": "a6d5e779074d59726d1d1a239a21d5f5747c231a6e7e719a4588ddfc6756bcf7",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/hshset_Lf1chSf.str": "9944c495948e1ef0492307e699337962a3463ae4271a5766b9b441671652e66c",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/hshset_stop.ad": "a040113dbd52bf0393bf0b5b4097039e5d2cd6d147394aab830113a40d431748",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/hshset_stop.ha": "cfffcf260e266d42f69246fd463248c789bf55b9602c41c0f577ab61d7e5cc1c",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/hshset_stop.nm": "0e4c3856e68573648ae1093eadb6fa673bfa6dbae8f5f0c32b381f41b20a70ba",
+    "BioC_C++_1.1/BioC-APPL-ABBR/WordData/hshset_stop.str": "d69d2e82dd9c2b5e964e231aa8fee44bcdf622e3526b16c65262d44c2bd99f6e"
+  }
+}

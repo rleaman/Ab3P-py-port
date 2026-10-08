@@ -28,7 +28,7 @@
   "source_sha256": {
     "ab3p\\__init__.py": "f493c2bc3cea4141dd6d4464e26416e1bccd4e3ae8a0beed9aa4e8d46905c3dc",
     "ab3p\\__main__.py": "43a9ddf955a185c6e1d75aea4e074cf9e3737c37f6c934594b497f609254eb91",
-    "ab3p\\algorithm.py": "dcadee34c932156f2335d43bcaa3ede7a2305dab257c132c15a177aee123864a",
+    "ab3p\\algorithm.py": "8986d8c34ace2b89e6fa1c48b4104cca22ada54215f780b1d8645d06b0736579",
     "ab3p\\bioc.py": "e19fce2879a5d57f22763d5c0103e8ae57b455b0a490746e15c54a860c2e02f5",
     "ab3p\\data.py": "cf4c4c6e2b88e2f345484343842391c6a69e3001bac8af6cf2aa3cb590a2c9b0",
     "ab3p\\matching.py": "d6a798bcd0bc711f2af9ef06abdd80786ba3c3d32a5a53bff3efb584a8550e2d",
@@ -63,6 +63,6 @@
       "f1": 0.8980667838312829
     }
   },
-  "elapsed_seconds": 1.5953697999939322,
+  "elapsed_seconds": 1.746612299932167,
   "target_met": null
 }

@@ -278,11 +278,14 @@ class Ab3P:
         self.min_precision = min_precision
 
     def find(self, text: str, offset: int = 0) -> list[Abbreviation]:
-        # Ab3P processes one sentence at a time.  Keeping this split here
-        # prevents a parenthesized form from borrowing a long form from a
-        # preceding sentence while retaining passage-relative offsets.
+        # MPtok::segment separates sentences at every output newline.  With
+        # option_new=11, source newlines survive token_string(), including
+        # line breaks with no preceding sentence punctuation.
         boundaries = []
-        for boundary in re.finditer(r"(?<=[.!?])[ \t\r\n]+", text):
+        for boundary in re.finditer(r"(?<=[.!?])[ \t\r\n]+|\n+", text):
+            if "\n" in boundary.group():
+                boundaries.append(boundary)
+                continue
             prefix = text[:boundary.start()]
             if (prefix.count("(") - prefix.count(")") == 0
                     and prefix.count("[") - prefix.count("]") == 0):

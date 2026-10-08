@@ -1,0 +1,15 @@
+{
+  "status": "input-frozen-before-reserve-python-comparison",
+  "protocol_sha256": "77fc8c6ac362ae66f692e0c7ae3e2b4e0a337b6e9762d586a46ae047e5216f77",
+  "selection_log_sha256": "d056cfc2b5ce9c53828ec5dfbb41ee47f98207f10e706fbd73532563ca76d4ab",
+  "input_manifest_sha256": "96b6f621b80130bdfbb8c8aa07aca99775f5115f5974e401c3e2b5a3bc110f02",
+  "package_files_sha256": "6d7bf82537354036d0416e0dfc1d0043a64913bc8b06e643b8b33a074fd1a00c",
+  "input_archive_sha256": "ba2d3249a71df16c264a8d01e25c3fbbde849a58a1581b39527f7f99935cf7f2",
+  "input_archive_bytes": 52769320,
+  "selected_documents": {"pubmed": 15000, "pmc": 1500},
+  "input_shards": 225,
+  "selection_draws": {"pubmed": 25418, "pmc": 3516},
+  "last_draw_ordinals": {"pubmed": 127551, "pmc": 18035},
+  "selected_family_overlap_with_parent_and_retired_expansion": 0,
+  "input_validator_ok": true
+}

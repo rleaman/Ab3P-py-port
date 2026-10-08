@@ -4,7 +4,7 @@
   "random_passages": 10,
   "input_sha256": "423bc4d29e2495841bbe6f35f18779e1f9fa078e72d811e1d70da32cc34bebf3",
   "gold_sha256": "1ebbd44bd1c00c685857bff79a0b2c1d6b43d33a9b87dfc3f35eeb6339e69219",
-  "algorithm_sha256": "dcadee34c932156f2335d43bcaa3ede7a2305dab257c132c15a177aee123864a",
+  "algorithm_sha256": "8986d8c34ace2b89e6fa1c48b4104cca22ada54215f780b1d8645d06b0736579",
   "pool_sizes": {
     "gold_only": 201,
     "python_only": 31,

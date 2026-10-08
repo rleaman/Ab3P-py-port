@@ -1,0 +1,38 @@
+{
+  "protocol_version": "1.4.0-reserve-addendum-1",
+  "purpose": "Expand the untouched frozen reserve after the primary holdout and its first expansion became inspected regression data",
+  "parent_protocol_version": "1.2.0",
+  "parent_input_manifest_sha256": "96c865827581d9488e0b5434bd0d271689e0cbe7d496ba02617ec2e834732bcd",
+  "parent_retrieval_log_sha256": "e8aa075dc5f46e262bfdb22e747c1b2d8340c8116db22ce7497e3518e65cd7d6",
+  "prior_expansion_input_manifest_sha256": "4679e41120cfda2609ece7c5ab8beea146e62f3cb34553c6d96f7afd0628d3a9",
+  "prior_expansion_retrieval_log_sha256": "d4650bc32b41df6f6b16e5f0e1cb51122d6644553a9ab483d7be1dd0e3e497e1",
+  "failed_final_report_sha256": "b5118aa30b59562f8fd2871894fcf7bec54d0d970f2efe830b0f7e50e477dffa",
+  "required_executable_sha256": "ffe44acd5946ab37b614811e274ac89b5c4ff946eda7088454456a50f07f23bb",
+  "pmc_crossref_sha256": "9a52009ab18c8f0122b5c1c3ae8cd2b23f40c393108be2b48780a73137063127",
+  "base_reserve_reference_occurrences": {"all": 64428, "pubmed": 28843, "pmc": 35585},
+  "minimum_final_reference_occurrences": {"all": 100000, "pubmed": 20000, "pmc": 20000},
+  "expansion_rationale": "The untouched reserve is 35,572 C++ occurrences short overall. Its cohort-specific C++ occurrence rates project about 48,321 further occurrences from 15,000 PubMed and 1,500 PMC articles, leaving about 12,749 above the minimum. This is a reference-only size estimate, not a Python agreement estimate. Preserve all selected records even if the realized C++ count differs.",
+  "seed": "abbr-phase1-representative-v1-2026-10-07",
+  "sources": {
+    "pubmed": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pubmed.cgi/BioC_xml/{id}/unicode",
+    "pmc": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC{id}/unicode"
+  },
+  "frames": {
+    "pubmed": {"id_range_inclusive": [1, 50000000]},
+    "pmc": {"id_range_inclusive": [1, 20000000]}
+  },
+  "continuation": {
+    "pubmed": {"first_ordinal": 102134, "maximum_draws": 60000},
+    "pmc": {"first_ordinal": 14520, "maximum_draws": 15000}
+  },
+  "allocation": [{"partition": "reserve", "pubmed": 15000, "pmc": 1500}],
+  "shards": {"pubmed_documents": 100, "pmc_documents": 20},
+  "batching": {
+    "pubmed": {"start_ordinal": 184, "size": 25},
+    "pmc": {"start_ordinal": 0, "size": 20}
+  },
+  "eligibility": "Retain the parent protocol's Unicode BioC eligibility, exact canonical passage conversion, response limits and retries.",
+  "family_rule": "Block supplied example/gold families and every family selected in the parent bundle or inspected primary expansion, including pinned PMC cross-reference links. Within the new reserve expansion, reject repeated families within a cohort; a PubMed and PMC record from the same new family may both enter the reserve partition. Do not use Python predictions for selection.",
+  "replacement_rule": "Continue the parent affine permutations immediately after the inspected expansion's last logged draw. Log every selected, unavailable, ineligible, duplicate and excluded draw until the fixed quotas are filled. Do not scan beyond the declared maximum_draws windows without another addendum.",
+  "reference_rule": "Use the same pinned Linux executable and WordData as the parent run. Preserve all raw output, terminal statuses, source spans, failures and provenance in a separate reference_cpp tree. Combine only with the untouched parent reserve for the new final evaluation."
+}

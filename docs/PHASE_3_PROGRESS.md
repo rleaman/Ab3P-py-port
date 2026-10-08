@@ -310,3 +310,102 @@ The refreshed `corpus/phase3_code_freeze.json` records 140 passing tests and
 has SHA-256 `688c5d16d224e7acd1f2e4bccb12a9dc408121a82ac0a768d4818d534c28a5ba`.
 The Linux C++ expansion reference remains outstanding. No holdout or reserve
 Python comparison has been opened.
+
+## 2026-10-08: first frozen final result and reserve repair
+
+The returned `representative_v1_expansion_v1/reference_cpp/` passed its local
+reference validator: all 16,500 documents successful, zero errors, 225 input
+shards, matching manifest and pinned executable SHA-256. The reference-only
+combiner found 113,934 C++ occurrences across 38,500 documents: 63,971 PMC
+and 49,963 PubMed. This met the predeclared 100,000 overall and 20,000 per
+cohort evidence minima. The original code freeze SHA-256 was
+`688c5d16d224e7acd1f2e4bccb12a9dc408121a82ac0a768d4818d534c28a5ba`.
+
+The first `python audit/evaluate_final_holdout.py --frozen-evaluation` run
+recorded holdout use before opening Python predictions. Its report has SHA-256
+`b5118aa30b59562f8fd2871894fcf7bec54d0d970f2efe830b0f7e50e477dffa`.
+Overall was 113,864 shared / 113,963 Python / 113,934 C++, passing both
+99.9% gates. PubMed was 49,948 / 49,965 / 49,963, also passing. PMC was
+63,916 / 63,998 / 63,971: 99.8719% prediction agreement failed; 99.9140%
+recovery passed. There were 70 C++ misses and 99 Python extras overall.
+The full failed report, differences and first-use history remain in
+`evaluation/phase3_reports/`. The primary holdout and its expansion are
+retired to regression use. No original reserve Python predictions have been
+opened.
+
+Inspection of the retired differences showed many Python long forms crossing
+source newlines. `MPtok.C::token_string` retains source newlines at version 11;
+`MPtok::segment` then splits at each newline. Python previously split only
+after sentence punctuation. The port now treats every source newline as a
+sentence boundary while retaining lone carriage returns. A reduced saved
+oracle regression covers the absent `absolute\neosinophil count (AEC)` pair
+and the C++ `epidermal growth factor (EGF)` definition after a newline.
+
+On the retired combined set, the repaired implementation has 113,890 shared /
+113,923 Python / 113,934 C++ overall. PMC has 63,942 / 63,962 / 63,971,
+passing both 99.9% gates as regression evidence. The repair removed 66
+Python extras and recovered 26 C++ occurrences. The current original examples
+are 50,722 shared / 50,731 Python / 50,744 C++; development is 15,489 /
+15,493 / 15,494, with PMC 8,444 / 8,447 / 8,448 and PubMed 7,045 / 7,046 /
+7,046. Challenge remains 44/44. Gold remains 1,022 / 1,053 / 1,223.
+All 144 fast tests pass. The seeded gold selections and pool sizes are
+unchanged; their algorithm hash was refreshed. A 20-document PMC development
+profile processed 1,925 passages and 612,577 code points in 2.62 seconds,
+with a 663,242-byte extraction peak and 23.6 ms slowest passage on Windows
+Python 3.13.
+
+The original reserve has 64,428 C++ occurrences and remains untouched by
+Python. `corpus/reserve_expansion_v1.json` fixes 15,000 PubMed and 1,500 PMC
+additional records from the first unused ordinals after the retired expansion:
+102,134 and 14,520. Its quotas use only reserve C++ counts. The separate
+`corpus/expand_reserve.py` verifies all parent and prior-expansion hashes and
+blocks their selected families. A first local request failed because the
+sandbox denied network access; that failure was preserved outside the
+selection log, and the unconsumed draw succeeded when public NCBI access was
+approved. Collection filled 15,000 PubMed and 1,500 PMC quotas in 28,934
+draws, without transport failures or prior-family overlap. The selected log
+SHA-256 is `d056cfc2b5ce9c53828ec5dfbb41ee47f98207f10e706fbd73532563ca76d4ab`.
+The resulting 16,500-document input bundle has 225 shards and zero input
+validator errors; its manifest SHA-256 is
+`96b6f621b80130bdfbb8c8aa07aca99775f5115f5974e401c3e2b5a3bc110f02`.
+The 52,769,320-byte archive SHA-256 is
+`ba2d3249a71df16c264a8d01e25c3fbbde849a58a1581b39527f7f99935cf7f2`.
+All 235 listed archive files were verified against their hashes. A separate
+input freeze pins these fingerprints. The package includes one Linux command
+to check the executable hash, run the C++ reference and validate it. Matching
+Linux C++ output, reference-only size check and one fresh reserve comparison
+remain required before phase 3 can be complete. The repaired source, tests,
+evaluator, WordData and pinned reserve input were frozen at SHA-256
+`6a91d853dd9d281eac573eeb8ad2e65eade6d32bfdb1602d4bcfb593c5e39578`
+after 145 passing tests. The new freeze validator passes; no reserve Python
+comparison or use-history entry exists.
+
+## 2026-10-08: fresh reserve final result
+
+The returned reserve expansion C++ tree passed
+`python evaluation/representative_v1_reserve_expansion_v1/runner/validate_bundle.py --corpus evaluation/representative_v1_reserve_expansion_v1 --stage reference`:
+16,500/16,500 successful documents, 225 shards, zero errors. Its executable
+SHA-256 is the pinned `ffe44acd5946ab37b614811e274ac89b5c4ff946eda7088454456a50f07f23bb`.
+The recorded MedPost clues show `MEDPOST_HOME` unset, `path_medpost` absent and
+`app.parent/MedPost` absent; compiler, flags and patch history remain unknown.
+
+`python audit/evaluate_final_reserve.py` ran reference-only first. The combined
+reserve had 112,671 C++ occurrences: 62,407 PMC and 50,264 PubMed, meeting
+all frozen evidence minima. The code freeze still matched SHA-256
+`6a91d853dd9d281eac573eeb8ad2e65eade6d32bfdb1602d4bcfb593c5e39578`.
+The preflight verified manifest pairing, family separation, saved-oracle
+identity and complete C++ coverage without opening Python predictions.
+
+`python audit/evaluate_final_reserve.py --frozen-evaluation` then recorded
+reserve use and ran once. Its report SHA-256 is
+`6c80a756811f6753ca7731ca30c6ae6e9dc04c02d011040f2025a3089a25cc6f`.
+The final all-cohort result was 112,647 shared / 112,693 Python / 112,671 C++:
+99.9592% prediction agreement and 99.9787% C++ recovery. PMC was
+62,392 / 62,421 / 62,407 (99.9535%, 99.9760%); PubMed was
+50,255 / 50,272 / 50,264 (99.9662%, 99.9821%). All six point-estimate gates
+pass. All 38,500 documents had successful C++ terminal status. The result has
+24 C++ misses and 46 Python extras, retained in full ledgers. The use history
+records the one started and completed comparison. The first failed holdout and
+both use histories remain preserved. Phase 3 now meets its compatibility
+contract; the final report documents uncertainty, gold accuracy, performance,
+Unicode handling, and remaining build provenance limits.
